@@ -1,0 +1,38 @@
+[book]
+authors = ["horbjorn"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Manual"
+smart-punctuation = true
+
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[preprocessor.tabs]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.embedify]
+scroll-to-top.enable = true
+
+[preprocessor.emojicodes]
+
+[preprocessor.alerts]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+
+[output.html]
+additional-css = ["theme/tabs.css", "./mdbook-admonish.css", "theme/sun.css", "theme/catppuccin.css", "theme/catppuccin-admonish.css"]   
+additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js", "custom-pagewidth.js"]
+default-theme = "sun"
+preferred-dark-theme = "macchiato"
+
+
+
