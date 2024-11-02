@@ -28,11 +28,11 @@
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>U</kbd>| Open Ease of Access settings.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>P</kbd>| Open Project settings.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>Enter</kbd> |Open Narrator.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> Plus (<kbd>+</kbd>) |Zoom in using the magnifier.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> Minus (<kbd>-</kbd>) |Zoom out using the magnifier.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>+</kbd> (Plus) |Zoom in using the magnifier.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>-</kbd> (Minus) |Zoom out using the magnifier.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Esc</kbd> |Exit magnifier.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>/</kbd> |Start IME reconversion.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> Comma (<kbd>,</kbd>) |Temporarily peek at the desktop.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>,</kbd> (Comma) |Temporarily peek at the desktop.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>↑</kbd> |Maximize app windows.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>↓</kbd> |Minimize app windows.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Home</kbd> |Minimize or maximize all but the active desktop window.
@@ -43,11 +43,11 @@
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Shift</kbd> <kbd>+</kbd> <kbd>→</kbd> |Move active window to monitor on the right.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>←</kbd> |Snap app or window left.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>→</kbd> |Snap app or window right.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> Number (0-9) |Open the app in number position in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Shift</kbd> <kbd>+</kbd> Number (0-9) |Open another app instance in the number position in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> Number (0-9) |Switch to the last active window of the app in the number position in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Alt</kbd> <kbd>+</kbd> Number (0-9) |Open Jump List of the app in number position in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd>  <kbd>Shift</kbd> + Number (0-9) |Open another instance as an administrator of the app in the number position in the Taskbar.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Open the app in number position in the Taskbar.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Shift</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Open another app instance in the number position in the Taskbar.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Switch to the last active window of the app in the number position in the Taskbar.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Alt</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Open Jump List of the app in number position in the Taskbar.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd>  <kbd>Shift</kbd> + <kbd>0-9</kbd> |Open another instance as an administrator of the app in the number position in the Taskbar.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>Spacebar</kbd> |Change previous selected input option.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Spacebar</kbd> |Change keyboard layout and input language.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Tab</kbd> |Open Task View.|  
@@ -62,5 +62,5 @@
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>F</kbd> |Open search for the device on a domain network.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>Q</kbd> |Open Quick Assist.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Alt</kbd> <kbd>+</kbd> <kbd>D</kbd> |Open date and time in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> Period (<kbd>.</kbd>) or Semicolon (<kbd>;</kbd>) |Open emoji panel.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>.</kbd> or <kbd>;</kbd> |Open emoji panel.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Pause</kbd> |Show System Properties dialog box.|  
