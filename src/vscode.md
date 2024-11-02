@@ -194,12 +194,12 @@ Open Command Palette and find keyboard shortcuts (JSON)
 
 | Shortcut | Action |  
 |:---|:---|
-F9 |Toggle breakpoint|  
-F5 |Start/Continue|  
-Shift+F5 |Stop|  
-F11 / Shift+F11 |Step into/out|  
-F10 |Step over|  
-Ctrl+K Ctrl+I |Show hover|  
+|F9 |Toggle breakpoint|  
+|F5 |Start/Continue|  
+|Shift+F5 |Stop|  
+|F11 / Shift+F11 |Step into/out|  
+|F10 |Step over|  
+|Ctrl+K Ctrl+I |Show hover|  
 
 ### <p style="text-align:center;">Integrated terminal</p>  
 

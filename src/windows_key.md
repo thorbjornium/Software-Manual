@@ -4,7 +4,7 @@
 |:---|:---|  
 |<kbd>⊞</kbd>                             |	Open Start menu.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>A</kbd>| Open Action center.  |
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>S</kbd> (or <kbd>Q</kbd>)|  Open Search.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>S</kbd> or <kbd>Q</kbd>|  Open Search.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>D</kbd>| Display and hide the desktop.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>L</kbd>| Locks computer.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>M</kbd>| Minimize all windows.|  
