@@ -48,8 +48,8 @@
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Switch to the last active window of the app in the number position in the Taskbar.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Alt</kbd> <kbd>+</kbd> <kbd>0-9</kbd> |Open Jump List of the app in number position in the Taskbar.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd>  <kbd>Shift</kbd> + <kbd>0-9</kbd> |Open another instance as an administrator of the app in the number position in the Taskbar.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>Spacebar</kbd> |Change previous selected input option.|  
-|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Spacebar</kbd> |Change keyboard layout and input language.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>Space</kbd> |Change previous selected input option.|  
+|<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Space</kbd> |Change keyboard layout and input language.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Tab</kbd> |Open Task View.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>D</kbd> |Create a virtual desktop.|  
 |<kbd>⊞</kbd> <kbd>+</kbd> <kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>F4</kbd> |Close active virtual desktop.|  
