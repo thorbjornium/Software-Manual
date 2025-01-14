@@ -28,11 +28,11 @@
 |<kbd>⊞</kbd> + <kbd>U</kbd>| Open Ease of Access settings.|  
 |<kbd>⊞</kbd> + <kbd>P</kbd>| Open Project settings.|  
 |<kbd>⊞</kbd> + <kbd>Ctrl</kbd> + <kbd>Enter</kbd> |Open Narrator.|  
-|<kbd>⊞</kbd> + + (Plus) |Zoom in using the magnifier.|  
-|<kbd>⊞</kbd> + <kbd>-</kbd> (Minus) |Zoom out using the magnifier.|  
+|<kbd>⊞</kbd> + <kbd>+</kbd> |Zoom in using the magnifier.|  
+|<kbd>⊞</kbd> + <kbd>-</kbd> |Zoom out using the magnifier.|  
 |<kbd>⊞</kbd> + <kbd>Esc</kbd> |Exit magnifier.|  
 |<kbd>⊞</kbd> + <kbd>/</kbd> |Start IME reconversion.|  
-|<kbd>⊞</kbd> + <kbd>,</kbd> (Comma) |Temporarily peek at the desktop.|  
+|<kbd>⊞</kbd> + <kbd>,</kbd> |Temporarily peek at the desktop.|  
 |<kbd>⊞</kbd> + <kbd>↑</kbd> |Maximize app windows.|  
 |<kbd>⊞</kbd> + <kbd>↓</kbd> |Minimize app windows.|  
 |<kbd>⊞</kbd> + <kbd>Home</kbd> |Minimize or maximize all but the active desktop window.
