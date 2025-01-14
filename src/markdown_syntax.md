@@ -472,10 +472,10 @@ You can add an image or a code block, too.
 ### Keyboard  
 
 ```
-<kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>F</kbd>
+<kbd>Ctrl</kbd> + <kbd>F</kbd>
 ```
 
-<kbd>Ctrl</kbd> <kbd>+</kbd> <kbd>F</kbd>
+<kbd>Ctrl</kbd> + <kbd>F</kbd>
 
 ### Embed video
 

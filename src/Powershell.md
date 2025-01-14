@@ -71,4 +71,50 @@ Set-PSReadLineKeyHandler -chord "ctrl+f" -scriptblock {
 }
 ```
 
-Use <kbd>CTRL</kbd> <kbd>+</kbd> <kbd>F</kbd> to search and preview files in colorized syntax.  
+Use <kbd>CTRL</kbd> + <kbd>F</kbd> to search and preview files in colorized syntax.  
+
+## Commands
+
+pwd - Prints the current working directory.  
+
+ls - Lists the contents of the current directory.  
+
+cd - Changes the current directory.  
+
+mkdir - Creates a new directory.  
+
+rm - Removes a file or directory.  
+
+cp - Copies a file or directory.  
+
+mv - Moves a file or directory.  
+
+cat - Displays the contents of a file.  
+
+tree - Lists the contents of a directory in a tree-like format.  
+
+echo - Prints text to the console.  
+
+read - Reads input from the user.  
+
+cls - Clears the console.
+
+exit - Exits the current shell.  
+
+help - Displays information about the built-in commands.  
+
+get-help - Displays information about a specific command.  
+
+get-childitem -path <path> -recurse -filter <filter>  
+
+get-childitem -path <path> -recurse -filter <filter> |  foreach-object { $_.fullname }  
+
+get-childitem -path <path> -recurse -filter <filter> | foreach-object { $_.fullname } | fzf   
+
+get-childitem -path <path> -recurse -filter <filter> | foreach-object { $_.fullname } | fzf | foreach-object { code $_ }  
+
+file - Displays information about a file.  
+
+type - Displays the contents of a file.  
+
+type -path <path> -literalpath <literalpath> | clip -no-cpy
