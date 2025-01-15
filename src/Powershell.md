@@ -1,20 +1,30 @@
 # Powershell
 
-Press <kbd>F2</kbd> to toggle prediction.
+Press <kbd>F2</kbd> to toggle prediction.  
 
-Open Powershell profile in VScode.  
+Press <kbd>Tab</kbd> to move to or list the next suggestion.  
+
+Press <kbd>Shift</kbd> + <kbd>Tab</kbd> to move to the previous suggestion.  
+
+Press <kbd>→</kbd> to accept the suggestion.  
+
+Press <kbd>Ctrl</kbd> + <kbd>Space</kbd> to list autocomplete suggestions.
+
+Open Powershell profile in notepad:  
 
 ```Powershell
-code $profile   
+notepad $profile   
 ```
 
-Go to home folder
+Print the current PSReadLine key handlers:
 
-```Powershell
-cd ~   
+```Powershell  
+Get-PSReadLineKeyHandler
 ```
 
-## Find-File
+## Software and a script to enhance Powershell
+
+### Find-File
 
 Install the following software:
 
@@ -24,10 +34,10 @@ winget install sharkdp.fd
 winget install sharkdp.bat
 ```
 
-Open your profile in Powershell:
+Open your Powershell profile in VS Code:
 
 ```Powershell
-notepad $Profile 
+code $Profile 
 ```
 
 Add the following lines at the end of the file:
@@ -71,50 +81,24 @@ Set-PSReadLineKeyHandler -chord "ctrl+f" -scriptblock {
 }
 ```
 
-Use <kbd>CTRL</kbd> + <kbd>F</kbd> to search and preview files in colorized syntax.  
+## Basic Commands
 
-## Commands
-
-pwd - Prints the current working directory.  
-
-ls - Lists the contents of the current directory.  
-
-cd - Changes the current directory.  
-
-mkdir - Creates a new directory.  
-
-rm - Removes a file or directory.  
-
-cp - Copies a file or directory.  
-
-mv - Moves a file or directory.  
-
-cat - Displays the contents of a file.  
-
-tree - Lists the contents of a directory in a tree-like format.  
-
-echo - Prints text to the console.  
-
-read - Reads input from the user.  
-
-cls - Clears the console.
-
-exit - Exits the current shell.  
-
-help - Displays information about the built-in commands.  
-
-get-help - Displays information about a specific command.  
-
-get-childitem -path <path> -recurse -filter <filter>  
-
-get-childitem -path <path> -recurse -filter <filter> |  foreach-object { $_.fullname }  
-
-get-childitem -path <path> -recurse -filter <filter> | foreach-object { $_.fullname } | fzf   
-
-get-childitem -path <path> -recurse -filter <filter> | foreach-object { $_.fullname } | fzf | foreach-object { code $_ }  
-
-file - Displays information about a file.  
-
-type - Displays the contents of a file.  
-
-type -path <path> -literalpath <literalpath> | clip -no-cpy
+|Command|Description|  
+|:---|:---|
+|pwd | Prints the current working directory.  |  
+|ls  |Lists the contents of the current directory.  |  
+|cd  |Changes the current directory.  |  
+|mkdir|  Creates a new directory.  |  
+|rm  |Removes a file or directory.  |  
+|cp  |Copies a file or directory.  |  
+|mv  |Moves a file or directory.  |  
+|cat | Displays the contents of a file.  |  
+|tree | Lists the contents of a directory in a treelike format. |  
+|echo | Prints text to the console.  |  
+|read | Reads input from the user.  |  
+|cls | Clears the console.|  
+|exit | Exits the current shell.  |  
+|help | Displays information about the builtin commands.  |  
+|get-help|  Displays information about a specific command.  |  
+|file | Displays information about a file.  |  
+|type | Displays the contents of a file.  |  
