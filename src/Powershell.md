@@ -24,7 +24,7 @@ Get-PSReadLineKeyHandler
 
 or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
-## Software and a script to enhance Powershell
+## Software and script to enhance Powershell
 
 ### Find-File
 
