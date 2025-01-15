@@ -33,6 +33,8 @@ additional-css = ["theme/tabs.css", "./mdbook-admonish.css", "theme/sun.css", "t
 additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js", "custom-pagewidth.js"]
 default-theme = "sun"
 preferred-dark-theme = "macchiato"
+git-repository-url = "https://github.com/horbjorn/Software_Manual_release"
+git-repository-icon = "fa-github"
 
 
 
