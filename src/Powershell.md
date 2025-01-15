@@ -22,7 +22,7 @@ Print the current PSReadLine key handlers:
 Get-PSReadLineKeyHandler
 ```
 
-or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>
+or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
 ## Software and a script to enhance Powershell
 
