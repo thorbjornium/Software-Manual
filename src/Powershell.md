@@ -1,4 +1,8 @@
-# Powershell
+# Powershell 7
+
+<!-- toc -->
+
+<br>  
 
 Press <kbd>F2</kbd> to toggle prediction.  
 
@@ -24,9 +28,11 @@ Get-PSReadLineKeyHandler
 
 or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
-## Software and script to enhance Powershell
+## Scripts and tools to enhance Powershell
 
 ### Find-File
+
+File previewer script using fzf and bat.  
 
 Install the following software:
 
@@ -83,7 +89,19 @@ Set-PSReadLineKeyHandler -chord "ctrl+f" -scriptblock {
 }
 ```
 
-## Basic Commands
+You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The preview is generated using bat and use colored output. Check out [bat](https://github.com/sharkdp/bat), [fzf](https://github.com/junegunn/fzf) and [fd](https://github.com/sharkdp/fd) for more details.  
+
+### Other must have tools for Powershell
+
+[zoxide](https://github.com/ajeetdsouza/zoxide) can jump straight to directories.
+
+[intelli-shell](https://github.com/lasantosr/intelli-shell) bookmark commands.  
+
+[ripgrep](https://github.com/BurntSushi/ripgrep) is a search tool for files.  
+
+[igrep](https://github.com/konradsz/igrep) is an alternate grep tool.  
+
+## <p style="text-align:center;">Basic Commands</p>
 
 |Command|Description|  
 |:---|:---|
