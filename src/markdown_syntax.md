@@ -478,7 +478,6 @@ You can add an image or a code block, too.
 #### Local source  
 
 ```
-
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
 ```
 
@@ -487,21 +486,11 @@ You can add an image or a code block, too.
 #### Interweb source
 
 ```
-{% raw(loading=lazy) %}
-{% raw(id) %}  id of the video in this case: Osqf4oIK0E8
+<iframe width="100%" height="405px"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>  
 ```
 
-The script below has been modified with above lines to remove the lazy loading.
-
-```
-<iframe
-  allowfullscreen
-  name="youtube"
-  loading="{% raw(loading=lazy) %}"
-  src="https://www.youtube.com/embed/{% raw(Osqf4oIK0E8) %}"
-  style="width: 100%; height: 100%; border: none; aspect-ratio: 16/9; border-radius: 1rem; background: black"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+<iframe width="100%" height="405px"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
-```  
-
-Replace the video link with your own in the script above. Note: It might break something since not all editors support iframe.
