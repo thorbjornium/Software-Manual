@@ -486,14 +486,19 @@ You can add an image or a code block, too.
 
 #### Interweb source
 
-This from Youtube
+```
+{% raw(loading=lazy) %}
+{% raw(id) %}  id of the video in this case: Osqf4oIK0E8
+```
+
+The script below has been modified with above lines to remove the lazy loading.
 
 ```
 <iframe
   allowfullscreen
   name="youtube"
-  loading="lazy"
-  src="https://www.youtube.com/embed/Osqf4oIK0E8"
+  loading="{% raw(loading=lazy) %}"
+  src="https://www.youtube.com/embed/{% raw(Osqf4oIK0E8) %}"
   style="width: 100%; height: 100%; border: none; aspect-ratio: 16/9; border-radius: 1rem; background: black"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 </iframe>

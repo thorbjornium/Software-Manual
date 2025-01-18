@@ -14,9 +14,9 @@
 
 ## Embedify  
 
-Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify) Embed videos. Include banners, scroll-to-top and footer options.
+Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify) Embed videos, include banners, scroll-to-top and footer options.
 
-{% embed youtube id="Osqf4oIK0E8" loading="lazy" %}
+{% embed youtube id="Osqf4oIK0E8" loading="eager" %}
 
 </br>  
 
