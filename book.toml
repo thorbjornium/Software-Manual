@@ -3,7 +3,6 @@ authors = ["horbjorn"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Manual"
 smart-punctuation = true
 
 
