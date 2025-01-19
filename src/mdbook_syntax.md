@@ -4,7 +4,7 @@
 
 <br>
 
-## Change title tab on browser tab
+## Change browser tab title
 
 ````
 \{{#title New & improved}}
