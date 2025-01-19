@@ -486,11 +486,13 @@ You can add an image or a code block, too.
 #### Interweb source
 
 ```
-<iframe width="100%" height="405px"
+<iframe width="100%" height="100%"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>  
 ```
 
-<iframe width="100%" height="405px"
+heigth="100%" doesn't work in mdBook, so I've used width="100%" height="420px" below.
+
+<iframe width="100%" height="420px"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
