@@ -491,7 +491,7 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>  
 ```
 
-heigth="100%" doesn't work in mdBook, so I've used width="100%" height="420px" below.
+height="100%" width="100%" doesn't work in mdBook, so I've changed to width="100%" height="420px" below.
 
 <iframe width="100%" height="420px"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
