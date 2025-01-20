@@ -21,4 +21,4 @@
 
 # Spotify
 
-- [Spotify Backup List](Spotify_playlist_backup.md)
+- [Spotify Backup List](spotify_playlist_backup.md)

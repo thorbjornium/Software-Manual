@@ -1,3 +1,3 @@
-if (window.location.pathname.endsWith('Spotify_playlist_backup.html')) {
+if (window.location.pathname.endsWith('spotify_playlist_backup')) {
     document.documentElement.style.setProperty('--content-max-width', '100%');
 }
