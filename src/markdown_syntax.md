@@ -8,19 +8,19 @@
 
 ## Heading
 
-```
+```markdown
 # H1
 ```
 
 <p style="font-size: 2em; font-weight: bold">H1</p>  
 
-```
+```markdown
 ## H2  
 ```
 
 <p style="font-size: 1.5em; font-weight: bold">H2</p>  
 
-```
+```markdown
 ### H3
 ```
 
@@ -28,7 +28,7 @@
 
 ## Heading with custom id
 
-```
+```markdown
 ## My Great Heading {#custom-id}
 ```
 
@@ -38,7 +38,7 @@
 
 ## Bold  
 
-```
+```markdown
 **bold text**
 ```
 
@@ -46,7 +46,7 @@
 
 ## Italic
 
-```
+```markdown
 *italicized text* 
 ```
 
@@ -54,7 +54,7 @@
 
 ## Bold and nested italic
 
-```
+```markdown
 **This text is *extremely* important**
 ```
 
@@ -62,7 +62,7 @@
 
 ## All bold and italic
 
-```
+```markdown
 ***All this text is important***
 ```
 
@@ -70,7 +70,7 @@
 
 ## Strikethrough
 
-```
+```markdown
 ~~The world is flat.~~
 ```
 
@@ -78,7 +78,7 @@
 
 ## Emoji
 
-```
+```markdown
 That is so funny! :joy: 
 ```
 
@@ -90,7 +90,7 @@ Might need som additional software to work. [mdbook-emojicodes](https://github.c
 
 ## Highlight
 
-```
+```markdown
 I need to highlight these ==very important words==.
 ```
 
@@ -98,7 +98,7 @@ I need to highlight these ==very important words==
 
 Note: Might not work, else try :
 
-```
+```html
 I need to highlight these <mark>very important words</mark>
 ```
 
@@ -106,7 +106,7 @@ I need to highlight these <mark>very important words</mark>
 
 ## Subscript
 
-```
+```markdown
 H~2~O
 ```
 
@@ -114,7 +114,7 @@ H~2~O
 
 Note: Might not work, else try :
 
-```
+```html
 H<sub>2</sub>O
 ```
 
@@ -122,7 +122,7 @@ H<sub>2</sub>O
 
 ## Superscript
 
-```
+```markdown
 X^2^
 ```  
 
@@ -130,7 +130,7 @@ X^2^
 
 Note: Might not work, else try :
 
-```
+```html
 X<sup>2</sup>
 ```
 
@@ -138,7 +138,7 @@ X<sup>2</sup>
 
 ## Blockquote
 
-```
+```markdown
 > blockquote
 ```
 
@@ -146,7 +146,7 @@ X<sup>2</sup>
 
 <br>  
 
-```
+```markdown
 > blockquote
 >
 > > nested blockquote
@@ -164,7 +164,7 @@ X<sup>2</sup>
 
 ## Ordered List  
 
-```
+```markdown
 1. First item
 1. Second item
 1. Third item
@@ -178,7 +178,7 @@ X<sup>2</sup>
 
 ## Unordered List
 
-```
+```markdown
 - First item
 - Second item
 - Third item
@@ -190,7 +190,7 @@ X<sup>2</sup>
 
 ## Nested lists
 
-```
+```markdown
 1. First list item
    - First nested list item
      - Second nested list item
@@ -202,18 +202,17 @@ X<sup>2</sup>
 
 ## Code
 
-```
+```markdown
 `code` 
 ```  
 
 `code`
 
-
 ## Fenced Code Block
 
 Three backticks makes a fence. Using a tab or 4 blank spaces instead of backticks also works.
 
-````sh  
+````  
 
 ```
 {
@@ -225,7 +224,7 @@ Three backticks makes a fence. Using a tab or 4 blank spaces instead of backtick
 
 ````
 
-```
+```markdown
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -253,7 +252,7 @@ puts .to_
 
 ## Horizontal Rule
 
-```
+```markdown
 ---
 ```
 
@@ -263,15 +262,15 @@ puts .to_
 
 ## Link
 
-````
-[ Guide](https://www.guide.org)
+````markdown
+[Guide](https://www.guide.org)
 ````
 
-[ Guide](https://www.guide.org)
+[Guide](https://www.guide.org)
 
 <br>
 
-```
+```markdown
 [an example](http://example.com/ "Title")
 ```
 
@@ -279,7 +278,7 @@ puts .to_
 
 <br>
 
-```
+```markdown
 Try [Ubuntu][] for your server.
 
 [Ubuntu]: https://ubuntu.com/download/server "Ubuntu Server LTS"
@@ -291,7 +290,7 @@ Try [Ubuntu][] for your server.
 
 ## Image
 
-```
+```markdown
 ![alt text](https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-cartoon-little-penguin-operating-a-plane-png-image_5567890.png "My image")
 ```
 
@@ -299,7 +298,7 @@ Try [Ubuntu][] for your server.
 
 <br>
 
-```
+```markdown
 ![Logga][1]
 
 [1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
@@ -311,7 +310,7 @@ Try [Ubuntu][] for your server.
 
 ### Linked image  
 
-```
+```markdown
 [![Markdown image](https://commonmark.org/help/images/favicon.png)](https://commonmark.org)
 ```
 
@@ -319,7 +318,7 @@ Try [Ubuntu][] for your server.
 
 ## Table
 
-````
+````markdown
 | Item              | In Stock | Price |
 | :---------------- | :------: | ----: |
 | Python Hat        |   Truest | 3.99 |
@@ -341,7 +340,7 @@ Try [Ubuntu][] for your server.
 
 ## Footnote
 
-```
+```markdown
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
@@ -353,7 +352,7 @@ Here's a sentence with a footnote. [^1]
 
 ## Task List
 
-```
+```markdown
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
@@ -367,7 +366,7 @@ Here's a sentence with a footnote. [^1]
 
 ### Underline  
 
-```
+```html
 <u> Text </u> 
 ```
 
@@ -375,7 +374,7 @@ Here's a sentence with a footnote. [^1]
 
 ### Color
 
-```
+```html
 <span style="color: #FF69B4;">Why did the tomato turn red?</span>
 <span style="color: #00FFFF;">Because it saw the salad dressing!</span>
 <span style="color:red;">your text here in red</span>,
@@ -389,7 +388,7 @@ Here's a sentence with a footnote. [^1]
 
 ### Commentary
 
-```
+```html
 <!-- ingen kommentar -->  
 ```
 
@@ -399,7 +398,7 @@ ingen kommentar
 
 ### Collapsed section
 
-````
+````html
 <details>
 
 <summary>Tips for collapsed sections</summary>
@@ -433,7 +432,7 @@ You can add an image or a code block, too.
 
 ### Align
 
-```
+```html
 &emsp; &emsp;Centrera
 ```
 
@@ -441,7 +440,7 @@ You can add an image or a code block, too.
 
 <br>
 
-```
+```html
 &ensp; &ensp; &ensp;Centrera
 ```
 
@@ -449,7 +448,7 @@ You can add an image or a code block, too.
 
 <br>
 
-```
+```html
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Centrera
 ```
 
@@ -459,7 +458,7 @@ You can add an image or a code block, too.
 
 ### Center align
 
-```
+```html
 <p style="text-align: center;">Text i mitten 
 ```
 
@@ -467,7 +466,7 @@ You can add an image or a code block, too.
 
 ### Keyboard  
 
-```
+```html
 <kbd>Ctrl</kbd> + <kbd>F</kbd>
 ```
 
@@ -477,7 +476,7 @@ You can add an image or a code block, too.
 
 #### Local source  
 
-```
+```html
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
 ```
 
@@ -485,7 +484,7 @@ You can add an image or a code block, too.
 
 #### Interweb source
 
-```
+```html
 <iframe width="100%" height="100%"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>  

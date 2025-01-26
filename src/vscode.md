@@ -6,9 +6,9 @@
 
 ### Toggle terminal and editor focus  
 
-Open Command Palette and find keyboard shortcuts (JSON)
+Open Command Palette and find keyboard shortcuts (JSON) and paste the following:
 
-```  
+```json
 {
     "key":     "ctrl+`",
     "command": "workbench.action.terminal.focus"
@@ -22,7 +22,7 @@ Open Command Palette and find keyboard shortcuts (JSON)
 
 ### Adjust font size on terminal  
 
-```
+```json
     {
         "key": "ctrl+=",
         "command": "workbench.action.terminal.fontZoomIn",
@@ -35,7 +35,9 @@ Open Command Palette and find keyboard shortcuts (JSON)
     }
 ```
 
-## Keyboard shortcuts  
+<br>
+
+## <p style="text-align:center;">Keyboard shortcuts</p>  
 
 ### <p style="text-align:center;">General</p>  
 
@@ -120,7 +122,8 @@ Open Command Palette and find keyboard shortcuts (JSON)
 |Shift+Alt+← ^|Shrink selection|  
 |Shift+Alt +(drag mouse)|Column (box) selection|  
 |Ctrl+Shift+Alt+ (arrow key)|Column (box) selection|  
-|Ctrl+Shift+Alt+PgUp/PgDn|Column (box) selection page up/down|  
+|Ctrl+Shift+Alt+PgUp/PgDn|Column (box) selection page up/down| 
+|Ctrl+Shift+P|Search 'toggle multi'. Switches Alt+Click to Ctrl+Click|  
 
 ### <p style="text-align:center;">Rich languages editing</p>
 

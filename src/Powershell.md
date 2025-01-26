@@ -93,11 +93,11 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 
 ### Other must have tools for Powershell
 
-[zoxide](https://github.com/ajeetdsouza/zoxide) can jump straight to directories.
+[zoxide](https://github.com/ajeetdsouza/zoxide) jumps straight to directories.
 
-[intelli-shell](https://github.com/lasantosr/intelli-shell) bookmark commands.  
+[intelli-shell](https://github.com/lasantosr/intelli-shell) bookmark commands and includes [tldr](https://github.com/tldr-pages/tldr).
 
-[ripgrep](https://github.com/BurntSushi/ripgrep) is a search tool for files.  
+[ripgrep](https://github.com/BurntSushi/ripgrep) is a file search tool.  
 
 [igrep](https://github.com/konradsz/igrep) is an alternate grep tool.  
 
@@ -108,7 +108,7 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 |pwd | Prints the current working directory.  |  
 |ls  |Lists the contents of the current directory.  |  
 |cd  |Changes the current directory.  |  
-|mkdir|  Creates a new directory.  |  
+|md|  Creates a new directory.  |  
 |rm  |Removes a file or directory.  |  
 |cp  |Copies a file or directory.  |  
 |mv  |Moves a file or directory.  |  

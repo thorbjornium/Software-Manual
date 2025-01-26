@@ -43,7 +43,7 @@ Modified and translated version of mdBook-alerts: [https://github.com/horbjorn/r
 
 mdBook's builtin version in html:  
 
-```
+```html
 <div class="warning">
 
 This is a bad thing that you should pay attention to.
@@ -229,7 +229,7 @@ style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
 
 <summary>Source code for above</summary>
 
-````
+````plaintext
 ```mermaid
 %%{
   init: {
@@ -285,47 +285,13 @@ style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
 
 <br>
 
-```mermaid
-graph LR
-    
-    subgraph Förfrågan
-    iVentoy--1.BOOTP-->DHCP
-    end
-    subgraph Svar
-    Dator<--2.PXE-->iVentoy
-    end
-    
-    
-
-```
-
-<details>
-
-<summary>Source code for above</summary>
-
-````
-```mermaid
-graph LR
-    
-    subgraph Förfrågan
-    iVentoy--1.BOOTP-->DHCP
-    end
-    subgraph Svar
-    Dator<--2.PXE-->iVentoy
-    end
-    
-    
-
-```
-````
-
 </details>
 
 ## Tabs
 
 Get [mdbook-tabs](https://github.com/RustForWeb/mdbook-plugins/tree/main/packages/mdbook-tabs)
 
-```
+```plaintext
 {{#tabs }}
 {{#tab name="Tab 1" }}
 **Tab content 1**
@@ -353,7 +319,7 @@ _Tab content 2_
 
 <br>
 
-```
+```plaintext
 {{#tabs global="example" }}
 {{#tab name="Tab 1" }}
 Some content.
@@ -373,13 +339,13 @@ Install [admonish](https://github.com/tommilligan/mdbook-admonish)
 
 Examples:
 
-````
+````plaintext
 ```admonish
 Some text
 ```
 ````
 
-```` 
+````plaintext
 ```admonish example
 example
 ```
@@ -433,7 +399,7 @@ bug
 quote, cite
 ```
 
-````
+````plaintext
 ```admonish quote collapsible=true, title='A title that really <span style="color: #e70073">pops</span>'
 To really <b><span style="color: #e70073">grab</span></b> your reader's attention.
 ```
