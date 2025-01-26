@@ -4,7 +4,6 @@
 
 .mdbook-tab {
     background-color: var(--table-alternate-bg);
-    color: hsl(0, 0%, 45%);
     padding: 0.5rem 1rem;
     cursor: pointer;
     border: none;
