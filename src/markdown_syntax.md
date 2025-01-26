@@ -286,23 +286,23 @@ Try [Ubuntu][] for your server.
 
 Try [Ubuntu][] for your server.
 
-[Ubuntu]: https://ubuntu.com/download/server "Ubuntu Server LTS"
+[Ubuntu]: https://ubuntu.com/download/server "Ubuntu Server LTS"  
 
-## Image
+## Image  
 
-```markdown
+```markdown  
 ![alt text](https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-cartoon-little-penguin-operating-a-plane-png-image_5567890.png "My image")
-```
+```  
 
 ![alt text](https://png.pngtree.com/png-vector/20220629/ourmid/pngtree-cartoon-little-penguin-operating-a-plane-png-image_5567890.png "My image")
 
 <br>
 
-```markdown
+```markdown  
 ![Logga][1]
 
 [1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
-```
+``` 
 
 ![Logga][1]
 
@@ -310,13 +310,13 @@ Try [Ubuntu][] for your server.
 
 ### Linked image  
 
-```markdown
-[![Markdown image](https://commonmark.org/help/images/favicon.png)](https://commonmark.org)
-```
+```markdown  
+[![Markdown image](https://commonmark.org/help/images/favicon.png)](https://commonmark.org)  
+```  
 
-[![Markdown image](https://commonmark.org/help/images/favicon.png)](https://commonmark.org)
+[![Markdown image](https://commonmark.org/help/images/favicon.png)](https://commonmark.org)  
 
-## Table
+## Table  
 
 ````markdown
 | Item              | In Stock | Price |

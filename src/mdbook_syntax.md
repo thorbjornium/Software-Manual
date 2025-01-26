@@ -122,7 +122,8 @@ graph LR;
 
 <summary>Source code for above</summary>
 
-````
+````  
+
 ```mermaid
 %%{
   init: {
