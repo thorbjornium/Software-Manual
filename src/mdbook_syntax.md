@@ -6,7 +6,7 @@
 
 ## Change browser tab title
 
-````
+````plaintext
 \{{#title New & improved}}
 ````
 
@@ -352,7 +352,7 @@ example
 ````
 
 ```admonish
- Some text
+Some text
 ```
 
 ```admonish example

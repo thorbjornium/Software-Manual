@@ -32,7 +32,7 @@ or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>
 
 ### Find-File
 
-File previewer script using fzf and bat.  
+File previewer script using fzf, fd and bat.  
 
 Install the following software:
 
