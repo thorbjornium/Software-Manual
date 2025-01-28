@@ -26,22 +26,25 @@ scroll-to-top.enable = true
 command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
+[output.html.playground]
+editable = true
 
 [output.html]
+mathjax-support = true
 additional-css = [
-"theme/tabs.css", 
+"theme/tabs.css",
 "mdbook-admonish.css", 
 "theme/sun.css", 
 "theme/catppuccin.css", 
 "theme/catppuccin-admonish.css", 
-"theme/nordic.css",
+"theme/nordic.css"
 ]   
 
 additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js", "custom-pagewidth.js"]
 default-theme = "sun"
-preferred-dark-theme = "navy"
+preferred-dark-theme = "nordic"
 git-repository-url = "https://github.com/horbjorn/Software_Manual_release"
-git-repository-icon = "fa-github"
+
 
 
 

@@ -94,9 +94,8 @@ Might need som additional software to work. [mdbook-emojicodes](https://github.c
 I need to highlight these ==very important words==.
 ```
 
-I need to highlight these ==very important words==  
-
-Note: Might not work, else try :
+> [!NOTE]  
+> mdBook doesn't support the highlight syntax. Use the html syntax instead.
 
 ```html
 I need to highlight these <mark>very important words</mark>
@@ -110,9 +109,8 @@ I need to highlight these <mark>very important words</mark>
 H~2~O
 ```
 
-H~2~O
-
-Note: Might not work, else try :
+> [!NOTE]  
+> mdBook doesn't support the subscript syntax. Use the html syntax instead.
 
 ```html
 H<sub>2</sub>O
@@ -126,9 +124,8 @@ H<sub>2</sub>O
 X^2^
 ```  
 
-X^2^
-
-Note: Might not work, else try :
+> [!NOTE]  
+> mdBook doesn't support the superscript syntax. Use the html syntax instead.
 
 ```html
 X<sup>2</sup>
@@ -321,20 +318,20 @@ Try [Ubuntu][] for your server.
 ````markdown
 | Item              | In Stock | Price |
 | :---------------- | :------: | ----: |
-| Python Hat        |   Truest | 3.99 |
-| SQL Hat           |   True   | 23.99 |
+| Python Hat        |   True | 3.99 |
+| SQL Hat           |   Truer   | 23.99 |
 | Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.9999 |  
+| Codecademy Hoodie |  Falser   | 42.9999 |  
 ````
 
 </br>
 
 | Item              | In Stock | Price |
 | :---------------- | :------: | ----: |
-| Python Hat        |  Truest  | 3.99 |
-| SQL Hat           |   True   | 23.99 |
+| Python Hat        |  True  | 3.99 |
+| SQL Hat           |   Truer   | 23.99 |
 | Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  Falsest   | 42.9999 |  
+| Codecademy Hoodie |  Falser   | 42.9999 |  
 
 <br>
 
@@ -361,6 +358,40 @@ Here's a sentence with a footnote. [^1]
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+## Escaping characters  
+
+You can use a backslash \\ to escape the following characters:
+
+|Character|Name|
+|---|:---|
+|\ |backslash|  
+|` |backtick |  
+|* |asterisk|  
+|_ |underscore|  
+|{ }|curly braces|  
+|[ ]|brackets|  
+|< >|angle brackets|  
+|( )|parentheses|  
+|# |pound sign|  
+|+ |plus sign|  
+|- |minus sign (hyphen)|  
+|. |dot|  
+|! |exclamation mark|  
+|\| |pipe |
+
+Escape backticks with two backticks.  
+
+    ``Use `code` in your Markdown file.``  
+
+Use four backticks to enclose code blocks.
+
+    ````
+    ```ruby
+    require 'rubygems'
+    require 'asciidoctor'
+    ```
+    ````
 
 ## Inline HTML
 
@@ -490,7 +521,8 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>  
 ```
 
-height="100%" width="100%" doesn't work in mdBook, so I've changed to width="100%" height="420px" below.
+> [!NOTE]  
+> height="100%" width="100%" doesn't work in mdBook, so I've changed to width="100%" height="420px" below.
 
 <iframe width="100%" height="420px"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">

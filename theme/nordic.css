@@ -27,24 +27,31 @@
 
 --nord16: #505661;
 
+--nord17:#dcf7e4;
+--nord18:#2c3553;
+--nord19:#5a6d94;
+--nord20:#c6e5f0;
+--nord21:#9fa1b8;
+--nord22:#6e738d;
+
 /* Both variants should be consistent between them. */
 --bg: var(--nord0);
 --fg: var(--nord4);
 
 --sidebar-bg: var(--nord1);
---sidebar-fg: #88C0DD;
---sidebar-non-existant: #6e738d;
---sidebar-active: #81A1C1;
---sidebar-spacer: #4C566A;
+--sidebar-fg: var(--nord8);
+--sidebar-non-existant: var(--nord22);
+--sidebar-active: var(--nord9);
+--sidebar-spacer: var(--nord3);
 
-/* --scrollbar: var(--clickable); */
+--scrollbar: var(--nord8);
 
 --icons: var(--nord4);
---icons-hover: #4C566A;
+--icons-hover: var(--nord22);
 
---links: #81A1C1;
+--links: var(--nord9);
 
---inline-code-color: #4C566A;
+--inline-code-color: var(--nord3);
 
 --theme-popup-bg: var(--nord3);
 --theme-popup-border: var(--nord0);
@@ -53,9 +60,11 @@
 --quote-bg: var(--nord3);
 --quote-border: var(--nord0);
 
---table-border-color: var(--nord2);
---table-header-bg: var(--quote-bg);
+--table-border-color: var(--nord1);
+--table-header-bg: var(--nord2);
 --table-alternate-bg: var(--nord1);
+--warning-border: #ff8e00;
+
 
 --searchbar-border-color: var(--nord0);
 --searchbar-bg: var(--nord3);
@@ -66,13 +75,16 @@
 --searchresults-li-bg: var(--nord3);
 --search-mark-bg: var(--nord8);
 
+--color-scheme: dark;
+
+
 }
 
-.nordic code {
+/* .nordic code {
 
   background: var(--nord10);
   
-}
+} */
 
 
 .nordic kbd {
@@ -109,15 +121,16 @@
 }
 
 
-.nordic pre code.hljs {
+ /* .nordic pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 1em
-}
+}  */
 
-.nordic code.hljs {
+
+/* .nordic code.hljs {
   padding: 3px 5px
-}
+} */
 
 
 
@@ -254,3 +267,4 @@
 .hljs-meta-keyword {
   font-weight: bold
 }
+

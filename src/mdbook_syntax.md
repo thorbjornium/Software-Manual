@@ -4,6 +4,8 @@
 
 <br>
 
+For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
+
 ## Change browser tab title
 
 ````plaintext
@@ -11,6 +13,42 @@
 ````
 
 {{#title New & improved}}
+
+## Rust Playground
+
+````
+```rust,editable
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+````
+
+<br>
+
+```rust,editable
+// Editable Rust code. Edit and run code in the browser.
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+
+## MathJax support  
+
+````plaintext  
+\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+````  
+
+\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+
+> [!NOTE]  
+> The usual delimiters MathJax uses are not yet supported. You can’t currently
+> use `$$ ... $$` as delimiters and the `\[ ... \]` delimiters need an extra backslash
+> to work. Hopefully this limitation will be lifted soon.
+
+<br>
 
 ## Embedify  
 
@@ -22,7 +60,7 @@ Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify) Embed videos
 
 ## Alerts
 
-Modified and translated version of mdBook-alerts: [https://github.com/horbjorn/rs-mdbook-alerts](https://github.com/horbjorn/rs-mdbook-alerts)
+Modified and translated version of mdBook-alerts. English and Swedish. See options: [https://github.com/horbjorn/rs-mdbook-alerts](https://github.com/horbjorn/rs-mdbook-alerts)
 
 > [!NOTERA]  
 > Text
@@ -38,6 +76,13 @@ Modified and translated version of mdBook-alerts: [https://github.com/horbjorn/r
 
 > [!FARA]
 > Lugn..  
+
+example:
+
+````plaintext
+ > [!NOTERA]  
+ > Random text
+````
 
 <br>
 
@@ -76,117 +121,11 @@ matter for what they're doing.
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#bfbfbf',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#b9b9b9',
-      'lineColor': '#abcadf',
-      'secondaryColor': '#abcadf',
-      'tertiaryColor': '#fff'
-    }
-  }
-}%%
-
-graph LR;
-
-    
-
-    iVentoy(iVentoy)--1.BOOTP--->DHCP(DHCP);
-    DHCP--2.PXE-->iVentoy;
-    DHCP--3.IP--->Dator(Dator);
-    iVentoy--4.Payload-->Dator;
-    iVentoy--5.Start-->Dator;
-    iVentoy<--shake-->DHCP
-     Test(Test)--> TVÅ(TVÅ)
-     OST(OST)--> SKINKA(SKINKA)
-
-
-    click iVentoy href "./iventoy.html"
-
-    style iVentoy fill:#839bac,color:#FFFFFF,stroke-opacity:0.2
-    
-    style DHCP fill:#d9d9d9,color:#FFFFFF,stroke-opacity:0.2
-
-    style Test fill:#cfd9d8,color:#FFFFFF,stroke-opacity:0.2
-
-    style Dator fill:#cfd9d8,color:#FFFFFF,stroke-opacity:0.2
-
-    style OST fill:#cfd6d9,color:#FFFFFF,stroke-opacity:0.2
-
-    style SKINKA fill:#f3fffd,color:#8c8c8c,stroke-opacity:0.2
-    
-    
-   
-```
-
-<details>
-
-<summary>Source code for above</summary>
-
-````  
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#bfbfbf',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#b9b9b9',
-      'lineColor': '#abcadf',
-      'secondaryColor': '#abcadf',
-      'tertiaryColor': '#fff'
-    }
-  }
-}%%
-
-graph LR;
-
-    
-
-    iVentoy(iVentoy)--1.BOOTP--->DHCP(DHCP);
-    DHCP--2.PXE-->iVentoy;
-    DHCP--3.IP--->Dator(Dator);
-    iVentoy--4.Payload-->Dator;
-    iVentoy--5.Start-->Dator;
-    iVentoy<--shake-->DHCP
-     Test(Test)--> TVÅ(TVÅ)
-     OST(OST)--> SKINKA(SKINKA)
-
-
-    click iVentoy href "./iventoy.html"
-
-    style iVentoy fill:#839bac,color:#FFFFFF,stroke-opacity:0.2
-    
-    style DHCP fill:#d9d9d9,color:#FFFFFF,stroke-opacity:0.2
-
-    style Test fill:#cfd9d8,color:#FFFFFF,stroke-opacity:0.2
-
-    style Dator fill:#cfd9d8,color:#FFFFFF,stroke-opacity:0.2
-
-    style OST fill:#cfd6d9,color:#FFFFFF,stroke-opacity:0.2
-
-    style SKINKA fill:#f3fffd,color:#8c8c8c,stroke-opacity:0.2
-    
-```    
-   
-````
-
-</details>
-
-<br>
-
-<br>
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
       'primaryColor': '#abcadf',
-      'primaryTextColor': '#fff',
+      'primaryTextColor': '#000',
       'primaryBorderColor': '#abcadf',
       'lineColor': '#fae2b3',
-      'secondaryColor': '#89a389',
+      'secondaryColor': '#8FBCBB',
       'tertiaryColor': '#fff'
     }
   }
@@ -199,19 +138,19 @@ graph LR;
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
 
-style D fill:#cdcdf3,color:#FFFFFF,stroke-opacity:0.2
+style D fill:#cdcdf3,color:#23272e,stroke-opacity:0.2
 
-style E fill:#c8f1f3,color:#FFFFFF,stroke-opacity:0.2
+style E fill:#c8f1f3,color:#23272e,stroke-opacity:0.2
 
 style G fill:#f9e5bc,color:#8c8c8c,stroke-opacity:0.2
 
-style C fill:#839bac,color:#,stroke-opacity:0.2
+style C fill:#839bac,color:#23272e,stroke-opacity:0.2
 
-style B fill:#c7e9d3,color:#FFFFFF,stroke-opacity:0.2
+style B fill:#c7e9d3,color:#23272e,stroke-opacity:0.2
 
-style F fill:#cbd5df,color:#FFFFFF,stroke-opacity:0.2
+style F fill:#cbd5df,color:#23272e,stroke-opacity:0.2
 
-style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
+style Test fill:#73737,color:#23272e,stroke-opacity:0.2
 
 
 
@@ -228,7 +167,7 @@ style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
 
 <details>
 
-<summary>Source code for above</summary>
+<summary>Source code</summary>
 
 ````plaintext
 ```mermaid
@@ -237,7 +176,7 @@ style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#abcadf',
-      'primaryTextColor': '#fff',
+      'primaryTextColor': '#000',
       'primaryBorderColor': '#abcadf',
       'lineColor': '#fae2b3',
       'secondaryColor': '#89a389',
@@ -253,19 +192,19 @@ style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
 
-style D fill:#cdcdf3,color:#FFFFFF,stroke-opacity:0.2
+style D fill:#cdcdf3,color:#23272e,stroke-opacity:0.2
 
-style E fill:#c8f1f3,color:#FFFFFF,stroke-opacity:0.2
+style E fill:#c8f1f3,color:#23272e,stroke-opacity:0.2
 
 style G fill:#f9e5bc,color:#8c8c8c,stroke-opacity:0.2
 
-style C fill:#839bac,color:#,stroke-opacity:0.2
+style C fill:#839bac,color:#23272e,stroke-opacity:0.2
 
-style B fill:#c7e9d3,color:#FFFFFF,stroke-opacity:0.2
+style B fill:#c7e9d3,color:#23272e,stroke-opacity:0.2
 
-style F fill:#cbd5df,color:#FFFFFF,stroke-opacity:0.2
+style F fill:#cbd5df,color:#23272e,stroke-opacity:0.2
 
-style Test fill:#dfdfdf,color:#FFFFFF,stroke-opacity:0.2
+style Test fill:#dfdfdf,color:#23272e,stroke-opacity:0.2
 
 
 
@@ -320,17 +259,109 @@ _Tab content 2_
 
 <br>
 
-```plaintext
-{{#tabs global="example" }}
-{{#tab name="Tab 1" }}
-Some content.
-{{#endtab }}
-{{#endtabs }}
+### Global tabs
+
+````plaintext
+{{#tabs global="test" }}
+{{#tab name="Rust" }}
+
+```rust,noplayground  
+fn main() {
+println!("Hello World!");  
+} 
 ```
 
-{{#tabs global="example" }}
-{{#tab name="Tab 1" }}
-Some content.
+{{#endtab }}
+{{#tab name="HTML" }}
+
+```html
+<p style="text-align:center;">Essential Shortcuts</p>
+```
+
+{{#endtab }}
+{{#tab name="CSS" }}
+
+```css
+.mdbook-tab {
+    background-color: var(--table-alternate-bg);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1.45em;
+}
+```
+
+{{#endtab }}
+{{#endtabs }}
+````
+
+> [!TIP]
+> Paste the above code block twice into a document to create global tabs.
+
+{{#tabs global="test" }}
+{{#tab name="Rust" }}
+
+```rust,noplayground  
+fn main() {
+println!("Hello World!");  
+} 
+```
+
+{{#endtab }}
+{{#tab name="HTML" }}
+
+```html
+<p style="text-align:center;">Essential Shortcuts</p>
+```
+
+{{#endtab }}
+{{#tab name="CSS" }}
+
+```css
+.mdbook-tab {
+    background-color: var(--table-alternate-bg);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1.45em;
+}
+```
+
+{{#endtab }}
+{{#endtabs }}
+
+{{#tabs global="test" }}
+{{#tab name="Rust" }}
+
+```rust,noplayground  
+fn main() {
+println!("Hello World!");  
+} 
+```
+
+{{#endtab }}
+{{#tab name="HTML" }}
+
+```html
+<p style="text-align:center;">Essential Shortcuts</p>
+```
+
+{{#endtab }}
+{{#tab name="CSS" }}
+
+```css
+.mdbook-tab {
+    background-color: var(--table-alternate-bg);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1.45em;
+}
+```
+
 {{#endtab }}
 {{#endtabs }}
 

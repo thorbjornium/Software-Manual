@@ -1,14 +1,6 @@
-pre code.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em
-}
 
-code.hljs {
-  padding: 3px 5px
-}
 
-/*!
+/* 
   Theme: Zenburn
   Author: elnawe
   License: ~ MIT (or more permissive) [via base16-schemes-source]
