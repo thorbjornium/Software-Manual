@@ -91,7 +91,7 @@ Set-PSReadLineKeyHandler -chord "ctrl+f" -scriptblock {
 
 You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The preview is generated using bat and use colored output. Check out [bat](https://github.com/sharkdp/bat), [fzf](https://github.com/junegunn/fzf) and [fd](https://github.com/sharkdp/fd) for more details.  
 
-### Other must have tools for Powershell
+### Other must-have tools for Powershell
 
 [zoxide](https://github.com/ajeetdsouza/zoxide) jumps straight to directories.
 
@@ -100,6 +100,8 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 [ripgrep](https://github.com/BurntSushi/ripgrep) is a file search tool.  
 
 [igrep](https://github.com/konradsz/igrep) is an alternate grep tool.  
+
+
 
 ## <p style="text-align:center;">Basic Commands</p>
 
@@ -122,3 +124,13 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 |get-help|  Displays information about a specific command.  |  
 |file | Displays information about a file.  |  
 |type | Displays the contents of a file.  |  
+
+## Misc
+
+Find the file location of the Powershell history file. Edit and remove inaccurate predictions.  
+
+```Powershell
+Get-PSReadLineOption | select-Object -Property HistorySavePath
+# or
+(Get-PSReadLineOption).HistorySavePath
+```

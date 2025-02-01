@@ -1,8 +1,114 @@
 # Basic Syntax  
 
-<!-- toc -->
+```rust
+fn main() {
+  let number = 5;
+  print!("{}", number);  
+  let x = true;
+  let e = false;   
+}
+```
 
-{% embed scroll-to-top %}
+```markdown
+**bold text**
+- list item
+- list item
+[x] checked item
+- [ ] unchecked item
+> blockquote 
+```
+
+- [x]
+
+- [ ] unchecked item
+
+```java
+public static void main(String[] args) {
+  int number = 5;
+  System.out.println(number);
+}
+```
+
+```python
+def main() -> None:
+  number = 5
+  print(number)
+```
+
+```c  
+int main() {q
+  // jskfdfsdf
+
+  int number = 58978969775; 
+  printf("%d", number);   
+}  
+```
+
+```css
+body {
+  color: red;
+  background-color: black;
+}
+```
+
+```markdown
+# H1
+
+```
+
+```html
+<html></html>
+<mark>bold</mark>
+<li>"www.ostechnix.com
+-26*.9.'++&"</li>
+```
+
+some `code block` with `backticks`
+
+```plaintext
+some plain text
+www.ostechnix.com
+-26*.9.'++&
+```
+
+```yaml
+key: value
+```
+
+```toml
+key = "value"
+```
+
+```json
+{
+  "key": "value"
+}
+```
+
+```xml
+<root>
+  <child>www.ostechnix.com
+-26*.9.'++&</child>
+</root>
+```
+
+https://www.ostechnix.com  
+-26*.9.'++&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- toc -->
 
 <br>
 

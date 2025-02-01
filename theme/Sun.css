@@ -9,8 +9,6 @@
 }
 
 
-
-
 .sun blockquote {
     margin: 20px 0;
     padding: 0 20px;
@@ -59,7 +57,6 @@
     /* --links: #20609f; */
     --links: #4774a0;
 
-
     --inline-code-color: #301900d2;
 
     --theme-popup-bg: #fefcec;
@@ -95,3 +92,5 @@
 
     --color-scheme: light;
 }
+
+ 

@@ -101,9 +101,9 @@
   border-block-end: .001em solid var(--quote-border);
   border-left: 0.25em solid;
   border-radius: 2px 0px 0px 2px;
-  border-left-color: var(--nord4);
-
-
+  border-left-color: var(--nord7);
+  
+  
 }
 
 .nordic blockquote blockquote {
@@ -116,7 +116,8 @@
   border-left: 0.25em solid;
   border-radius: 2px 0px 0px 2px;
   background: var(--nord2);
-
+  border-left-color: var(--nord7);
+  
 
 }
 
@@ -128,9 +129,9 @@
 }  */
 
 
-/* .nordic code.hljs {
+.nordic code.hljs {
   padding: 3px 5px
-} */
+}
 
 
 
@@ -192,7 +193,8 @@
 .nordic .hljs-attr,
 .nordic .hljs-variable.constant_,
 .nordic .hljs-literal {
-  color: #D08770
+  /* color: #D08770 */
+  color: var(--nord13);
 }
 
 /* base0A - Classes, Markup Bold, Search Text Background */

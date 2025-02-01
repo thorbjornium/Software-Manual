@@ -3,7 +3,6 @@ authors = ["horbjorn"]
 language = "en"
 multilingual = false
 src = "src"
-smart-punctuation = true
 
 
 [preprocessor.toc]

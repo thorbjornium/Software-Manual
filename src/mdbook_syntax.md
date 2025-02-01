@@ -35,6 +35,13 @@ fn main() {
 }
 ```
 
+```rust,noplayground
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+
 ## MathJax support  
 
 ````plaintext  
@@ -77,7 +84,7 @@ Modified and translated version of mdBook-alerts. English and Swedish. See optio
 > [!FARA]
 > Lugn..  
 
-example:
+Example:
 
 ````plaintext
  > [!NOTERA]  
