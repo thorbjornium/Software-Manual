@@ -35,13 +35,6 @@ fn main() {
 }
 ```
 
-```rust,noplayground
-fn main() {
-    let number = 5;
-    print!("{}", number);
-}
-```
-
 ## MathJax support  
 
 ````plaintext  
