@@ -1,11 +1,11 @@
-if (window.location.pathname.endsWith('spotify_playlist_backup')) {
+if (window.location.pathname.endsWith('spotify_playlist_backup.html')) {
     document.documentElement.style.setProperty('--content-max-width', '100%');
 }
 
-if (window.location.pathname.endsWith('desktop_shortcuts')) {
+if (window.location.pathname.endsWith('desktop_shortcuts.html')) {
     document.documentElement.style.setProperty('--content-max-width', '100%');
 }
 
-if (window.location.pathname.endsWith('windows_key')) {
+if (window.location.pathname.endsWith('windows_key.html')) {
     document.documentElement.style.setProperty('--content-max-width', '100%');
 }

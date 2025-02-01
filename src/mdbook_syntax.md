@@ -16,17 +16,9 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 
 ## Rust Playground
 
-````
-```rust,editable
-fn main() {
-    let number = 5;
-    print!("{}", number);
-}
-```
-````
+Produce editable code:
 
-<br>
-
+````
 ```rust,editable
 // Editable Rust code. Edit and run code in the browser.
 fn main() {
@@ -34,6 +26,36 @@ fn main() {
     print!("{}", number);
 }
 ```
+````
+
+```rust,editable,mdbook-runnable
+// Editable Rust code. Edit and run code in the browser.
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+
+Non-editable code, runs in the browser:
+
+````
+```rust
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+````
+
+```rust
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+```
+
+
+
 
 ## MathJax support  
 
@@ -52,11 +74,19 @@ fn main() {
 
 ## Embedify  
 
-Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify) Embed videos, include banners, scroll-to-top and footer options.
+Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify). Embed videos, gists & codepens. Option to include banners, scroll-to-top and footer options.
 
-{% embed youtube id="Osqf4oIK0E8" loading="eager" %}
+{% embed youtube id="Osqf4oIK0E8" loading="lazy" %}  
 
-</br>  
+<br>  
+
+<br>  
+
+{% embed gist id="e8b02086f0da8f84a658f1e5cb867528" %}  
+
+<br>  
+
+{% embed codepen user="TDJ" slug="wBwZaQG" height="600" theme="dark" loading="lazy" %}  
 
 ## Alerts
 
