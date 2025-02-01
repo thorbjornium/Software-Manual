@@ -105,7 +105,7 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 
 ## <p style="text-align:center;">Basic Commands</p>
 
-|Command|Description|  
+|Command|Description|   
 |:---|:---|
 |pwd | Prints the current working directory.  |  
 |ls  |Lists the contents of the current directory.  |  
