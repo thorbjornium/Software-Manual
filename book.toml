@@ -26,23 +26,29 @@ command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
 [output.html.playground]
-editable = true
+editable = true        # allows editing the source code
+copyable = true          # include the copy button for copying code snippets
+copy-js = true           # includes the JavaScript for the code editor
+line-numbers = false     # displays line numbers for editable code
+runnable = true          # displays a run button for rust code
 
 [output.html]
 mathjax-support = true
+site-url = "https://grejor.netlify.app/"
 additional-css = [
 "theme/tabs.css",
 "mdbook-admonish.css", 
 "theme/sun.css", 
 "theme/catppuccin.css", 
 "theme/catppuccin-admonish.css", 
-"theme/nordic.css"
+"theme/nordic.css",
 ]   
 
 additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js", "custom-pagewidth.js"]
 default-theme = "sun"
 preferred-dark-theme = "nordic"
 git-repository-url = "https://github.com/horbjorn/Software_Manual_release"
+edit-url-template = "https://github.com/horbjorn/Software-Manual/blob/main/{path}"
 
 
 

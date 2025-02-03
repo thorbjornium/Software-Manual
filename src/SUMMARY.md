@@ -11,13 +11,16 @@
 - [Essential Shortcuts](./essential_shortcuts.md)  
 - [Desktop Shortcuts](./desktop_shortcuts.md)
 - [Windows Key](./windows_key.md)
-  
 - [Alt Codes & Symbols](./alt_codes_and_symbols.md)
 
 # Markdown
 
 - [Syntax](./markdown_syntax.md)
 - [mdBook Syntax](./mdbook_syntax.md)
+
+# Git
+
+- [Commands](./git.md)
 
 # Spotify
 

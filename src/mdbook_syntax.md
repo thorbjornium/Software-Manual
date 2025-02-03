@@ -14,13 +14,14 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 
 {{#title New & improved}}
 
-## Rust Playground
+## Rust Playground  
 
-Produce editable code:
+Use [Rust Playground](https://play.rust-lang.org) to run code in the browser.
+
+Produce editable code. Edit and run code in the browser.
 
 ````
 ```rust,editable
-// Editable Rust code. Edit and run code in the browser.
 fn main() {
     let number = 5;
     print!("{}", number);
@@ -28,34 +29,30 @@ fn main() {
 ```
 ````
 
-```rust,editable,mdbook-runnable
-// Editable Rust code. Edit and run code in the browser.
+```rust,editable
 fn main() {
     let number = 5;
     print!("{}", number);
 }
 ```
 
-Non-editable code, runs in the browser:
+Non-editable code. Runs in the browser.
 
 ````
 ```rust
 fn main() {
-    let number = 5;
-    print!("{}", number);
+    let x = "Rust";
+    print!("{}", x);
 }
 ```
 ````
 
 ```rust
 fn main() {
-    let number = 5;
-    print!("{}", number);
+    let x = "Rust";
+    print!("{}", x);
 }
 ```
-
-
-
 
 ## MathJax support  
 
@@ -63,12 +60,12 @@ fn main() {
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
 ````  
 
-\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]  
 
 > [!NOTE]  
-> The usual delimiters MathJax uses are not yet supported. You can’t currently
+> From mdBook docs: "The usual delimiters MathJax uses are not yet supported. You can’t currently
 > use `$$ ... $$` as delimiters and the `\[ ... \]` delimiters need an extra backslash
-> to work. Hopefully this limitation will be lifted soon.
+> to work. Hopefully this limitation will be lifted soon."
 
 <br>
 
@@ -82,7 +79,7 @@ Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify). Embed video
 
 <br>  
 
-{% embed gist id="e8b02086f0da8f84a658f1e5cb867528" %}  
+{% embed gist id="7fc39974980739135253e755b2fa1433" %}  
 
 <br>  
 
