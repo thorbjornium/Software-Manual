@@ -16,7 +16,7 @@
 # Markdown
 
 - [Syntax](./markdown_syntax.md)
-- [mdBook options](./mdbook_options.md)
+- [mdBook Options](./mdbook_options.md)
 
 # Git
 
