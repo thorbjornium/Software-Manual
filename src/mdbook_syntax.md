@@ -1,4 +1,4 @@
-# mdBook Syntax  
+# mdBook options
 
 <!-- toc -->
 
@@ -18,7 +18,7 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 
 Use [Rust Playground](https://play.rust-lang.org) to run code in the browser.
 
-Produce editable code. Edit and run code in the browser.
+Produce editable code that runs in the browser.
 
 ````
 ```rust,editable
