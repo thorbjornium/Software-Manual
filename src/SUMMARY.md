@@ -21,6 +21,7 @@
 # Git
 
 - [Commands](./git.md)
+- [GitHub CLI](./github_cli.md)
 
 # Spotify
 

@@ -12,7 +12,17 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 \{{#title New & improved}}
 ````
 
-{{#title New & improved}}
+{{#title New & improved}}  
+
+## Include other files  
+
+Include line 2-10 of the file rust.rs.
+
+````
+```\{{#include rust.rs:2:10}}```
+````
+
+```{{#include rust.rs:2:10}}```  
 
 ## Rust Playground  
 
@@ -47,7 +57,7 @@ fn main() {
 ```
 ````
 
-```rust
+```rust,line-numbers
 fn main() {
     let x = "Rust";
     print!("{}", x);
