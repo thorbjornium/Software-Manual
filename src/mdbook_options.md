@@ -57,7 +57,7 @@ fn main() {
 ```
 ````
 
-```rust,line-numbers
+```rust
 fn main() {
     let x = "Rust";
     print!("{}", x);

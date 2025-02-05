@@ -2,7 +2,15 @@
 
 <!-- toc -->
 
-GitHub CLI, or gh, is a command-line interface to GitHub and [GitHub-Gist](https://gist.github.com) for use in your terminal or your scripts. Manual is found [here](https://cli.github.com/manual) or go straight to [commands](https://cli.github.com/manual/gh).
+GitHub CLI, or gh, is a command-line interface to GitHub and [GitHub-Gist](https://gist.github.com) for use in your terminal or your scripts. Manual is found [here](https://cli.github.com/manual) and the GitHub page is [here](https://github.com/cli/cli).  
+
+Install:
+
+```powershell
+winget install --id GitHub.cli
+```
+
+Plugins is found [here](https://github.com/topics/gh-extension).  
 
 ## Completions  
 

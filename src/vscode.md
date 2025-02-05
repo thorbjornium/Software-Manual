@@ -6,7 +6,7 @@
 
 ### Toggle terminal and editor focus  
 
-Open Command Palette and find keyboard shortcuts (JSON) and paste the following:
+Open Command Palette and find the keyboard shortcuts file (JSON) and paste the following:
 
 ```json
 {

@@ -4,6 +4,10 @@
 
 <br>  
 
+## Basic handling of Powershell  
+
+Press <kbd>F1</kbd> after typing a command to get help.
+
 Press <kbd>F2</kbd> to toggle prediction.  
 
 Press <kbd>Tab</kbd> to move to or list the next suggestion.  
@@ -14,94 +18,53 @@ Press <kbd>→</kbd> to accept the suggestion.
 
 Press <kbd>Ctrl</kbd> + <kbd>Space</kbd> to list autocomplete suggestions.
 
-Open Powershell profile in notepad:  
+Find the Powershell profile `echo $profile` or just `$profile`  
 
-```Powershell
-notepad $profile   
-```
+Open the Powershell profile in notepad `notepad $profile`  
 
-Print the current PSReadLine key handlers:
-
-```Powershell  
-Get-PSReadLineKeyHandler
-```
+Print the current PSReadLine key handlers `Get-PSReadLineKeyHandler`  
 
 or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
-## Scripts and tools to enhance Powershell
-
-### Find-File
-
-File previewer script using fzf, fd and bat.  
-
-Install the following software:
-
-```Powershell
-winget install junegunn.fzf
-winget install sharkdp.fd
-winget install sharkdp.bat
-```
-
-Open your Powershell profile in VS Code:
-
-```Powershell
-code $Profile 
-```
-
-Add the following lines at the end of the file:
-
-```Powershell
-function Find-File {
-    $file_path = fd --type file --follow --exclude .git | 
-    fzf --ansi --preview 'bat --color=always {} --style=numbers,changes'
-
-    return $file_path
-}
-
-function Invoke-FileAction ($Path) {
-    $commands = @{
-        "Edit file in Visual Studio Code" = { code $Path }
-        "Delete file"                     = { Remove-Item -Recurse -Force $Path }
-    }
-
-    $selected_command = $commands.Keys | fzf --prompt "Select action >"
-    &$commands[$selected_command]
-}
-
-function Invoke-FileFinder() {
-    $file = Find-File
-
-    # Make sure we selected a file at all.
-    if (!$file) {
-        return
-    }
-
-    # Make sure we have a valid file path.
-    if (Test-Path $file) {
-        Invoke-FileAction -Path $file
-    }
-}
-
-Set-PSReadLineKeyHandler -chord "ctrl+f" -scriptblock {
-    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert("Invoke-FileFinder")
-    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
-}
-```
-
-You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The preview is generated using bat and use colored output. Check out [bat](https://github.com/sharkdp/bat), [fzf](https://github.com/junegunn/fzf) and [fd](https://github.com/sharkdp/fd) for more details.  
-
-### Other must-have tools for Powershell
+## Must-have tools for Powershell
 
 [zoxide](https://github.com/ajeetdsouza/zoxide) jumps straight to directories.
 
 [intelli-shell](https://github.com/lasantosr/intelli-shell) bookmark commands and includes [tldr](https://github.com/tldr-pages/tldr).
 
-[ripgrep](https://github.com/BurntSushi/ripgrep) is a file search tool.  
+[ripgrep](https://github.com/BurntSushi/ripgrep) - A fast file search tool.  
 
-[igrep](https://github.com/konradsz/igrep) is an alternate grep tool.  
+[igrep](https://github.com/konradsz/igrep) - An alternate grep tool.
 
+[fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder.  
 
+[fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find.  
+
+[bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings. Features colored output, syntax highlighting, grid view, and more.  
+
+## VS Code options
+
+`code -w` - Wait for the files to be closed before returning.
+
+`code -n` - Force to open a new window.  
+
+`code .` - Opens a new empty window.
+
+`code -r` - Reuse window. Force to open in an already opened window.  
+
+`code -a` - Add folder(s) to the last active window.  
+
+`Get-ChildItem | code -` - Opens the output of the command in VS Code.  
+
+## Misc
+
+Find the file location of the Powershell history file. Edit and remove inaccurate predictions.  
+
+```Powershell
+Get-PSReadLineOption | select-Object -Property HistorySavePath
+# or
+(Get-PSReadLineOption).HistorySavePath
+```
 
 ## <p style="text-align:center;">Basic Commands</p>
 
@@ -124,13 +87,3 @@ You call `Find-File` from commandline or <kbd>Ctrl</kbd> + <kbd>F</kbd>. The pre
 |get-help|  Displays information about a specific command.  |  
 |file | Displays information about a file.  |  
 |type | Displays the contents of a file.  |  
-
-## Misc
-
-Find the file location of the Powershell history file. Edit and remove inaccurate predictions.  
-
-```Powershell
-Get-PSReadLineOption | select-Object -Property HistorySavePath
-# or
-(Get-PSReadLineOption).HistorySavePath
-```

@@ -3,6 +3,7 @@
 # Guides & personal stuff
 
 - [Powershell 7](./Powershell.md)  
+  - [Scripts](powershell_scripts.md)  
 - [FFMpeg](./ffmpeg.md)
 - [VS Code](./vscode.md)
 
