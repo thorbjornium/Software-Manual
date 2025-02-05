@@ -14,7 +14,7 @@ winget install sharkdp.bat
 winget install BurntSushi.ripgrep.MSVC
 ```  
 
-Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).  
+Detailed information about [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep) can be found by clicking the links.  
 
 ## Find files and folders 
 
@@ -163,7 +163,7 @@ Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list. Press <kbd>Shift</k
 Open files or folders with bat, cat, cd, echo or VS Code. Delete with 'remove'.  
 
 > [!Note]
-> The script sets two keys via PSReadLineKeyHandler.  
+> The script sets two keybindings via PSReadLineKeyHandler.  
 
 ## Find fz
 
