@@ -4,7 +4,7 @@
 
 <br>  
 
-Copy and Paste the scripts into your Powershell profile. To open your Powershell profile in VS Code type `code $Profile`. 
+Copy and Paste the scripts into your Powershell profile. To open your Powershell profile in VS Code type `code $Profile`.  
 Most scripts requires additional software. Install the following software if you do not have it already:
 
 ```Powershell
@@ -16,7 +16,7 @@ winget install BurntSushi.ripgrep.MSVC
 
 Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).  
 
-## Find files and folders 
+## Find files and folders  
 
 A script with options to view, delete or edit files with external tools.  
 
@@ -235,7 +235,6 @@ Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list.
 
 Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the preview.  
 
-
 </details>  
 
 ## PSFzf  
@@ -267,7 +266,7 @@ Tab completion works out of the box.
 
 ## Disks  
 
-<details>   
+<details>  
 
 <summary><u>Script</u></summary>
 
