@@ -1,7 +1,5 @@
 # Powershell 7
 
-<!-- toc -->
-
 <br>  
 
 ## Basic handling of Powershell  
@@ -53,6 +51,8 @@ or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>
 `code -r` - Reuse window. Force to open in an already opened window.  
 
 `code -a` - Add folder(s) to the last active window.  
+
+`code -g --goto <file:line[:character]>` - Open a file at a specific line number.  
 
 `Get-ChildItem | code -` - Opens the output of the command in VS Code.  
 

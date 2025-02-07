@@ -324,7 +324,7 @@ function playground_text(playground, hidden = true) {
         }
     }
 
-    function set_theme(theme, store = true) {
+        function set_theme(theme, store = true) {
         let ace_theme;
 
         if (theme == 'coal' || theme == 'navy') {

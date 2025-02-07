@@ -14,7 +14,7 @@ winget install sharkdp.bat
 winget install BurntSushi.ripgrep.MSVC
 ```  
 
-Detailed information about [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep) can be found by clicking the links.  
+Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).  
 
 ## Find files and folders 
 
