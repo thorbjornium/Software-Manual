@@ -4,6 +4,7 @@
 
 - [Powershell 7](./Powershell.md)  
   - [Scripts](powershell_scripts.md)  
+  - [Tools](powershell_tools.md)  
 - [FFMpeg](./ffmpeg.md)
 - [VS Code](./vscode.md)
 
