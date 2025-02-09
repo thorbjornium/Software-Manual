@@ -4,7 +4,6 @@
 
 <!-- toc -->
 
-
 ### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_basic-editing" target="_blank">Basic editing</a>  
 
 | Command                                     | Key              |  
@@ -172,6 +171,7 @@
 | Toggle Markdown Preview      | Ctrl+Shift+V  |  
 | Open Preview to the Side     | Ctrl+K V      |  
 | Toggle Integrated Terminal   | Ctrl+`        |  
+| Create New Terminal          | Ctrl+Shift+`  |
 
 ### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_search" target="_blank">Search</a>  
 
