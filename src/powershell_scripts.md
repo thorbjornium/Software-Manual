@@ -16,6 +16,50 @@ winget install BurntSushi.ripgrep.MSVC
 
 Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).  
 
+## PSFzf  
+
+Install PSFzf from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
+
+```Powershell
+Install-Module -Name PSFzf
+```
+
+Paste the following into your Powershell profile:  
+
+```Powershell
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'  
+Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }  
+```  
+
+![PSFzf](./pics/PSFzf.jpg)  
+
+Type `cd` and press <kbd>Ctrl</kbd> + <kbd>t</kbd> and search for the directory you want to navigate to. Hit <kbd>Enter</kbd> twice to navigate to the directory.  
+
+Press <kbd>Ctrl</kbd> + <kbd>r</kbd> to list previous commands. Search and hit <kbd>Enter</kbd> twice to execute the command.  
+
+Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list.  
+
+Tab completion works out of the box.  
+
+## Disks  
+
+![Disks](./pics/Disks.jpg)
+
+Type `disks` and hit <kbd>Enter</kbd> to display disk information in human readable format.  
+
+<details>  
+
+<summary><u>Script</u></summary>
+
+```Powershell
+function disks {
+    
+    Get-WmiObject -Class Win32_LogicalDisk | Select-Object -Property DeviceID, VolumeName, @{Label = 'FreeGb'; expression = { ($_.FreeSpace / 1GB).ToString('F2') } }, @{Label = 'TotalGb'; expression = { ($_.Size / 1GB).ToString('F2') } }, @{label = 'Free %'; expression = { [Math]::Round(($_.freespace / $_.size) * 100, 2)}}|Format-Table
+    }
+```  
+
+</details>  
+
 ## Find files and folders  
 
 A script with options to view, delete or edit files with external tools.  
@@ -237,52 +281,6 @@ Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the previe
 
 </details>  
 
-## PSFzf  
-
-Install PSFzf from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
-
-```Powershell
-Install-Module -Name PSFzf
-```
-
-Paste the following into your Powershell profile:  
-
-```Powershell
-Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'  
-Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }  
-```  
-
-![PSFzf](./pics/PSFzf.jpg)  
-
-Type `cd` and press <kbd>Ctrl</kbd> + <kbd>t</kbd> and search for the directory you want to navigate to.  
-
-Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list.  
-
-Hit <kbd>Enter</kbd> twice to navigate to the directory.  
-
-Press <kbd>Ctrl</kbd> + <kbd>r</kbd> to list previous commands. Search and hit <kbd>Enter</kbd> twice to execute the command.  
-
-Tab completion works out of the box.  
-
-## Disks  
-
-<details>  
-
-<summary><u>Script</u></summary>
-
-```Powershell
-function disks {
-    
-    Get-WmiObject -Class Win32_LogicalDisk | Select-Object -Property DeviceID, VolumeName, @{Label = 'FreeSpace Gb'; expression = { ($_.FreeSpace / 1GB).ToString('F2') } }, @{Label = 'Total Gb'; expression = { ($_.Size / 1GB).ToString('F2') } }, @{label = 'Free %'; expression = { [Math]::Round(($_.freespace / $_.size) * 100, 2)}}|Format-Table
-    }
-```  
-
-</details>  
-
-![Disks](./pics/Disks.jpg)
-
-Type `disks` and hit <kbd>Enter</kbd> to display disk information in human readable format.  
-
 ## Google search
 
 Search Google from the command line. Alias is set as `glg`  
@@ -303,6 +301,3 @@ Set-Alias glg search-google
 ```
 
 </details>
-
-
-

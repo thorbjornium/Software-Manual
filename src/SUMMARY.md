@@ -1,10 +1,14 @@
 # Summary
 
-# Guides & personal stuff
+# Guides & settings
 
+- [pre](./pre.md)
 - [Powershell 7](./Powershell.md)  
   - [Scripts](powershell_scripts.md)  
-  - [Tools](powershell_tools.md)  
+  - [Tools](powershell_tools.md)
+    - [yazi](./yazi.md)  
+    - [ripgrep](./ripgrep.md)
+    - [eza](./eza.md)  
 - [FFMpeg](./ffmpeg.md)
 - [VS Code](./vscode.md)
 
@@ -18,13 +22,10 @@
 # Markdown
 
 - [Syntax](./markdown_syntax.md)
+  - [Inline HTML](./inline_html.md)  
 - [mdBook Options](./mdbook_options.md)
 
 # Git
 
 - [Commands](./git.md)
 - [GitHub CLI](./github_cli.md)
-
-# Spotify
-
-- [Spotify Backup List](spotify_playlist_backup.md)
