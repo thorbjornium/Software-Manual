@@ -36,6 +36,7 @@ main {
 /* make wide tables scroll if they overflow */
 .table-wrapper {
     overflow-x: auto;
+    display: table;
 }
 
 /* Don't change font size in headers. */

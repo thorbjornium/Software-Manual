@@ -4,7 +4,7 @@
 
 ## Basic handling of Powershell  
 
-Press <kbd>F1</kbd> after typing a command to get help.
+Press <kbd>F1</kbd> after typing a command to get help or type `man` before the command.  
 
 Press <kbd>F2</kbd> to toggle prediction.  
 

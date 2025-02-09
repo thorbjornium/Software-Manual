@@ -282,3 +282,27 @@ function disks {
 ![Disks](./pics/Disks.jpg)
 
 Type `disks` and hit <kbd>Enter</kbd> to display disk information in human readable format.  
+
+## Google search
+
+Search Google from the command line. Alias is set as `glg`  
+
+<details>  
+
+<summary><u>Script</u></summary>
+
+```Powershell
+Function search-google {
+    $query = 'https://www.google.com/search?q='
+    $args | % { $query = $query + "$_+" }
+    $url = $query.Substring(0, $query.Length - 1)
+    start "$url"
+}
+
+Set-Alias glg search-google
+```
+
+</details>
+
+
+
