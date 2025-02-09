@@ -268,7 +268,7 @@ Specifies the directory where eza will look for its configuration and theme file
 
 13 : If permission is denied to access a path.
 
-## Scipt for Powershell profile
+## Script for Powershell
 
 ```Powershell
 function ee {
