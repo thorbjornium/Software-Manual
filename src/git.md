@@ -6,7 +6,7 @@
 
 Documentation can be found <a href="https://git-scm.com/docs" target="_blank">here</a></p>  
 
-### <p style="text-align:center;">Git Configuration & Setup</p>  
+### Git Configuration & Setup
 
 | Commands                                                | Description                                                                        |
 | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git config –global color.ui auto –                      | Set to display colored output in the terminal                                      |
 | git help                                                | Display the main help documentation, showing a list of commonly used Git commands. |
 
-### <p style="text-align:center;">Initializing a Repository</p>
+### Initializing a Repository
 
 | Commands                                         | Description                                                          |
 | ------------------------------------------------ | -------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git clone <repository_url>                       | this Clones a repository from a remote server to your local machine. |
 | git clone –branch <branch_name> <repository_url> | Clones a specific branch from a repository.                          |
 
-### <p style="text-align:center;">Basic Git Commands</p>
+### Basic Git Commands
 
 | Commands                                                                 | Description                                                                                                                                                                         |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git rm &lt;file&gt;                                                      | Removes a file from both the working directory and the repository, staging the deletion.                                                                                            |
 | git mv                                                                   | Moves or renames a file or directory in your Git repository.                                                                                                                        |
 
-### <p style="text-align:center;">Git Commit (Updated Commands)</p>
+### Git Commit (Updated Commands)
 
 | Commands                          | Description                                                                                                                         |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git commit -m “build: message”    | Create a new commit in a Git repository with a specific message to indicate the changes related to the build process.               |
 | git commit -m “revert: message”   | Create a new commit in a Git repository with a specific message to indicate the changes related to revert a previous commit.        |
 
-### <p style="text-align:center;">Branching and Merging</p>
+### Branching and Merging
 
 | Commands                                         | Description                                                                                                                          |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -89,7 +89,7 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git tag &lt;tag-name&gt; &lt;commit&gt;          | Creates a lightweight tag at the specified commit.                                                                                   |
 | git tag -a &lt;tag-name&gt; -m “&lt;message&gt;” | Creates an annotated tag at the current commit with a custom message.                                                                |
 
-### <p style="text-align:center;">Remote Repositories</p>
+### Remote Repositories
 
 | Commands                                | Description                                                                                        |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -106,14 +106,14 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git remote                              | Lists all remote repositories.                                                                     |
 | git remote add &lt;name&gt; &lt;url&gt; | Adds a new remote repository with the specified name and URL.                                      |
 
-### <p style="text-align:center;">Git Comparison</p>
+### Git Comparison
 
 | Commands                | Description                                                       |
 | ----------------------- | ----------------------------------------------------------------- |
 | git show                | Shows the details of a specific commit, including its changes.    |
 | git show &lt;commit&gt; | Shows the details of the specified commit, including its changes. |
 
-### <p style="text-align:center;">Git Managing History</p>
+### Git Managing History
 
 | Commands                             | Description                                                                              |
 | ------------------------------------ | ---------------------------------------------------------------------------------------- |

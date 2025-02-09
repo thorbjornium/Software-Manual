@@ -1,4 +1,4 @@
-#  <p style="text-align:center;">Essential Shortcuts</p>  
+#  <p style="text-align:center;">Essential Shortcuts
 
 |Keyboard shortcut |Action  |  
 |:---|:---|  

@@ -5,7 +5,7 @@
 <!-- toc -->
 
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_basic-editing" target="_blank">Basic editing</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_basic-editing" target="_blank">Basic editing</a>  
 
 | Command                                     | Key              |  
 | :-------------------------------------------| :----------------|  
@@ -64,7 +64,7 @@
 | Toggle Render Whitespace                    | unassigned       |  
 | Toggle Word Wrap                            | Alt+Z            |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_rich-languages-editing" target="_blank">Rich languages editing</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_rich-languages-editing" target="_blank">Rich languages editing</a>  
 
 | Command                     | Key              |  
 | --------------------------- | ---------------- |  
@@ -86,7 +86,7 @@
 | Trim Trailing Whitespace    | Ctrl+K Ctrl+X    |  
 | Change Language Mode        | Ctrl+K M         |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_navigation" target="_blank">Navigation</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_navigation" target="_blank">Navigation</a>  
 
 | Command                         | Key                |  
 | ------------------------------- | ------------------ |  
@@ -105,7 +105,7 @@
 | Focus Breadcrumbs               | Ctrl+Shift+;       |  
 | Focus and Select Breadcrumbs    | Ctrl+Shift+.       |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management" target="_blank">Editor/Window Management</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_editorwindow-management" target="_blank">Editor/Window Management</a>  
 
 | Command                              | Key                 |  
 | ------------------------------------ | ------------------- |  
@@ -127,7 +127,7 @@
 | Move Editor into Next Group          | Ctrl+Alt+Right      |  
 | Move Editor into Previous Group      | Ctrl+Alt+Left       |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_file-management" target="_blank">File Management</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_file-management" target="_blank">File Management</a>  
 
 | Command                        | Key           |  
 | ------------------------------ | ------------- |  
@@ -150,7 +150,7 @@
 | Show Opened File in New Window | unassigned    |  
 | Compare Opened File With       | unassigned    |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_display" target="_blank">Display</a>
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_display" target="_blank">Display</a>
 
 | Command                      | Key           |  
 | ---------------------------- | ------------- |  
@@ -173,7 +173,7 @@
 | Open Preview to the Side     | Ctrl+K V      |  
 | Toggle Integrated Terminal   | Ctrl+`        |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_search" target="_blank">Search</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_search" target="_blank">Search</a>  
 
 | Command                       | Key          |  
 | ----------------------------- | ------------ |  
@@ -188,7 +188,7 @@
 | Show Next Search Term         | Down         |  
 | Show Previous Search Term     | Up           |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_search-editor" target="_blank">Search Editor</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_search-editor" target="_blank">Search Editor</a>  
 
 | Command                   | Key                  |  
 | ------------------------- | -------------------- |  
@@ -197,7 +197,7 @@
 | Search Again              | Ctrl+Shift+R         |  
 | Delete File Results       | Ctrl+Shift+Backspace |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_preferences" target="_blank">Preferences</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_preferences" target="_blank">Preferences</a>  
 
 | Command                    | Key           |  
 | -------------------------- | ------------- |  
@@ -208,7 +208,7 @@
 | Select Color Theme         | Ctrl+K Ctrl+T |  
 | Configure Display Language | unassigned    |  
 
-### <p align="center"><a href="https://code.visualstudio.com/docs/getstarted/keybindings#_debug" target="_blank">Debug</a>  
+### <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_debug" target="_blank">Debug</a>  
 
 | Command                   | Key     |  
 | ------------------------- | ------- |  
@@ -219,14 +219,14 @@
 | Pause                     | F6      |  
 | Step Into                 | F11     |  
 
-### <p align="center"><a href="(https://code.visualstudio.com/docs/getstarted/keybindings#_tasks)" target="_blank">Tasks</a>  
+### <a href="(https://code.visualstudio.com/docs/getstarted/keybindings#_tasks)" target="_blank">Tasks</a>  
 
 | Command        | Key          |  
 | -------------- | ------------ |  
 | Run Build Task | Ctrl+Shift+B |  
 | Run Test Task  | unassigned   |  
 
-### <p align="center"><a href="(https://code.visualstudio.com/docs/getstarted/keybindings#_extensions)" target="_blank">Extensions</a>  
+### <a href="(https://code.visualstudio.com/docs/getstarted/keybindings#_extensions)" target="_blank">Extensions</a>  
 
 | Command                     | Key        |  
 | --------------------------- | ---------- |  
