@@ -19,7 +19,7 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 Include line 2-10 of the file rust.rs.
 
 ````
-```\{{#include rust.rs:2:10}}```
+\{{#include rust.rs:2:10}}
 ````
 
 ```{{#include rust.rs:2:10}}```  
@@ -100,19 +100,22 @@ Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify). Embed video
 Modified and translated version of mdBook-alerts. English and Swedish. See options: [https://github.com/horbjorn/rs-mdbook-alerts](https://github.com/horbjorn/rs-mdbook-alerts)
 
 > [!NOTERA]  
-> Text
+> Detta är den svenska versionen.  
 
 > [!TIPS]
-> Annan text
+> Använd den engelska versionen ovan som har en aktiv utvecklare..
 
 > [!VIKTIGT]  
-> ..nånting
+> ..då denna forken är ett test..
 
 > [!VARNING]  
-> Se upp! 
+> ..bara som en varning..
 
 > [!FARA]
-> Lugn..  
+> ..då denna forken kan raderas.  
+
+> [!FUNDERING]
+> Är det rätt ord?
 
 Example:
 

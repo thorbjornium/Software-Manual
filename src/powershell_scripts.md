@@ -11,6 +11,7 @@ Most scripts requires additional software. Install the following software if you
 {{#tab name="Winget" }}
 
 ```Powershell
+winget install ajeetdsouza.zoxide
 winget install junegunn.fzf
 winget install sharkdp.fd
 winget install sharkdp.bat
@@ -22,14 +23,14 @@ winget install eza-community.eza
 {{#tab name="Scoop" }}
 
 ```Powershell
-Scoop install fzf fd bat ripgrep eza
+Scoop install zoxide fzf fd bat ripgrep eza 
 ```  
 
 {{#endtab }}
 
 {{#endtabs }}
 
-Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
+Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
 
 ## PSFzf  
 
