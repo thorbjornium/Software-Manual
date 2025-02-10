@@ -18,7 +18,7 @@ Searches for lines that start with `TODO` in the current directory.
 
 `rg "\.jpg$"`
 
-Searches for files ending with `.jpg` in the current directory.
+Searches for lines ending with `.jpg` in the current directory.
 
 `rg "\d+"`
 
