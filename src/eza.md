@@ -269,33 +269,3 @@ Specifies the directory where eza will look for its configuration and theme file
 3 : If there was a problem with the command-line arguments.
 
 13 : If permission is denied to access a path.
-
-## Script for Powershell
-
-```Powershell
-function ee {
-    eza `
-        --hyperlink `
-        --icons=always `
-        --group-directories-first `
-        --all `
-}
-
-function e {
-    eza `
-        --long `
-        --hyperlink `
-        --icons=always `
-        --git-repos `
-        --git `
-        --header `
-        --flags `
-        --created `
-        --time-style long-iso `
-        --group-directories-first `
-        --context `
-        --total-size `
-        --all `
-
-}
-```
