@@ -8,6 +8,8 @@ eza is a modern replacement for ls, with a focus on speed and ease of use.
 
 ![eza](./pics/eza.jpg)
 
+A script for Powershell can be found [here](./powershell_scripts.md#eza).
+
 `eza [options] [files...]`
 
 **eza** is a modern replacement for `ls`. It uses colours for information by default, helping you distinguish between many types of files, such as whether you are the owner, or in the owning group.

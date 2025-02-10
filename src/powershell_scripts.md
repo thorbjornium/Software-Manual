@@ -12,9 +12,10 @@ winget install junegunn.fzf
 winget install sharkdp.fd
 winget install sharkdp.bat
 winget install BurntSushi.ripgrep.MSVC
+winget install eza-community.eza
 ```  
 
-Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).  
+Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat)^, [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
 
 ## PSFzf  
 
@@ -292,12 +293,74 @@ Search Google from the command line. Alias is set as `glg`
 ```Powershell
 Function search-google {
     $query = 'https://www.google.com/search?q='
-    $args | % { $query = $query + "$_+" }
+    $args | ForEach-Object { $query = $query + "$_+" }
     $url = $query.Substring(0, $query.Length - 1)
-    start "$url"
+    Start-Process "$url"
 }
 
 Set-Alias glg search-google
+```
+
+</details>
+
+## eza
+
+List files with details using the `e` alias. Image and more information in the [eza folder](./eza.md).
+
+<details>
+
+<summary><u>Script</u></summary>
+
+```Powershell
+function e {
+    eza `
+        --long `
+        --hyperlink `
+        --icons=always `
+        --git-repos `
+        --git `
+        --header `
+        --flags `
+        --created `
+        --time-style long-iso `
+        --group-directories-first `
+        --context `
+        --total-size `
+        --all `
+
+}
+```
+
+</details>
+
+## yt-dlp
+
+Alias is set as `ytb`
+
+<details>
+
+<summary><u>Script</u></summary>
+
+```Powershell
+Function ytb {
+    yt-dlp `
+        --progress `
+        --console-title `
+        --video-multistreams `
+        --audio-multistreams `
+        --format-sort "height:3840,fps" `
+        --format "bestvideo+bestaudio/best" `
+        --check-formats `
+        --merge-output-format "mp4/mkv" `
+        --recode-video "mp4/mkv" `
+        --embed-thumbnail `
+        --embed-metadata `
+        --embed-chapters `
+        --force-keyframes-at-cuts `
+        --sponsorblock-mark "all" `
+        --write-auto-subs --sub-lang "en.*" `
+        $args
+}
 ```
 
 </details>
