@@ -9,6 +9,7 @@
     - [yazi](./yazi.md)  
     - [ripgrep](./ripgrep.md)
     - [eza](./eza.md)  
+    - [glow](./glow.md)
 - [FFMpeg](./ffmpeg.md)
 - [VS Code](./vscode.md)
 
