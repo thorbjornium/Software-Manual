@@ -7,6 +7,9 @@
 Copy and Paste the scripts into your Powershell profile. To open your Powershell profile in VS Code type `code $Profile`.  
 Most scripts requires additional software. Install the following software if you do not have it already:
 
+{{#tabs global="install" }}
+{{#tab name="Winget" }}
+
 ```Powershell
 winget install junegunn.fzf
 winget install sharkdp.fd
@@ -15,15 +18,40 @@ winget install BurntSushi.ripgrep.MSVC
 winget install eza-community.eza
 ```  
 
-Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat)^, [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
+{{#endtab }}
+{{#tab name="Scoop" }}
+
+```Powershell
+Scoop install fzf fd bat ripgrep eza
+```  
+
+{{#endtab }}
+
+{{#endtabs }}
+
+Detailed information can be found by clicking [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
 
 ## PSFzf  
 
-Install PSFzf from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
+PSFzf installs from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
+
+{{#tabs global="install" }}
+{{#tab name="Winget" }}
 
 ```Powershell
 Install-Module -Name PSFzf
 ```
+
+{{#endtab }}
+{{#tab name="Scoop" }}
+
+```Powershell
+Scoop install PSFzf
+```  
+
+{{#endtab }}
+
+{{#endtabs }}
 
 Paste the following into your Powershell profile:  
 
@@ -337,11 +365,24 @@ function e {
 
 Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp).
 
-Install:
+{{#tabs global="install" }}
+{{#tab name="Winget" }}
 
 ```Powershell
 winget install yt-dlp
 ```
+
+{{#endtab }}
+{{#tab name="Scoop" }}
+
+```Powershell
+Scoop install yt-dlp
+```  
+
+{{#endtab }}
+
+{{#endtabs }}
+
 
 Alias is set as `ytb`
 
