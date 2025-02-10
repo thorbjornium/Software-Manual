@@ -284,7 +284,7 @@ Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the previe
 
 ## Google search
 
-Search Google from the command line. Alias is set as `glg`  
+Search Google from the command line. Type `glg` and search term and hit <kbd>Enter</kbd>. 
 
 <details>  
 
@@ -334,6 +334,14 @@ function e {
 </details>
 
 ## yt-dlp
+
+Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp).
+
+Install:
+
+```Powershell
+winget install yt-dlp
+```
 
 Alias is set as `ytb`
 

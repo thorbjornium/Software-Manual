@@ -1,4 +1,4 @@
-# Windows Key  
+# <p align="center">Windows Key</p>
 
 |Keyboard shortcut| Action|  
 |:---|:---|  
