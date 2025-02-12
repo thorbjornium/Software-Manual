@@ -9,7 +9,7 @@
 |<kbd>Ctrl</kbd> + <kbd>Z</kbd> | Undo an action, including undelete files (limited).|  
 |<kbd>Ctrl</kbd> + <kbd>Y</kbd> | Redo an action. |  
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> | Create new folder on desktop or File Explorer. |  
-|<kbd>Alt</kbd> + <kbd>F4</kbd> | Close active window. (If no active window is present, a shutdown box appears.) |  
+|<kbd>Alt</kbd> + <kbd>F4</kbd> | Close active window. (If no active window is present,<br> a shutdown box appears.) |  
 |<kbd>Ctrl</kbd> + <kbd>D</kbd> | Delete selected item to the Recycle Bin. |  
 |<kbd>Shift</kbd> + <kbd>Del</kbd> | Delete the selected item permanently, skipping Recycle Bin. |  
 |<kbd>F2</kbd> | Rename selected item. |  
