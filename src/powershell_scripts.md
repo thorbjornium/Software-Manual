@@ -17,22 +17,25 @@ winget install sharkdp.fd
 winget install sharkdp.bat
 winget install BurntSushi.ripgrep.MSVC
 winget install eza-community.eza
+winget install jftuga.less
 ```  
 
 {{#endtab }}
 {{#tab name="Scoop" }}
 
 ```Powershell
-Scoop install zoxide fzf fd bat ripgrep eza 
+Scoop install zoxide fzf fd bat ripgrep eza less
 ```  
 
 {{#endtab }}
 
 {{#endtabs }}
 
+You will need to install the [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) package as well.
+
 Add  `Invoke-Expression (& { (zoxide init powershell | Out-String) })` to your Powershell profile
 
-Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
+Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep), [eza](https://github.com/eza-community/eza) and [less](https://www.greenwoodsoftware.com/less/faq.html).
 
 ## PSFzf  
 
