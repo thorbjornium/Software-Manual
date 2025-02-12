@@ -1,6 +1,8 @@
-## Inline HTML
+# Inline HTML
 
-### Underline  
+<!-- toc -->
+
+## Underline  
 
 ```html
 <u> Text </u> 
@@ -8,7 +10,7 @@
 
 <u> Text </u>  
 
-### Color
+## Color
 
 ```html
 <span style="color: #FF69B4;">Why did the tomato turn red?</span>
@@ -22,7 +24,7 @@
 <span style="color:red;">your text here in red</span>,
 <span style="color:#520099;">or make it blue</span>
 
-### Commentary
+## Commentary
 
 ```html
 <!-- ingen kommentar -->  
@@ -32,7 +34,7 @@ ingen kommentar
 
 <br>  
 
-### Collapsed section
+## Collapsed section
 
 ````html
 <details>
@@ -66,7 +68,7 @@ You can add an image or a code block, too.
 
 <br>  
 
-### Align
+## Align
 
 ```html
 &emsp; &emsp;Centrera
@@ -92,7 +94,7 @@ You can add an image or a code block, too.
 
 <br>
 
-### Center align
+## Center align
 
 ```html
 <p style="text-align: center;">Text i mitten 
@@ -100,7 +102,7 @@ You can add an image or a code block, too.
 
 <p style="text-align: center;">Text i mitten  
 
-### Keyboard  
+## Keyboard  
 
 ```html
 <kbd>Ctrl</kbd> + <kbd>F</kbd>
@@ -108,9 +110,9 @@ You can add an image or a code block, too.
 
 <kbd>Ctrl</kbd> + <kbd>F</kbd>
 
-### Embed video
+## Embed video
 
-#### Local source  
+### Local source  
 
 ```html
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
@@ -118,7 +120,7 @@ You can add an image or a code block, too.
 
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
 
-#### Interweb source
+### Interweb source
 
 ```html
 <iframe width="100%" height="100%"

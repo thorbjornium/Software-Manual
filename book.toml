@@ -17,6 +17,7 @@ command = "mdbook-mermaid"
 [preprocessor.embedify]
 scroll-to-top.enable = true
 
+
 [preprocessor.emojicodes]
 
 [preprocessor.alerts]

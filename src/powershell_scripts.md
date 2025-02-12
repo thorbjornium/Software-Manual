@@ -313,7 +313,7 @@ Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the previe
 
 ## Google search
 
-Search Google from the command line. Type `glg` and search term and hit <kbd>Enter</kbd>. 
+Search Google from the command line. Type `glg` and a search term and hit <kbd>Enter</kbd>. 
 
 <details>  
 
@@ -384,21 +384,23 @@ Scoop install yt-dlp
 
 {{#endtabs }}
 
+Type `ytm` and a link and hit <kbd>Enter</kbd>.  
 
-Alias is set as `ytb`
+> [!NOTE]
+> This script recodes the video to mp4/mkv.
 
 <details>
 
 <summary><u>Script</u></summary>
 
 ```Powershell
-Function ytb {
+Function ytm {
     yt-dlp `
         --progress `
         --console-title `
         --video-multistreams `
         --audio-multistreams `
-        --format-sort "height:3840,fps" `
+        --format-sort "height:1080,fps" `
         --format "bestvideo+bestaudio/best" `
         --check-formats `
         --merge-output-format "mp4/mkv" `
