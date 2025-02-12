@@ -8,7 +8,7 @@
 | Ctrl + 1, 2, 3,...             | Move to that tab number.                                                              |
 | Tab                            | Move forward through options.                                                         |
 | Shift + Tab                    | Move back through options.                                                            |
-| Alt + <u>underlined</u> letter | Perform the command (or select the option) that is used with that letter.             |
+| Alt + underlined letter | Perform the command (or select the option) that is used with that letter.             |
 | Spacebar                       | Select or clear the check box if the active option is a check box.                    |
 | Backspace                      | Open a folder one level up if a folder is selected in the Save As or Open dialog box. |
 | Arrow keys                     | Select a button if the active option is a group of option buttons.                    |

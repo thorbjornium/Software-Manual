@@ -2,11 +2,20 @@
 
 # Guides & settings
 
+---
+
+# Powershell
+
 - [pre](./pre.md)
 - [Powershell 7](./Powershell.md)  
   - [Scripts](powershell_scripts.md)  
   - [Tools](powershell_tools.md)
+    - [IntelliShell](./intelli_shell.md)
+    - [zoxide](./zoxide.md)
+    - [fzf](./fzf.md)
+    - [bat](./bat.md)
     - [yazi](./yazi.md)  
+    - [fd](./fd.md)
     - [ripgrep](./ripgrep.md)
     - [eza](./eza.md)  
     - [glow](./glow.md)
@@ -40,6 +49,11 @@
 
 - [Commands](./git.md)
 - [GitHub CLI](./github_cli.md)
+
+# Browsers
+
+- [Firefox Shortcuts](./firefox_shortcuts.md)
+- [Chrome Shortcuts](./chrome_shortcuts.md)
 
 # Other
 

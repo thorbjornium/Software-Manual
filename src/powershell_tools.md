@@ -2,18 +2,30 @@
 
 ## .. that I find useful for Powershell.
 
-[yazi](./yazi.md)
+- [IntelliShell](./intelli_shell.md)  
+Bookmarks commands and includes tldr pages.
 
-Tabbed file manager with preview supporting numerous file types.  
+- [zoxide](./zoxide.md)  
+Jump straight to directories.
 
-[ripgrep](./ripgrep.md)
+- [fzf](./fzf.md)  
+A command-line fuzzy finder.
 
-A replacement for `grep`.  
+- [bat](./bat.md)  
+Like cat but better.
 
-[eza](./eza.md)
+- [yazi](./yazi.md)  
+Tabbed file manager with preview supporting numerous file types.
 
-A replacement for `ls`.
+- [fd](./fd.md)  
+A simple, fast and user-friendly alternative to find.
 
-[glow](./glow.md)
+- [ripgrep](./ripgrep.md)  
+A fast file search tool.
 
-A command line Markdown viewer.
+- [eza](./eza.md)  
+Like ls but better.
+
+- [glow](./glow.md)  
+A terminal-based Markdown viewer.
+

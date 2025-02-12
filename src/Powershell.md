@@ -24,22 +24,6 @@ Print the current PSReadLine key handlers `Get-PSReadLineKeyHandler`
 
 or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
-## Must-have tools for Powershell
-
-[zoxide](https://github.com/ajeetdsouza/zoxide) jumps straight to directories.
-
-[intelli-shell](https://github.com/lasantosr/intelli-shell) bookmark commands and includes [tldr](https://github.com/tldr-pages/tldr).
-
-[ripgrep](https://github.com/BurntSushi/ripgrep) - A fast file search tool.  
-
-[igrep](https://github.com/konradsz/igrep) - An alternate grep tool.
-
-[fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder.  
-
-[fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to find.  
-
-[bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings. Features colored output, syntax highlighting, grid view, and more.  
-
 ## VS Code options
 
 `code -w` - Wait for the files to be closed before returning.

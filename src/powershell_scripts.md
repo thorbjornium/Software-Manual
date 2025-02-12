@@ -30,6 +30,8 @@ Scoop install zoxide fzf fd bat ripgrep eza
 
 {{#endtabs }}
 
+Add  `Invoke-Expression (& { (zoxide init powershell | Out-String) })` to your Powershell profile
+
 Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep) and [eza](https://github.com/eza-community/eza).
 
 ## PSFzf  

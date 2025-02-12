@@ -1,4 +1,4 @@
-# <p style="text-align: center">Settings Shortcuts</p>
+# Settings Shortcuts
 
 | Press this key:     | To do this action:                                                        |
 | ------------------- | :-------------------------------------------------------------------------|

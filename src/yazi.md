@@ -19,6 +19,9 @@ desc = "Open PowerShell here"
 
 ![yazi](pics/yazi.jpg)  
 
+> [!TIP]  
+> For all keybindings, see the default keymap.toml file.
+
 ## Navigation  
 
 To navigate between files and directories you can use the arrow keys <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd> and <kbd>→</kbd> or Vim-like keys such as <kbd>h</kbd>, <kbd>j</kbd>, <kbd>k</kbd>, <kbd>l</kbd>:
