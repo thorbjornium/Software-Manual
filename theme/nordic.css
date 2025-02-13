@@ -11,7 +11,8 @@
 /* --> Snow Storm */
 --nord4: #D8DEE9;
 --nord5: #E5E9F0;
---nord6: #ECEFF4;
+--nord6: #d1d4db;
+--nord666: #b6bdc9;
 /* --> Frost */
 --nord7: #8FBCBB;
 --nord8: #88C0DD;
@@ -36,7 +37,7 @@
 
 /* Both variants should be consistent between them. */
 --bg: var(--nord0);
---fg: var(--nord4);
+--fg: var(--nord666);
 
 --sidebar-bg: var(--nord1);
 --sidebar-fg: var(--nord8);

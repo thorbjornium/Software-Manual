@@ -13,10 +13,10 @@
     - [IntelliShell](./intelli_shell.md)
     - [zoxide](./zoxide.md)
     - [fzf](./fzf.md)
+    - [ripgrep](./ripgrep.md)
     - [bat](./bat.md)
     - [yazi](./yazi.md)  
     - [fd](./fd.md)
-    - [ripgrep](./ripgrep.md)
     - [eza](./eza.md)  
     - [glow](./glow.md)
 
@@ -49,6 +49,10 @@
 
 - [Commands](./git.md)
 - [GitHub CLI](./github_cli.md)
+
+# RegEx
+
+- [Rust RegEx](rust_regex.md)
 
 # Browsers
 
