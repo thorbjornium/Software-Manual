@@ -1,6 +1,6 @@
 # Tools
 
-## .. that I find useful for Powershell.
+## .. that I find useful for Powershell
 
 - [IntelliShell](./intelli_shell.md)  
 Bookmarks commands and includes tldr pages.
@@ -11,6 +11,9 @@ Jump straight to directories.
 - [fzf](./fzf.md)  
 A command-line fuzzy finder.
 
+- [ripgrep](./ripgrep.md)  
+A fast file search tool.
+
 - [bat](./bat.md)  
 Like cat but better.
 
@@ -20,12 +23,8 @@ Tabbed file manager with preview supporting numerous file types.
 - [fd](./fd.md)  
 A simple, fast and user-friendly alternative to find.
 
-- [ripgrep](./ripgrep.md)  
-A fast file search tool.
-
 - [eza](./eza.md)  
 Like ls but better.
 
 - [glow](./glow.md)  
 A terminal-based Markdown viewer.
-
