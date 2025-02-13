@@ -318,7 +318,7 @@ Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the previe
 
 ## Google search
 
-Search Google from the command line. Type `goog` and a search term and hit <kbd>Enter</kbd>.
+Search Google from the command line. Type `gog` and a search term and hit <kbd>Enter</kbd>.
 Opens in your default browser.
 
 <details>  
@@ -333,7 +333,7 @@ Function search-google {
     Start-Process "$url"
 }
 
-Set-Alias goog search-google
+Set-Alias gog search-google
 ```
 
 </details>
