@@ -15,8 +15,8 @@ Some additional information about text selection in Windows Terminal:
 - **Copy on Select:** You can enable the `copyOnSelect` setting so that text is automatically copied to the clipboard when you select it. If this setting is enabled, right-clicking the terminal will paste the selected text.
 
 {
-  "key": "ctrl+m",
-  "command": "editor.action.toggleTabFocusMode"
+"key": "ctrl+m",
+"command": "editor.action.toggleTabFocusMode"
 }
 
 C:\Users\jense\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
@@ -73,7 +73,7 @@ You can customize `PSReadLine`'s behavior using the `Set-PSReadLineOption` cmdle
 Set-PSReadLineOption -HistorySavePath "C:\MyPowerShellHistory.txt"
 ```
 
-- **`MaximumHistoryCount`:** Specifies the maximum number of commands to store in the *session* history.
+- **`MaximumHistoryCount`:** Specifies the maximum number of commands to store in the _session_ history.
 
 ```powershell
 Set-PSReadLineOption -MaximumHistoryCount 4096

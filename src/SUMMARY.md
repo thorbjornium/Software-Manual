@@ -20,7 +20,7 @@
 # VS Code
 
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
-- [Customization](./vscode_customization.md)
+- [Settings](./vscode_settings.md)
 
 # Windows Terminal
 
@@ -60,10 +60,6 @@
 - [Firefox Shortcuts](./firefox_shortcuts.md)
 - [Chrome Shortcuts](./chrome_shortcuts.md)
 
-# Other
-
-- [FFMpeg](./ffmpeg.md)  
-
 # Tools
 
-- [Tools](./tools.md)
+- [FFMpeg](./ffmpeg.md)  
