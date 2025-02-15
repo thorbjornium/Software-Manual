@@ -1,12 +1,9 @@
 # Summary
 
-# Guides & settings
-
----
+[pre](./pre.md)
 
 # Powershell
 
-- [pre](./pre.md)
 - [Powershell 7](./Powershell.md)  
   - [Scripts](powershell_scripts.md)  
   - [Tools](powershell_tools.md)
@@ -24,6 +21,10 @@
 
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
 - [Customization](./vscode_customization.md)
+
+# Windows Terminal
+
+- [Settings](./windows_terminal_settings.md)
 
 # Windows
 
@@ -61,4 +62,8 @@
 
 # Other
 
-- [FFMpeg](./ffmpeg.md)
+- [FFMpeg](./ffmpeg.md)  
+
+# Tools
+
+- [Tools](./tools.md)

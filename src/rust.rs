@@ -1,4 +1,4 @@
-use std::fmt::Display;
+use std::fmt::Display;      
 
 fn do_things<T>(a: T, b: T) where
     T: IntoIterator,
@@ -8,6 +8,3 @@ fn do_things<T>(a: T, b: T) where
     }
 }
 
-fn main() {
-    do_things(&[1,2,3], &[4,5,6]);
-}

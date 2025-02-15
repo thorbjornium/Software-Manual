@@ -101,7 +101,7 @@ A script with options to view, delete or edit files with external tools.
 
 <details>
 
-<summary>Script</summary>
+<summary><u>Script</u></summary>
 
 ```Powershell
 $env:FZF_DEFAULT_OPTS = @"
@@ -201,7 +201,7 @@ $env:FZF_DEFAULT_OPTS = @"
     }
 ```  
 
-</details>
+</details>  
 
 There are two ways to get a file path.  
 
