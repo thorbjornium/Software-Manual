@@ -120,4 +120,3 @@ Documentation can be found <a href="https://git-scm.com/docs" target="_blank">he
 | git revert &lt;commit&gt;            | Creates a new commit that undoes the changes introduced by the specified commit.         |
 | git revert –no-commit &lt;commit&gt; | Undoes the changes introduced by the specified commit, but does not create a new commit. |
 | git rebase &lt;branch&gt;            | Reapplies commits on the current branch onto the tip of the specified branch.            |
-

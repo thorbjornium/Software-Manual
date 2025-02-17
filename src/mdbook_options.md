@@ -14,6 +14,8 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 
 {{#title New & improved}}  
 
+<br>
+
 ## Include other files  
 
 Include line 2-10 of the file rust.rs.
@@ -22,7 +24,9 @@ Include line 2-10 of the file rust.rs.
 \{{#include rust.rs:2:10}}
 ````
 
-```{{#include rust.rs:2:10}}```  
+```
+{{#include rust.rs:2:10}}
+```
 
 ## Rust Playground  
 
@@ -259,6 +263,7 @@ style Test fill:#dfdfdf,color:#23272e,stroke-opacity:0.2
           
 ```
 ````
+
 </details>
 
 <br>
