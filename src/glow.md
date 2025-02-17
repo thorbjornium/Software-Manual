@@ -32,3 +32,4 @@ prepend_previewers = [
   { name = "*.md", run = "glow" },
 ]
 ```
+

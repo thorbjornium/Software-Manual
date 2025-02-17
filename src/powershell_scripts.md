@@ -4,11 +4,11 @@
 
 <br>  
 
-Copy and Paste the scripts into your Powershell profile. To open your Powershell profile in VS Code type `code $Profile`.  
-Most scripts requires additional software. Install the following software if you do not have it already:
+Copy and Paste the scripts into your PowerShell profile. To open your PowerShell profile in VS Code type `code $Profile`.  
+Most scripts require additional software. Install the following software if you do not have it already:
 
-{{#tabs global="install" }}
-{{#tab name="Winget" }}
+{{#tabs global="install"}}
+{{#tab name="Winget"}}
 
 ```Powershell
 winget install ajeetdsouza.zoxide
@@ -20,20 +20,20 @@ winget install eza-community.eza
 winget install jftuga.less
 ```  
 
-{{#endtab }}
-{{#tab name="Scoop" }}
+{{#endtab}}
+{{#tab name="Scoop"}}
 
 ```Powershell
 Scoop install zoxide fzf fd bat ripgrep eza less
 ```  
 
-{{#endtab }}
+{{#endtab}}
 
-{{#endtabs }}
+{{#endtabs}}
 
 You will need to install the [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) package as well.
 
-Add  `Invoke-Expression (& { (zoxide init powershell | Out-String) })` to your Powershell profile
+Add `Invoke-Expression (& { (zoxide init powershell | Out-String) })` to your PowerShell profile
 
 Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep), [eza](https://github.com/eza-community/eza) and [less](https://www.greenwoodsoftware.com/less/faq.html).
 
@@ -41,25 +41,25 @@ Detailed information can be found by clicking [zoxide](https://github.com/ajeetd
 
 PSFzf installs from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
 
-{{#tabs global="install" }}
-{{#tab name="Winget" }}
+{{#tabs global="install"}}
+{{#tab name="Winget"}}
 
 ```Powershell
 Install-Module -Name PSFzf
 ```
 
-{{#endtab }}
-{{#tab name="Scoop" }}
+{{#endtab}}
+{{#tab name="Scoop"}}
 
 ```Powershell
 Scoop install PSFzf
 ```  
 
-{{#endtab }}
+{{#endtab}}
 
-{{#endtabs }}
+{{#endtabs}}
 
-Paste the following into your Powershell profile:  
+Paste the following into your PowerShell profile:  
 
 ```Powershell
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'  
@@ -241,7 +241,7 @@ Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list. Press <kbd>Shift</k
 
 Open files or folders with bat, cat, cd, echo or VS Code. Delete with 'remove'.  
 
-> [!Note]
+> [!NOTE]
 > The script sets two keybindings via PSReadLineKeyHandler.  
 
 ## Find fz
@@ -372,23 +372,23 @@ function e {
 
 Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp).
 
-{{#tabs global="install" }}
-{{#tab name="Winget" }}
+{{#tabs global="install"}}
+{{#tab name="Winget"}}
 
 ```Powershell
 winget install yt-dlp
 ```
 
-{{#endtab }}
-{{#tab name="Scoop" }}
+{{#endtab}}
+{{#tab name="Scoop"}}
 
 ```Powershell
 Scoop install yt-dlp
 ```  
 
-{{#endtab }}
+{{#endtab}}
 
-{{#endtabs }}
+{{#endtabs}}
 
 Type `ytm` and a link and hit <kbd>Enter</kbd>.  
 

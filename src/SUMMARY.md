@@ -2,9 +2,9 @@
 
 [pre](./pre.md)
 
-# Powershell
+# PowerShell
 
-- [Powershell 7](./Powershell.md)  
+- [PowerShell 7](./Powershell.md)  
   - [Scripts](powershell_scripts.md)  
   - [Tools](powershell_tools.md)
     - [IntelliShell](./intelli_shell.md)
@@ -17,14 +17,19 @@
     - [eza](./eza.md)  
     - [glow](./glow.md)
 
+# Windows Terminal
+
+- [Default Keyboard Shortcuts](./windows_terminal_default_keyboard_shortcuts.md)
+- [Settings](./windows_terminal_settings.md)
+
+# PSReadline
+
+- [Settings](./ps_readline_settings.md)
+
 # VS Code
 
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
 - [Settings](./vscode_settings.md)
-
-# Windows Terminal
-
-- [Settings](./windows_terminal_settings.md)
 
 # Windows
 

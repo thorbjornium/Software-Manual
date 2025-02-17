@@ -2,7 +2,7 @@
 
 | Press this key:                                    | To do this action:                                                                                                                                                |
 | -------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Alt + Shift + Arrow                                | When an app icon is in focus, move it's position in the direction of the arrow.                                                                                   |
+| Alt + Shift + Arrow                                | When an app icon is in focus, move its position in the direction of the arrow.                                                                                   |
 | Ctrl + select a grouped app icon on the taskbar    | When multiple windows for the same app are grouped on the taskbar, press Ctrl as you select the taskbar icon to shift focus through the windows in the app group. |
 | Ctrl + Shift + select an app icon on the taskbar   | Open the app as an administrator.                                                                                                                                 |
 | Shift + right-click an app icon on the taskbar     | Show the window menu for the app.                                                                                                                                 |
