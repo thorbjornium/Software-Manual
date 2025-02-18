@@ -165,14 +165,14 @@ Many mpv settings are best configured in the `mpv.conf` file (location varies by
 ## Command-Line Examples (Windows)
 
 ```powershell
-* `mpv file.mp4` - Play a file.
-* `mpv --loop file.mp4` - Play a file in a loop.
-* `mpv --start=1:30 file.mp4` - Start playback at 1 minute 30 seconds.
-* `mpv --playlist=movies.txt` - Play a playlist.  Ensure the playlist file uses Windows-style line endings (CRLF).
-* `mpv --volume=80 file.mp4` - Set the volume to 80%.
-* `mpv --speed=2.0 file.mp4` - Play at 2x speed.
-* `mpv --no-audio file.mp4` - Play without audio.
-* `mpv --no-video file.mp4` - Play without video (audio only).
-* `mpv --geometry=50%+50% file.mp4` - Position the window at 50% horizontal and vertical.
-* `mpv "C:\My Videos\movie with spaces.mp4"` - Play a file with spaces in the filename.
+mpv file.mp4 - Play a file.
+mpv --loop file.mp4 - Play a file in a loop.
+mpv --start=1:30 file.mp4 - Start playback at 1 minute 30 seconds.
+mpv --playlist=movies.txt - Play a playlist.  Ensure the playlist file uses Windows-style line endings (CRLF).
+mpv --volume=80 file.mp4 - Set the volume to 80%.
+mpv --speed=2.0 file.mp4 - Play at 2x speed.
+mpv --no-audio file.mp4 - Play without audio.
+mpv --no-video file.mp4 - Play without video (audio only).
+mpv --geometry=50%+50% file.mp4 - Position the window at 50% horizontal and vertical.
+mpv "C:\My Videos\movie with spaces.mp4" - Play a file with spaces in the filename.
 ```
