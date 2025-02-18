@@ -125,3 +125,16 @@ The most far left sidebar is the activity bar.
 ### Search in selection
 
 Paste "editor.find.autoFindInSelection" in search settings and choose 'multiline' to enable to search selection.
+
+### Customize Theme
+
+```json
+  "workbench.colorCustomizations": {
+    // "tab.activeBackground": "#92a2c3",
+    "tab.activeBorderTop": "#bebe48",
+    // "statusBar.border": "#82ccd3",
+    "statusBar.foreground":"#82ccd3",
+    "statusBarItem.remoteBackground": "#82ccd3",
+    "statusBarItem.remoteForeground":"#000",
+  },
+```

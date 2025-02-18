@@ -9,6 +9,3 @@ where
         println!("{} {}", e, f);
     }
 }
-
-fn main() {
-    let 
