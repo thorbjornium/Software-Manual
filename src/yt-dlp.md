@@ -37,7 +37,7 @@ yt-dlp "URL_OF_THE_VIDEO"
 Replace `"URL_OF_THE_VIDEO"` with the actual URL of the YouTube video or other supported video site. For example:
 
 ```powershell
-yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 If you added yt-dlp to your PATH, you can run this command from any directory. Otherwise, you'll need to navigate to the directory where you saved `yt-dlp.exe` first.
@@ -74,14 +74,14 @@ yt-dlp has many options to customize the download process. Here are some of the 
 ### Downloading the Best Available Video and Audio
 
 ```powershell
-# yt-dlp "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 ### Listing Available Formats
 
 ```powershell
 
-yt-dlp -F "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp -F https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ```
 
@@ -91,7 +91,7 @@ First, list the formats to find the video and audio format codes. Then
 
 ```powershell
 
-yt-dlp -f 137+140 --merge-output-format mp4 "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp -f 137+140 --merge-output-format mp4 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ```
 
@@ -101,7 +101,7 @@ This downloads format `137` (1080p video) and `140` (high-quality audio) and mer
 
 ```powershell
 
-yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ```
 
@@ -111,7 +111,7 @@ This extracts the audio as an MP3 file with the best available quality
 
 ```powershell
 
-yt-dlp --write-sub --sub-lang en "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp --write-sub --sub-lang en https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ```
 
@@ -121,7 +121,7 @@ This downloads English subtitles (if available)
 
 ```powershell
 
-yt-dlp -o "%(title)s-%(id)s.%(ext)s" -P "C:\Downloads" "<https://www.youtube.com/watch?v=dQw4w9WgXcQ>"
+yt-dlp -o "%(title)s-%(id)s.%(ext)s" -P "C:\Downloads" https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ```
 
@@ -170,7 +170,7 @@ yt-dlp can also be configured using a configuration file
 
 # Use a proxy (replace with your proxy address)
 
- --proxy "<http://127.0.0.1:8080>"
+ --proxy "http://127.0.0.1:8080"
 ```
 
 - Uncomment the `--proxy` line and replace the address with your proxy server if needed
