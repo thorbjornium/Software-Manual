@@ -42,7 +42,7 @@ yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 If you added yt-dlp to your PATH, you can run this command from any directory. Otherwise, you'll need to navigate to the directory where you saved `yt-dlp.exe` first.
 
-3 .Progress and Output: yt-dlp will display progress information in the console window as it downloads the video. The downloaded video file will be saved in the current directory by default.
+3. Progress and Output: yt-dlp will display progress information in the console window as it downloads the video. The downloaded video file will be saved in the current directory by default.
 
 ## Common Options
 
@@ -131,7 +131,7 @@ This saves the video to `C:\Downloads` with a filename like `Video Title-dQw4w9W
 
 yt-dlp can also be configured using a configuration file
 
-1.Location: The `yt-dlp.conf` file should be placed in one of the following locations (yt-dlp will search in this order)
+1. Location: The `yt-dlp.conf` file should be placed in one of the following locations (yt-dlp will search in this order)
 
 - The current working directory
 
@@ -141,9 +141,9 @@ yt-dlp can also be configured using a configuration file
 
 - `~/.config/yt-dlp` (This is more relevant for Linux/macOS but might work in a Cygwin/MSYS2 environment)
 
-2.Creating the File: Create a new text file named `yt-dlp.conf` in one of the above directories
+2. Creating the File: Create a new text file named `yt-dlp.conf` in one of the above directories
 
-3.Example Configuration:
+3. Example Configuration:
 
 ```txt
 # Always extract audio as mp3
@@ -170,12 +170,12 @@ yt-dlp can also be configured using a configuration file
 
 # Use a proxy (replace with your proxy address)
 
- --proxy "http://127.0.0.1:8080"
+--proxy "http://127.0.0.1:8080"
 ```
 
 - Uncomment the `--proxy` line and replace the address with your proxy server if needed
 
-  4.Using the Configuration File: yt-dlp will automatically load the configuration file when it runs. You can still override options from the command line
+4. Using the Configuration File: yt-dlp will automatically load the configuration file when it runs. You can still override options from the command line
 
 ## Updating yt-dlp
 
