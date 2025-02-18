@@ -1,5 +1,7 @@
 # Default Keyboard Shortcuts
 
+To view all commands press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>
+
 ## Application-level Keys
 
 <kbd>Alt</kbd> + <kbd>F4</kbd> Terminal.CloseWindow  

@@ -3,10 +3,7 @@
 <!-- toc -->
 
 Open settings: <kbd>Ctrl</kbd> + <kbd>,</kbd>
-
-To open command palette press: <kbd>Ctrl</kbd> + <kbd>,</kbd>
-All default keyboard shortcuts can be found in this menu. Some are not bound.
-Click on the JSON file in the lower left corner to edit bound and unbound shortcuts. To view all default
+Click on the JSON file in the lower left corner to manually edit bound and unbound shortcuts. To view all default
 settings <kbd>Alt</kbd> + click the JSON file.
 
 ## Terminal Icons

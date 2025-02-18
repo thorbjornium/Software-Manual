@@ -16,6 +16,7 @@
     - [fd](./fd.md)
     - [eza](./eza.md)  
     - [glow](./glow.md)
+  - [Links and junctions](./powershell_links_and_junctions.md)
 
 # Windows Terminal
 
