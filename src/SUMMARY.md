@@ -16,6 +16,7 @@
     - [fd](./fd.md)
     - [eza](./eza.md)  
     - [glow](./glow.md)
+    - [FFMpeg](./ffmpeg.md)  
   - [Links and junctions](./powershell_links_and_junctions.md)
 
 # Windows Terminal
@@ -66,6 +67,6 @@
 - [Firefox Shortcuts](./firefox_shortcuts.md)
 - [Chrome Shortcuts](./chrome_shortcuts.md)
 
-# Tools
+# Miscellaneous
 
-- [FFMpeg](./ffmpeg.md)  
+- [mpv](./mpv.md)
