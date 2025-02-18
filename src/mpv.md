@@ -1,5 +1,7 @@
 # mpv User Guide (Windows) - Basic
 
+<!-- toc -->
+
 ## Introduction
 
 mpv is a free and open-source media player known for its flexibility, minimal GUI, and powerful command-line options. This guide covers basic usage on Windows. mpv relies heavily on keyboard shortcuts and configuration files for customization.
