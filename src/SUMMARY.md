@@ -16,7 +16,6 @@
     - [fd](./fd.md)
     - [eza](./eza.md)  
     - [glow](./glow.md)
-    - [FFMpeg](./ffmpeg.md)  
   - [Links and junctions](./powershell_links_and_junctions.md)
 
 # Windows Terminal
@@ -70,3 +69,5 @@
 # Miscellaneous
 
 - [mpv](./mpv.md)
+- [FFMpeg](./ffmpeg.md)  
+- [yt-dlp](./yt-dlp.md)
