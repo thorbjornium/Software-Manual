@@ -98,7 +98,8 @@
 | Go to Previous Error or Warning | Shift+F8           |  
 | Show All Commands               | Ctrl+Shift+P or F1 |  
 | Navigate Editor Group History   | Ctrl+Tab           |  
-| Go Back                         | Alt+Left           |  
+| Go Back to last cursor position | Alt+Left           |  
+| Go back to last Edit position   | Ctrl+K Ctrl+Q      |  
 | Go back in Quick Input          | Alt+Left           |  
 | Go Forward                      | Alt+Right          |  
 | Focus Breadcrumbs               | Ctrl+Shift+;       |  
