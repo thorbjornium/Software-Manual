@@ -30,17 +30,17 @@ yt-dlp is a command-line program to download videos from YouTube and other video
 
 2. Run yt-dlp: Type the following command and press Enter:
 
-```powershell
-yt-dlp "URL_OF_THE_VIDEO"
-```
+    ```powershell
+    yt-dlp "URL_OF_THE_VIDEO"
+    ```
 
-Replace `"URL_OF_THE_VIDEO"` with the actual URL of the YouTube video or other supported video site. For example:
+    Replace `"URL_OF_THE_VIDEO"` with the actual URL of the YouTube video or other supported video site. For example:
 
-```powershell
-yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
-```
+    ```powershell
+    yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    ```
 
-If you added yt-dlp to your PATH, you can run this command from any directory. Otherwise, you'll need to navigate to the directory where you saved `yt-dlp.exe` first.
+    If you added yt-dlp to your PATH, you can run this command from any directory. Otherwise, you'll need to navigate to the directory where you saved `yt-dlp.exe` first.
 
 3. Progress and Output: yt-dlp will display progress information in the console window as it downloads the video. The downloaded video file will be saved in the current directory by default.
 
