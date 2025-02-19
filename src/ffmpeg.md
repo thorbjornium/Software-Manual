@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-## An example with an explanation of switches
+## Example with an explanation of switches
 
 ```powershell
 ffmpeg -y -i Input_File.mkv -strict experimental -loglevel error -stats -map 0:v? -map 0:a? -dn -map_chapters -1 -movflags +faststart -c:v copy -c:a copy -strict -2 Output_File.mp4

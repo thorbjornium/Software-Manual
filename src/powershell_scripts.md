@@ -370,7 +370,7 @@ function e {
 
 ## yt-dlp
 
-Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp).
+Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp). A short user guide is available [here](./yt-dlp.md).
 
 {{#tabs global="install"}}
 {{#tab name="Winget"}}
@@ -390,7 +390,7 @@ Scoop install yt-dlp
 
 {{#endtabs}}
 
-Type `ytm` and a link and hit <kbd>Enter</kbd>.  
+Type `ytm` and a link and press <kbd>Enter</kbd>.  
 
 > [!NOTE]
 > This script recodes the video to mp4/mkv.

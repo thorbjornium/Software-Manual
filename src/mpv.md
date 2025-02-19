@@ -8,7 +8,7 @@ mpv is a free and open-source media player known for its flexibility, minimal GU
 
 ## Installation
 
-1. Download a Windows build of mpv from a reliable source. A common source is [https://sourceforge.net/projects/mpv-player-windows/](https://sourceforge.net/projects/mpv-player-windows/) or [https://github.com/shinchiro/mpv-winbuild/releases](https://github.com/shinchiro/mpv-winbuild/releases).
+1. Downloads can be found [here](https://mpv.io/installation/) and scripts [here](https://github.com/mpv-player/mpv/wiki/User-Scripts)
 
 2. Extract the downloaded archive to a folder of your choice (e.g., `C:\mpv`).
 
@@ -40,14 +40,14 @@ mpv is a free and open-source media player known for its flexibility, minimal GU
 
 These are the most common and essential shortcuts
 
-| Key(s)          | Action                                |
-| --------------- | ------------------------------------- |
+| Key(s)        | Action                                |
+| ------------- | ------------------------------------- |
 | Spacebar      | Pause/Play                            |
 | Left Arrow    | Seek backward 5 seconds               |
 | Right Arrow   | Seek forward 5 seconds                |
 | Up Arrow      | Volume up                             |
 | Down Arrow    | Volume down                           |
-| q or Esc    | Quit mpv                              |
+| q or Esc      | Quit mpv                              |
 | f             | Toggle fullscreen                     |
 | m             | Mute/Unmute                           |
 | > (Shift + .) | Next frame                            |
@@ -62,9 +62,9 @@ These are the most common and essential shortcuts
 | [             | Decrease playback speed               |
 | ]             | Increase playback speed               |
 | \             | Reset playback speed to normal (1.0x) |
-| Ctrl + +    | Zoom in                               |
-| Ctrl + -    | Zoom out                              |
-| Ctrl + 0    | Reset zoom                            |
+| Ctrl + +      | Zoom in                               |
+| Ctrl + -      | Zoom out                              |
+| Ctrl + 0      | Reset zoom                            |
 
 ## On-Screen Display (OSD)
 
@@ -126,16 +126,16 @@ mpv --fullscreen --volume=80 "path\to\your\video.mp4"
 
 ```
 
-| Option                | Description                                                |
-| --------------------- | ---------------------------------------------------------- |
-| --fullscreen        | Start in fullscreen mode.                                  |
-| --volume=\<value>    | Set the initial volume (0-100).                            |
-| --loop              | Loop the video indefinitely.                               |
+| Option               | Description                                              |
+| -------------------- | -------------------------------------------------------- |
+| --fullscreen         | Start in fullscreen mode.                                |
+| --volume=\<value>    | Set the initial volume (0-100).                          |
+| --loop               | Loop the video indefinitely.                             |
 | --start=\<time>      | Start playback at a specific time (e.g., --start=01:30). |
-| --no-border         | Remove window borders.                                     |
-| --title=\<title>     | Set the window title.                                      |
-| --audio-file=\<file> | Play an external audio file.                               |
-| --sub-file=\<file>   | Load an external subtitle file.                            |
+| --no-border          | Remove window borders.                                   |
+| --title=\<title>     | Set the window title.                                    |
+| --audio-file=\<file> | Play an external audio file.                             |
+| --sub-file=\<file>   | Load an external subtitle file.                          |
 
 ### Advanced Usage
 

@@ -32,6 +32,10 @@
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
 - [Settings](./vscode_settings.md)
 
+# Hyper-V
+
+- [Keyboard Shortcuts](./hyper_v_shortcuts.md)
+
 # Windows
 
 - [Essential Shortcuts](./essential_shortcuts.md)  
