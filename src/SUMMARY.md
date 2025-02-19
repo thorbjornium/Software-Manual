@@ -26,6 +26,7 @@
 # PSReadline
 
 - [Settings](./ps_readline_settings.md)
+- [Keyboard Shortcuts](./ps_readline_shortcuts.md)
 
 # VS Code
 

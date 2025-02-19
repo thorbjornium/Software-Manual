@@ -39,7 +39,3 @@
 - **Tab**: Move focus to the next item in the interface.
 - **Shift + Tab**: Move focus to the previous item in the interface.
 - **Arrow Keys**: Navigate through the list of virtual machines and settings.
-
-## Help and Support
-
-- **F1**: Open the Help documentation for Hyper-V.
