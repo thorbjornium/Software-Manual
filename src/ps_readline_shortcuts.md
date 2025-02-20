@@ -248,6 +248,7 @@
 | Alt+c         | Fzf Set Location           | Run fzf to select directory to set current location |
 | Ctrl+b        | IntelliShell Bookmark      | Bookmark current command                            |
 | Ctrl+Spacebar | IntelliShell Search        | Search for a bookmarked command                     |
+|Ctrl+h         |IntelliShell Label          |Trigger label replace for current command            |
 
 ## To learn
 
