@@ -241,13 +241,13 @@
 | Key           | Function                   | Description                                         |
 | :------------ | :------------------------- | :-------------------------------------------------- |
 | Tab           | CustomAction               | User defined action                                 |
-| Ctrl+q        | CustomAction               | User defined action                                 |
-| Ctrl+f        | CustomAction               | User defined action                                 |
+| Ctrl+q        | CustomAction               | fzf gets path using fd                                 |
+| Ctrl+f        | CustomAction               | fzf gets path using rg                                 |
 | Ctrl+t        | Fzf Provider Select        | Run fzf for current provider based on current token |
 | Ctrl+r        | Fzf Reverse History Select | Run fzf to search through PSReadline history        |
 | Alt+c         | Fzf Set Location           | Run fzf to select directory to set current location |
-| Ctrl+b        | IntelliShell Bookmark      | Bookmarks current command                           |
-| Ctrl+Spacebar | IntelliShell Search        | Searches for a bookmarked command                   |
+| Ctrl+b        | IntelliShell Bookmark      | Bookmark current command                            |
+| Ctrl+Spacebar | IntelliShell Search        | Search for a bookmarked command                     |
 
 ## To learn
 
