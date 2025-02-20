@@ -71,6 +71,10 @@
 - [Firefox Shortcuts](./firefox_shortcuts.md)
 - [Chrome Shortcuts](./chrome_shortcuts.md)
 
+# Ubuntu Linux
+
+- [Keyboard Shortcuts](./ubuntu_keyboard_shortcuts.md)
+
 # Miscellaneous
 
 - [mpv](./mpv.md)
