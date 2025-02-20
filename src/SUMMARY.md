@@ -73,7 +73,7 @@
 
 # Ubuntu Linux
 
-- [Keyboard Shortcuts](./ubuntu_keyboard_shortcuts.md)
+- [Common Commands](./ubuntu_common_commands.md)
 
 # Miscellaneous
 
