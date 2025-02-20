@@ -253,25 +253,14 @@
 
 | Key           | Function                | Description                                                                                                                        |
 | :------------ | :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| F3            | CharacterSearch         | Read a character and move the cursor to the next occurrence of that character                                                      |
-| Shift+F3      | CharacterSearchBackward | Read a character and move the cursor to the previous occurrence of that character                                                  |
 | Alt+a         | SelectCommandArgument   | Make visual selection of the command arguments.                                                                                    |
 | Alt+?         | WhatIsKey               | Show the key binding for the next chord entered                                                                                    |
 | Ctrl+Alt+?    | ShowKeyBindings         | Show all key bindings                                                                                                              |
 | Alt+h         | ShowParameterHelp       | Shows help for the parameter at the cursor.                                                                                        |
-| Alt+0 ..9     | DigitArgument           | Start or accumulate a numeric argument to other functions                                                                          |
+| Alt+0..9     | DigitArgument           | Start or accumulate a numeric argument to other functions                                                                          |
 | Alt+-         | DigitArgument           | Start or accumulate a numeric argument to other functions                                                                          |
 | Ctrl+l        | ClearScreen             | Clear the screen and redraw the current line at the top of the screen                                                              |
 | Shift+Tab     | TabCompletePrevious     | Complete the input using the previous completion                                                                                   |
-| Ctrl+@        | MenuComplete            | Complete the input if there is a single completion, otherwise complete the input by selecting from a menu of possible completions. |
-| F8            | HistorySearchBackward   | Search for the previous item in the history that starts with the current input - like PreviousHistory if the input is empty        |
-| Shift+F8      | HistorySearchForward    | Search for the next item in the history that starts with the current input - like NextHistory if the input is empty                |
-| Ctrl+s        | ForwardSearchHistory    | Search history forward interactively                                                                                               |
 | Alt+F7        | ClearHistory            | Remove all items from the command line history (not PowerShell history)                                                            |
 | Ctrl+]        | GotoBrace               | Go to matching brace                                                                                                               |
-| Alt+.         | YankLastArg             | Copy the text of the last argument to the input                                                                                    |
-| Alt+d         | KillWord                | Move the text from the cursor to the end of the current or next word to the kill ring                                              |
-| Ctrl+h        | BackwardDeleteChar      | Delete the character before the cursor                                                                                             |
 | Ctrl+w        | BackwardKillWord        | Move the text from the start of the current or previous word to the cursor to the kill ring                                        |
-| Ctrl+Home     | BackwardDeleteInput     | Delete text from the cursor to the start of the input                                                                              |
-| Ctrl+End      | ForwardDeleteInput      | Delete text from the cursor to the end of the input                                                                                |
