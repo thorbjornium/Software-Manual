@@ -4,7 +4,7 @@
 
 Use it to discover markdown files, read documentation directly on the command line. Glow will find local markdown files in subdirectories or a local Git repository.
 
-![Glow](.\pics\glow.jpg)
+![Glow](./pics/glow.jpg)
 
 More info at [glow](https://github.com/charmbracelet/glow)
 
@@ -32,4 +32,3 @@ prepend_previewers = [
   { name = "*.md", run = "glow" },
 ]
 ```
-
