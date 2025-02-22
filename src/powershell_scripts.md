@@ -327,7 +327,7 @@ Opens in your default browser.
 
 ```Powershell
 Function search-google {
-    $query = 'https://www.google.com/search?q='
+    $query = 'https://www.google.com/search?q=%22%s%22'
     $args | ForEach-Object { $query = $query + "$_+" }
     $url = $query.Substring(0, $query.Length - 1)
     Start-Process "$url"
