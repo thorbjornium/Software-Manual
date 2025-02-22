@@ -407,3 +407,4 @@ If you miss some older key bindings, look at <tt class="docutils literal"><span 
   - Seek forward/backward 10 seconds.
 - Ctrl+Wheel up/down
   - Change video zoom.
+  
