@@ -1,12 +1,14 @@
 # Google Search Operators
 
+<!-- toc -->
+
 ## Working
 
 | Search operator | What it does | Example |
 | --- | --- | --- |
 | `“ ”` | Search for results that mention a word or phrase. | [“steve jobs”](https://www.google.com/search?q=%22steve+jobs%22) |
 | `OR` | Search for results related to X or Y. | [jobs OR gates](https://www.google.com/search?&amp;q=jobs+OR+gates) |
-| `|` | Same as `OR:` | [jobs | gates](<https://www.google.com/search?q=jobs%7Cgates>) |
+| `\|` | Same as `OR:` | [jobs \| gates](<https://www.google.com/search?q=jobs%7Cgates>) |
 | `AND` | Search for results related to X and Y. | [jobs AND gates](https://www.google.com/search?&amp;q=jobs+AND+gates) |
 | `-` | Search for results that don’t mention a word or phrase. | [jobs -apple](https://www.google.com/search?q=jobs+-apple) |
 | `*` | Wildcard matching any word or phrase. | [steve * apple](https://www.google.com/search?q=%22steve+*+apple%22) |
