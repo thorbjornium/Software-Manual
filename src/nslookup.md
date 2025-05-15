@@ -79,3 +79,5 @@ Common Record Types to Query with -type=:
 - TXT:    Text record (often used for verification or SPF records)
 
 Note:  `nslookup` is being replaced by `dig` and `host` utilities in many environments as they offer more features and are considered more modern. However, `nslookup` is still widely available and useful for basic DNS queries.
+
+sfaskldfjlkdakls
