@@ -1,1 +1,1 @@
-mdBook site source. Site found at https://grejor.netlify.app/  
+Site source code. Site found at https://grejor.netlify.app/  
