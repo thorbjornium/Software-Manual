@@ -101,7 +101,7 @@ Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify). Embed video
 
 ## Alerts
 
-Modified and translated version of mdBook-alerts. English and Swedish. See options: [https://github.com/horbjorn/rs-mdbook-alerts](https://github.com/horbjorn/rs-mdbook-alerts)
+Modified and translated version of mdBook-alerts. English and Swedish. See options: [https://github.com/thorbjornium/rs-mdbook-alerts](https://github.com/thorbjornium/rs-mdbook-alerts)
 
 > [!NOTERA]  
 > Detta är den svenska versionen.  

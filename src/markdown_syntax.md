@@ -84,7 +84,7 @@ That is so funny! :joy:
 
 Might need som additional software to work. [mdbook-emojicodes](https://github.com/blyxyas/mdbook-emojicodes) works for mdBook.
 
-[Here's](https://gist.github.com/horbjorn/cb36d5e32b7b1310f567595acc1da615) a list of emojis.  
+[Here's](https://gist.github.com/thorbjornium/cb36d5e32b7b1310f567595acc1da615) a list of emojis.  
 
 ## Highlight
 

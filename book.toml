@@ -1,5 +1,5 @@
 [book]
-authors = ["horbjorn"]
+authors = ["Thorbjornium"]
 language = "en"
 multilingual = false
 src = "src"
@@ -48,8 +48,8 @@ additional-css = [
 additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js"]
 default-theme = "sun"
 preferred-dark-theme = "nordic"
-git-repository-url = "https://github.com/horbjorn/Software_Manual_release"
-edit-url-template = "https://github.com/horbjorn/Software-Manual/blob/main/{path}"
+git-repository-url = "https://github.com/thorbjornium/Software_Manual_release"
+edit-url-template = "https://github.com/thorbjornium/Software-Manual/blob/main/{path}"
 
 
 [output.html.print]
