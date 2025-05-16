@@ -393,7 +393,7 @@ Scoop install yt-dlp
 Type `ytm` and a link and press <kbd>Enter</kbd>.  
 
 > [!NOTE]
-> This script recodes the video to mp4/mkv.
+> This script recodes a video to mp4/mkv.
 
 <details>
 
