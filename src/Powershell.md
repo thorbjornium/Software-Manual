@@ -24,22 +24,6 @@ Print the current PSReadLine key handlers `Get-PSReadLineKeyHandler`
 
 or press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>?</kbd>  
 
-## VS Code options
-
-`code -w` - Wait for the files to be closed before returning.
-
-`code -n` - Force to open a new window.  
-
-`code .` - Opens a new empty window.
-
-`code -r` - Reuse window. Force to open in an already opened window.  
-
-`code -a` - Add folder(s) to the last active window.  
-
-`code -g --goto <file:line[:character]>` - Open a file at a specific line number.  
-
-`Get-ChildItem | code -` - Opens the output of the command in VS Code.  
-
 ## Misc
 
 Find the file location of the Powershell history file. Edit and remove inaccurate predictions.  

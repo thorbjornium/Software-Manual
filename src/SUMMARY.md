@@ -32,6 +32,7 @@
 
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
 - [Settings](./vscode_settings.md)
+- [Commandline Options](./vscode_commandline_options.md)
 
 # Hyper-V
 
