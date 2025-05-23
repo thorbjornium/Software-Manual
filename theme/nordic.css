@@ -34,6 +34,7 @@
 --nord20:#c6e5f0;
 --nord21:#9fa1b8;
 --nord22:#6e738d;
+--nord23:#2e3544;
 
 /* Both variants should be consistent between them. */
 --bg: var(--nord0);
@@ -139,7 +140,7 @@
 .nordic .hljs {
   color: #E5E9F0;
   /* background: #2E3440 */
-  background: var(--nord1);
+  background: var(--nord23);
 }
 
 
