@@ -1,6 +1,6 @@
 # NsLookup
 
-Basic Usage:
+**Basic Usage:**
 
 1. Find the IP address of a domain name (forward lookup):
     nslookup google.com
@@ -17,7 +17,7 @@ Basic Usage:
     - Server used for the query
     - Reverse lookup results, if available (e.g., google-public-dns-a.google.com)
 
-Specifying Query Type:
+**Specifying Query Type:**
 
 3. Query for a specific record type (e.g., MX records for mail servers):
     nslookup -type=mx google.com
@@ -37,7 +37,7 @@ Specifying Query Type:
     Output will show:
     - SOA record for google.com, containing administrative information about the domain
 
-Specifying DNS Server:
+**Specifying DNS Server:**
 
 6. Use a specific DNS server (e.g., Google Public DNS 8.8.8.8) for the query:
     nslookup google.com 8.8.8.8
@@ -49,7 +49,7 @@ Specifying DNS Server:
 
     Output will show MX records for google.com, queried from 8.8.8.8
 
-Interactive Mode:
+**Interactive Mode:**
 
 8. Enter interactive mode:
     nslookup
@@ -68,7 +68,7 @@ Interactive Mode:
     - `microsoft.com` performs lookup for microsoft.com using 8.8.8.8
     - `exit` quits interactive mode
 
-Common Record Types to Query with -type=:
+**Common Record Types to Query with -type=:**
 
 - A:      Address record (IPv4 address)
 - AAAA:   IPv6 address record

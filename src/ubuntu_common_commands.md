@@ -1,5 +1,7 @@
 # List of Common Ubuntu Commands
 
+<!-- toc -->
+
 ## File and Directory Management
 
 - `ls` - List directory contents
