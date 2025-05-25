@@ -2,6 +2,8 @@
 
 ## Description
 
+<!-- toc -->
+
 ### **1. Physical Layer (Layer 1): The Foundation of Transmission**
 
 * **Core Function:** The Physical Layer is the most fundamental layer, responsible for the actual transmission of raw, unstructured bit streams over a physical medium. It's the tangible connection between devices.
