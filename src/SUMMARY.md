@@ -9,7 +9,7 @@
 
 # Cisco
 
-- [Cisco Router & Switch basic config](./cisco.md)
+- [Router & Switch basic config](./cisco.md)
 
 # Git
 
