@@ -2,6 +2,30 @@
 
 [pre](./pre.md)
 
+# Browsers
+
+- [Firefox Shortcuts](./firefox_shortcuts.md)
+- [Chrome Shortcuts](./chrome_shortcuts.md)
+
+# Cisco
+
+- [Cisco Router & Switch basic config](./cisco.md)
+
+# Git
+
+- [Commands](./git.md)
+- [GitHub CLI](./github_cli.md)
+
+# Hyper-V
+
+- [Keyboard Shortcuts](./hyper_v_shortcuts.md)
+
+# Markdown
+
+- [Syntax](./markdown_syntax.md)
+  - [Inline HTML](./inline_html.md)  
+- [mdBook Options](./mdbook_options.md)
+
 # PowerShell
 
 - [PowerShell 7](./Powershell.md)  
@@ -18,25 +42,20 @@
     - [glow](./glow.md)
   - [Links and junctions](./powershell_links_and_junctions.md)
 
-# Windows Terminal
-
-- [Default Keyboard Shortcuts](./windows_terminal_default_keyboard_shortcuts.md)
-- [Settings](./windows_terminal_settings.md)
-
 # PSReadline
 
 - [Settings](./ps_readline_settings.md)
 - [Keyboard Shortcuts](./ps_readline_shortcuts.md)
+
+# RegEx
+
+- [Rust RegEx](rust_regex.md)
 
 # VS Code
 
 - [Keyboard Shortcuts](./vscode_shortcuts.md)
 - [Settings](./vscode_settings.md)
 - [Commandline Options](./vscode_commandline_options.md)
-
-# Hyper-V
-
-- [Keyboard Shortcuts](./hyper_v_shortcuts.md)
 
 # Windows
 
@@ -52,25 +71,10 @@
 - [Dialog Box Shortcuts](./dialog_box_shortcuts.md)
 - [Alt Codes & Symbols](./alt_codes_and_symbols.md)
 
-# Markdown
+# Windows Terminal
 
-- [Syntax](./markdown_syntax.md)
-  - [Inline HTML](./inline_html.md)  
-- [mdBook Options](./mdbook_options.md)
-
-# Git
-
-- [Commands](./git.md)
-- [GitHub CLI](./github_cli.md)
-
-# RegEx
-
-- [Rust RegEx](rust_regex.md)
-
-# Browsers
-
-- [Firefox Shortcuts](./firefox_shortcuts.md)
-- [Chrome Shortcuts](./chrome_shortcuts.md)
+- [Default Keyboard Shortcuts](./windows_terminal_default_keyboard_shortcuts.md)
+- [Settings](./windows_terminal_settings.md)
 
 # Ubuntu Linux
 
