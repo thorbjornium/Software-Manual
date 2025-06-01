@@ -20,6 +20,10 @@
 
 - [Keyboard Shortcuts](./hyper_v_shortcuts.md)
 
+# Linux/Ubuntu
+
+- [Common Commands](./ubuntu_common_commands.md)
+
 # Markdown
 
 - [Syntax](./markdown_syntax.md)
@@ -75,10 +79,6 @@
 
 - [Default Keyboard Shortcuts](./windows_terminal_default_keyboard_shortcuts.md)
 - [Settings](./windows_terminal_settings.md)
-
-# Ubuntu Linux
-
-- [Common Commands](./ubuntu_common_commands.md)
 
 # Miscellaneous
 
