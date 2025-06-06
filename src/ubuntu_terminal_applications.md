@@ -141,6 +141,14 @@ sudo mkdir -p /etc/apt/keyrings wget -qO- https://raw.githubusercontent.com/eza-
 
 ```
 
+Add an alias and config to bash:
+
+```bash
+
+alias e='eza -lha --icons --git --time-style=long-iso --header --group-directories-first'
+
+```
+
 *Note*: In strict apt environments, you may need to add the target: `echo "deb [arch=amd64 signed-by=...`
 
 More info at [https://github.com/eza-community/eza](https://github.com/eza-community/eza)
