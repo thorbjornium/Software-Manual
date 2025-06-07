@@ -8,14 +8,18 @@ Install
 {{#tab name="Winget" }}
 
 ```Powershell
+
 winget install sharkdp.fd
+
 ```  
 
 {{#endtab }}
 {{#tab name="Scoop" }}
 
 ```Powershell
+
 Scoop fd
+
 ```  
 
 {{#endtab }}

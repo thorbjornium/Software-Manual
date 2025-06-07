@@ -9,15 +9,19 @@ bat [homepage](https://github.com/sharkdp/bat)
 {{#tab name="Winget" }}
 
 ```Powershell
+
 winget install sharkdp.bat
 winget install jftuga.less
+
 ```  
 
 {{#endtab }}
 {{#tab name="Scoop" }}
 
 ```Powershell
+
 Scoop bat less
+
 ```  
 
 {{#endtab }}

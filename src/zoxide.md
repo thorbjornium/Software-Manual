@@ -3,13 +3,17 @@
 ## Installation
 
 ```Powershell
+
 winget install ajeetdsouza.zoxide
+
 ```
 
 Add this to the end of your $profile in PowerShell:
 
 ```PowerShell
+
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
 ```
 
 See the [zoxide documentation](https://github.com/ajeetdsouza/zoxide) for more information
@@ -100,7 +104,6 @@ Assuming you want to set the _ZO_ECHO variable to 1:
 Add this to your $profile in PowerShell:
 
 `env:_ZO_ECHO = '1'`
-
 
 ## Help
 

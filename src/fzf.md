@@ -8,14 +8,18 @@ Install:
 {{#tab name="Winget" }}
 
 ```Powershell
+
 winget install junegunn.fzf
+
 ```  
 
 {{#endtab }}
 {{#tab name="Scoop" }}
 
 ```Powershell
+
 Scoop install fzf 
+
 ```  
 
 {{#endtab }}
@@ -26,7 +30,6 @@ Install [Psfzf](https://github.com/kelleyma49/PSFzf?tab=readme-ov-file#psfzf) af
 instructions [here](powershell_scripts.md#psfzf).
 
 ## Usage
-
 
 Use arrow keys <kbd>↑</kbd> and <kbd>↓</kbd> to move cursor up and down.
 <kbd>Enter</kbd> to select the item, <kbd>Ctrl</kbd> + <kbd>C</kbd> / <kbd>Ctrl</kbd> + <kbd>G</kbd> / <kbd>Esc</kbd> to exit  

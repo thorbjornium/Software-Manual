@@ -9,7 +9,9 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 ## Change browser tab title
 
 ````plaintext
+
 \{{#title New & improved}}
+
 ````
 
 {{#title New & improved}}  
@@ -21,11 +23,15 @@ For more details see [mdBook docs](https://rust-lang.github.io/mdBook/)
 Include line 2-10 of the file rust.rs.
 
 ````
+
 \{{#include rust.rs:2:10}}
+
 ````
 
 ```
+
 {{#include rust.rs:2:10}}
+
 ```
 
 ## Rust Playground  
@@ -35,43 +41,53 @@ Use [Rust Playground](https://play.rust-lang.org) to run code in the browser.
 Produce editable code that runs in the browser.
 
 ````
-```rust,editable
-fn main() {
-    let number = 5;
-    print!("{}", number);
-}
-```
-````
 
 ```rust,editable
 fn main() {
     let number = 5;
     print!("{}", number);
 }
+```
+
+````
+
+```rust,editable
+
+fn main() {
+    let number = 5;
+    print!("{}", number);
+}
+
 ```
 
 Non-editable code. Runs in the browser.
 
 ````
-```rust
-fn main() {
-    let x = "Rust";
-    print!("{}", x);
-}
-```
-````
 
 ```rust
 fn main() {
     let x = "Rust";
     print!("{}", x);
 }
+```
+
+````
+
+```rust
+
+fn main() {
+    let x = "Rust";
+    print!("{}", x);
+}
+
 ```
 
 ## MathJax support  
 
 ````plaintext  
+
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+
 ````  
 
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]  
@@ -214,6 +230,7 @@ style Test fill:#73737,color:#23272e,stroke-opacity:0.2
 <summary>Source code</summary>
 
 ````plaintext
+
 ```mermaid
 %%{
   init: {
@@ -262,6 +279,7 @@ style Test fill:#dfdfdf,color:#23272e,stroke-opacity:0.2
           
           
 ```
+
 ````
 
 </details>
@@ -277,6 +295,7 @@ style Test fill:#dfdfdf,color:#23272e,stroke-opacity:0.2
 Get [mdbook-tabs](https://github.com/RustForWeb/mdbook-plugins/tree/main/packages/mdbook-tabs)
 
 ```plaintext
+
 {{#tabs }}
 {{#tab name="Tab 1" }}
 **Tab content 1**
@@ -288,6 +307,7 @@ _Tab content 2_
 ~~Tab content 3~~
 {{#endtab }}
 {{#endtabs }}
+
 ```
 
 {{#tabs }}
@@ -307,6 +327,7 @@ _Tab content 2_
 ### Global tabs
 
 ````plaintext
+
 {{#tabs global="test" }}
 {{#tab name="Rust" }}
 
@@ -339,6 +360,7 @@ println!("Hello World!");
 
 {{#endtab }}
 {{#endtabs }}
+
 ````
 
 > [!TIP]
@@ -348,22 +370,27 @@ println!("Hello World!");
 {{#tab name="Rust" }}
 
 ```rust,noplayground  
+
 fn main() {
 println!("Hello World!");  
 } 
+
 ```
 
 {{#endtab }}
 {{#tab name="HTML" }}
 
 ```html
+
 <p style="text-align:center;">Essential Shortcuts</p>
+
 ```
 
 {{#endtab }}
 {{#tab name="CSS" }}
 
 ```css
+
 .mdbook-tab {
     background-color: var(--table-alternate-bg);
     padding: 0.5rem 1rem;
@@ -372,6 +399,7 @@ println!("Hello World!");
     font-size: 1.6rem;
     line-height: 1.45em;
 }
+
 ```
 
 {{#endtab }}
@@ -381,22 +409,27 @@ println!("Hello World!");
 {{#tab name="Rust" }}
 
 ```rust,noplayground  
+
 fn main() {
 println!("Hello World!");  
 } 
+
 ```
 
 {{#endtab }}
 {{#tab name="HTML" }}
 
 ```html
+
 <p style="text-align:center;">Essential Shortcuts</p>
+
 ```
 
 {{#endtab }}
 {{#tab name="CSS" }}
 
 ```css
+
 .mdbook-tab {
     background-color: var(--table-alternate-bg);
     padding: 0.5rem 1rem;
@@ -405,6 +438,7 @@ println!("Hello World!");
     font-size: 1.6rem;
     line-height: 1.45em;
 }
+
 ```
 
 {{#endtab }}
@@ -417,15 +451,19 @@ Install [admonish](https://github.com/tommilligan/mdbook-admonish)
 Examples:
 
 ````plaintext
+
 ```admonish
 Some text
 ```
+
 ````
 
 ````plaintext
+
 ```admonish example
 example
 ```
+
 ````
 
 ```admonish
@@ -477,9 +515,11 @@ quote, cite
 ```
 
 ````plaintext
+
 ```admonish quote collapsible=true, title='A title that really <span style="color: #e70073">pops</span>'
 To really <b><span style="color: #e70073">grab</span></b> your reader's attention.
 ```
+
 ````
 
 ```admonish quote collapsible=true, title='A title that really <span style="color: #e70073">pops</span>'

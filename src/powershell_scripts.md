@@ -11,6 +11,7 @@ Most scripts require additional software. Install the following software if you 
 {{#tab name="Winget"}}
 
 ```Powershell
+
 winget install ajeetdsouza.zoxide
 winget install junegunn.fzf
 winget install sharkdp.fd
@@ -18,13 +19,16 @@ winget install sharkdp.bat
 winget install BurntSushi.ripgrep.MSVC
 winget install eza-community.eza
 winget install jftuga.less
+
 ```  
 
 {{#endtab}}
 {{#tab name="Scoop"}}
 
 ```Powershell
+
 Scoop install zoxide fzf fd bat ripgrep eza less
+
 ```  
 
 {{#endtab}}
@@ -45,14 +49,18 @@ PSFzf installs from PSGallery. More details [here](https://github.com/kelleyma49
 {{#tab name="Winget"}}
 
 ```Powershell
+
 Install-Module -Name PSFzf
+
 ```
 
 {{#endtab}}
 {{#tab name="Scoop"}}
 
 ```Powershell
+
 Scoop install PSFzf
+
 ```  
 
 {{#endtab}}
@@ -62,8 +70,10 @@ Scoop install PSFzf
 Paste the following into your PowerShell profile:  
 
 ```Powershell
+
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'  
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }  
+
 ```  
 
 ![PSFzf](./pics/PSFzf.jpg)  
@@ -87,10 +97,12 @@ Type `disks` and hit <kbd>Enter</kbd> to display disk information in human reada
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 function disks {
-    
+
     Get-WmiObject -Class Win32_LogicalDisk | Select-Object -Property DeviceID, VolumeName, @{Label = 'FreeGb'; expression = { ($_.FreeSpace / 1GB).ToString('F2') } }, @{Label = 'TotalGb'; expression = { ($_.Size / 1GB).ToString('F2') } }, @{label = 'Free %'; expression = { [Math]::Round(($_.freespace / $_.size) * 100, 2)}}|Format-Table
     }
+
 ```  
 
 </details>  
@@ -104,6 +116,7 @@ A script with options to view, delete or edit files with external tools.
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 $env:FZF_DEFAULT_OPTS = @"
 --layout=reverse
 --cycle
@@ -199,6 +212,7 @@ $env:FZF_DEFAULT_OPTS = @"
         [Microsoft.PowerShell.PSConsoleReadLine]::Insert("rgg")
         [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
     }
+
 ```  
 
 </details>  
@@ -253,6 +267,7 @@ File search script utilizing fzf, ripgrep and bat.
 <summary><u>Script</u></summary>
 
 ```Powershell
+
  function fz {
     
         $INITIAL_QUERY = "${*:-}"
@@ -271,6 +286,7 @@ File search script utilizing fzf, ripgrep and bat.
         --preview 'bat --color=always {1} --highlight-line {2} --style=plain' `
         --preview-window 'up,60%,border-bottom,+{2}+3/3'
         }
+
 ```
 
 </details>
@@ -294,6 +310,7 @@ File searcher script utilizing fzf, fd and bat.
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 function fza { 
     fd --type file --follow --exclude .git |
     fzf --style=full `
@@ -302,6 +319,7 @@ function fza {
         --preview-window '~3' --reverse `
     
 }
+
 ```  
 
 </details>
@@ -326,6 +344,7 @@ Opens in your default browser.
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 Function search-google {
     $query = 'https://www.google.com/search?q='
     $args | ForEach-Object { $query = $query + "$_+" }
@@ -334,6 +353,7 @@ Function search-google {
 }
 
 Set-Alias gog search-google
+
 ```
 
 </details>
@@ -347,6 +367,7 @@ List files with details using the `e` alias. Image and more information in the [
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 function e {
     eza `
         --long `
@@ -364,6 +385,7 @@ function e {
         --all `
 
 }
+
 ```
 
 </details>
@@ -376,14 +398,18 @@ Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp). A 
 {{#tab name="Winget"}}
 
 ```Powershell
+
 winget install yt-dlp
+
 ```
 
 {{#endtab}}
 {{#tab name="Scoop"}}
 
 ```Powershell
+
 Scoop install yt-dlp
+
 ```  
 
 {{#endtab}}
@@ -400,6 +426,7 @@ Type `ytm` and a link and press <kbd>Enter</kbd>.
 <summary><u>Script</u></summary>
 
 ```Powershell
+
 Function ytm {
     yt-dlp `
         --progress `
@@ -419,6 +446,7 @@ Function ytm {
         --write-auto-subs --sub-lang "en.*" `
         $args
 }
+
 ```
 
 </details>

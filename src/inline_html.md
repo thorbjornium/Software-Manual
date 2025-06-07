@@ -5,7 +5,9 @@
 ## Underline  
 
 ```html
+
 <u> Text </u> 
+
 ```
 
 <u> Text </u>  
@@ -13,10 +15,12 @@
 ## Color
 
 ```html
+
 <span style="color: #FF69B4;">Why did the tomato turn red?</span>
 <span style="color: #00FFFF;">Because it saw the salad dressing!</span>
 <span style="color:red;">your text here in red</span>,
 <span style="color:#520099;">or make it blue</span>
+
 ```
 
 <span style="color: #FF69B4;">Why did the tomato turn red?</span>
@@ -27,16 +31,17 @@
 ## Commentary
 
 ```html
-<!-- ingen kommentar -->  
-```
 
-ingen kommentar  
+<!-- ingen kommentar -->  
+
+```
 
 <br>  
 
 ## Collapsed section
 
 ````html
+
 <details>
 
 <summary>Tips for collapsed sections</summary>
@@ -50,6 +55,7 @@ You can add an image or a code block, too.
 ```
 
 </details>
+
 ````  
 
 <details>
@@ -71,7 +77,9 @@ You can add an image or a code block, too.
 ## Align
 
 ```html
+
 &emsp; &emsp;Centrera
+
 ```
 
 &emsp; &emsp;Centrera
@@ -79,7 +87,9 @@ You can add an image or a code block, too.
 <br>
 
 ```html
+
 &ensp; &ensp; &ensp;Centrera
+
 ```
 
 &ensp; &ensp; &ensp;Centrera
@@ -87,7 +97,9 @@ You can add an image or a code block, too.
 <br>
 
 ```html
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Centrera
+
 ```
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Centrera
@@ -97,7 +109,9 @@ You can add an image or a code block, too.
 ## Center align
 
 ```html
+
 <p style="text-align: center;">Text i mitten 
+
 ```
 
 <p style="text-align: center;">Text i mitten  
@@ -105,7 +119,9 @@ You can add an image or a code block, too.
 ## Keyboard  
 
 ```html
+
 <kbd>Ctrl</kbd> + <kbd>F</kbd>
+
 ```
 
 <kbd>Ctrl</kbd> + <kbd>F</kbd>
@@ -115,17 +131,21 @@ You can add an image or a code block, too.
 ### Local source  
 
 ```html
+
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
+
 ```
 
 <video src="imgburn.mp4" width="100%" height="100%" controls></video>
 
-### Interweb source
+### Interwebz source
 
 ```html
+
 <iframe width="100%" height="100%"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>  
+
 ```
 
 > [!NOTE]  
