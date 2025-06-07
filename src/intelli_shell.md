@@ -13,7 +13,7 @@ Press <kbd>Ctrl</kbd> + <kbd>Space</kbd> to list bookmarked commands.
 ![IntelliShell Search](./pics/intelli_shell_search_commands.jpg)
 
 Type the beginning of the command, for example `docker` and intelli-shell will fetch
-a list of commands starting with `docker` from your bookmarked commands and tldr.  
+a list of commands starting with `docker` from your bookmarked commands and [tldr](https://github.com/tldr-pages/tldr).  
 Navigate with <kbd>↑</kbd> or <kbd>↓</kbd>. Select with <kbd>Enter</kbd>.
 
 ## Hotkeys
