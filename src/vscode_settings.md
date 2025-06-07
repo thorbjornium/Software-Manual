@@ -78,9 +78,10 @@ The most far left sidebar is the activity bar.
         "when": "inlineSuggestionVisible && !editorReadonly"
     },
 ```
+
 ## Settings Via JSON
 
-**Open the command palette and find *Preferences: Open User Settings (JSON)* and paste the following:**
+**Open the command palette and find _Preferences: Open User Settings (JSON)_ and paste the following:**
 
 ### Errorlens
 
@@ -116,6 +117,7 @@ The most far left sidebar is the activity bar.
   ],
 
 ```
+
 </details>
 
 ## Settings Via UI
