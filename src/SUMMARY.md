@@ -9,7 +9,8 @@
 
 # Cisco
 
-- [Router & Switch basic config](./cisco.md)
+- [Router & Switches basic config](./cisco_basic_config.md)
+- [Common Cisco IOS Commands for Routers and Switches](./cisco_common_commands_routers_and_switches.md)
 
 # Git
 
