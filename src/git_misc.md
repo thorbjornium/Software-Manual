@@ -4,7 +4,15 @@
 
 ## Global .gitignore
 
-Set up a global `core.excludesfile` configuration file and point it to a global `.gitignore` file located in your home directory:
+Set up a global `core.excludesfile` configuration file and point it to a global `.gitignore` file located in your home or user directory. Check if you already have this config:
+
+```sh
+
+git config --get core.excludesfile
+
+```
+
+If you have a .gitignore located in your home or user directory:
 
 **nix or Windows git bash:**
 
