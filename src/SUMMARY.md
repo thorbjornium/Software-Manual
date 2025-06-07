@@ -67,17 +67,17 @@
 
 # Windows
 
-- [Essential Shortcuts](./essential_shortcuts.md)  
-- [Desktop Shortcuts](./desktop_shortcuts.md)
+- [Essential Shortcuts](./windows_essential_shortcuts.md)  
+- [Desktop Shortcuts](./windows_desktop_shortcuts.md)
 - [Windows Key Shortcuts](./windows_key.md)
 - [Text Editing shortcuts](./windows_text_shortcut.md)
-- [File Explorer Shortcuts](./file_explorer_shortcuts.md)
+- [File Explorer Shortcuts](./windows_file_explorer_shortcuts.md)
 - [CMD Prompt Shortcuts](./cmd_shortcuts.md)
-- [Taskbar Shortcuts](./taskbar_shortcuts.md)
-- [Settings Shortcuts](./settings_shortcuts.md)
-- [Multiple Desktops Shortcuts](./multiple_desktops_shortcuts.md)
-- [Dialog Box Shortcuts](./dialog_box_shortcuts.md)
-- [Alt Codes & Symbols](./alt_codes_and_symbols.md)
+- [Taskbar Shortcuts](./windows_taskbar_shortcuts.md)
+- [Settings Shortcuts](./windows_settings_shortcuts.md)
+- [Multiple Desktops Shortcuts](./windows_multiple_desktops_shortcuts.md)
+- [Dialog Box Shortcuts](./windows_dialog_box_shortcuts.md)
+- [Alt Codes & Symbols](./windows_alt_codes_and_symbols.md)
 
 # Windows Terminal
 
