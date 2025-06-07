@@ -16,6 +16,7 @@
 
 - [Commands](./git.md)
 - [GitHub CLI](./github_cli.md)
+- [Misc](./git_misc.md)
 
 # Hyper-V
 
