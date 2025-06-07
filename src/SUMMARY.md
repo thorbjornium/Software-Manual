@@ -23,6 +23,7 @@
 # Linux/Ubuntu
 
 - [Common Commands](./ubuntu_common_commands.md)
+- [Keyboard Shortcuts](./linux_keyboard_shortcuts.md)
 - [Terminal Applications](./ubuntu_terminal_applications.md)
 
 # Markdown
