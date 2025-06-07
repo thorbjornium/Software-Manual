@@ -178,8 +178,8 @@ matter for what they're doing.
           A[Christmas] -->|Get money| B(Go shopping)
           B --> C{Let me think}
           B --> G[/Another/]
-          C ==>|One| D[Laptop]
-          C -->|Two| E[iPhone]
+          C ==>|One| D[fa:fa-laptop Laptop]
+          C -->|Two| E[fa:fa-mobile Phone]
           C -->|Three| F[fa:fa-car Car]
 
 style D fill:#cdcdf3,color:#23272e,stroke-opacity:0.2
