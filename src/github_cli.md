@@ -7,7 +7,9 @@ GitHub CLI, or gh, is a command-line interface to GitHub and [GitHub-Gist](https
 Install:
 
 ```powershell
+
 winget install --id GitHub.cli
+
 ```
 
 Plugins is found [here](https://github.com/topics/gh-extension).  
@@ -17,7 +19,9 @@ Plugins is found [here](https://github.com/topics/gh-extension).
 Add the following to your powershell profile:
 
 ```powershell  
+
 Invoke-Expression -Command $(gh completion -s powershell | Out-String)
+
 ```
 
 <br>  

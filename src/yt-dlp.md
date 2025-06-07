@@ -74,7 +74,9 @@ yt-dlp has many options to customize the download process. Here are some of the 
 ### Downloading the Best Available Video and Audio
 
 ```powershell
+
 yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
 ```
 
 ### Listing Available Formats

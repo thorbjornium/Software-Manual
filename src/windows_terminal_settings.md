@@ -14,15 +14,19 @@ Install Terminal icons:
 {{#tab name="Winget"}}
 
 ```Powershell
+
 Install-Module -Name Terminal-Icons -Repository PSGallery
+
 ```  
 
 {{#endtab}}
 {{#tab name="Scoop"}}
 
 ```Powershell
+
 scoop bucket add extras
 scoop install terminal-icons
+
 ```  
 
 {{#endtab}}
