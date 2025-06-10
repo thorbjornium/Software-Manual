@@ -34,6 +34,13 @@
   - [Inline HTML](./inline_html.md)  
 - [mdBook Options](./mdbook_options.md)
 
+# Network
+
+- [IPv6](./ipv6.md)
+- [NsLookup](./nslookup.md)
+- [OSI Layers](./osi_layers.md)
+- [Switch](./switch.md)
+
 # PowerShell
 
 - [PowerShell 7](./Powershell.md)  
@@ -91,6 +98,3 @@
 - [yt-dlp](./yt-dlp.md)
 - [Links](./links.md)
 - [Google Search Operators](./google_search_operators.md)
-- [OSI Layers](./osi_layers.md)
-- [NsLookup](./nslookup.md)
-- [IPv6](./ipv6.md)

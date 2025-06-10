@@ -187,3 +187,36 @@
   * Sockets.
   * Connection establishment and termination procedures.
 * **Data Unit:** Segments (TCP) or Datagrams (UDP).
+
+## OSI Model vs TCP/IP Model
+
+Both the OSI and TCP/IP models are layered frameworks for understanding and designing network protocols, but they differ in structure, purpose, and real-world application.
+
+---
+
+### Layer Structure Comparison
+
+| OSI Model Layer        | TCP/IP Model Layer       | Function(s) Covered                                   |
+|----------------------- |-------------------------|-------------------------------------------------------|
+| 7. Application        | Application             | User interface, network services (HTTP, FTP, SMTP)    |
+| 6. Presentation       | Application             | Data translation, encryption, compression             |
+| 5. Session            | Application             | Session management, dialog control                    |
+| 4. Transport          | Transport               | End-to-end communication, reliability (TCP, UDP)      |
+| 3. Network            | Internet                | Logical addressing, routing (IP, ICMP)                |
+| 2. Data Link          | Network Access          | Physical addressing, error detection (Ethernet, Wi-Fi)|
+| 1. Physical           | Network Access          | Transmission of raw bits over physical medium         |
+
+---
+
+### Key Differences
+
+* **Number of Layers:** OSI has 7 layers; TCP/IP has 4 layers (sometimes depicted as 5).
+* **Layer Functions:** TCP/IP merges OSI’s Application, Presentation, and Session layers into a
+single Application layer. It also combines Data Link and Physical into Network Access.
+* **Purpose:** OSI is a conceptual, protocol-agnostic reference model; TCP/IP is a practical protocol
+suite used in real-world networking.
+* **Usage:** TCP/IP underpins the modern Internet; OSI is widely used for teaching, troubleshooting,
+and network planning.
+* **Protocol Dependency:** OSI is protocol-independent; TCP/IP is built around standard protocols (TCP, IP, etc.).
+
+---
