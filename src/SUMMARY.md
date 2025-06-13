@@ -93,6 +93,7 @@
 
 # Miscellaneous
 
+- [A joke](./a_joke.md)
 - [Cloud Architecture](cloud-architecture.md)
 - [FFMpeg](./ffmpeg.md)  
 - [Google Search Operators](./google_search_operators.md)
