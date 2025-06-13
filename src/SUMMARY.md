@@ -93,8 +93,9 @@
 
 # Miscellaneous
 
-- [mpv](./mpv.md)
+- [Cloud Architecture](cloud-architecture.md)
 - [FFMpeg](./ffmpeg.md)  
-- [yt-dlp](./yt-dlp.md)
-- [Links](./links.md)
 - [Google Search Operators](./google_search_operators.md)
+- [Links](./links.md)
+- [mpv](./mpv.md)
+- [yt-dlp](./yt-dlp.md)
