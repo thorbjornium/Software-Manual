@@ -46,7 +46,12 @@ additional-css = [
     "./mdbook-admonish.css",
 ]
 
-additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js"]
+additional-js = [
+    "theme/tabs.js",
+    "mermaid.min.js",
+    "mermaid-init.js",
+    "enlarge-window.js",
+]
 default-theme = "nordic"
 preferred-dark-theme = "nordic"
 git-repository-url = "https://github.com/thorbjornium/Software_Manual_release"
