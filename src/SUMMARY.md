@@ -34,10 +34,6 @@
   - [Inline HTML](./inline_html.md)  
 - [mdBook Options](./mdbook_options.md)
 
-# Mikrotik / RouterOS
-
-- [Single VLAN for Wi-Fi](./mikrotik_single_vlan_for_wifi.md)
-
 # Network
 
 - [IPv6](./ipv6.md)
