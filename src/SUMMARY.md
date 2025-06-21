@@ -37,7 +37,6 @@
 # Network
 
 - [IPv6](./ipv6.md)
-- [NsLookup](./nslookup.md)
 - [OSI Layers](./osi_layers.md)
 - [Switch](./switch.md)
 
