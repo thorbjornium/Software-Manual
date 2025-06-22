@@ -1,10 +1,13 @@
-# Scripts  
+# Powershell Scripts  
 
 <!-- toc -->
 
 <br>  
 
-Copy and Paste the scripts into your PowerShell profile. To open your PowerShell profile in VS Code type `code $Profile`.  
+## Usage
+
+Copy and Paste the scripts into your PowerShell profile. To open your PowerShell profile in VS Code type `code $Profile`. To open in Notepad type `notepad $profile`
+
 Most scripts require additional software. Install the following software if you do not have it already:
 
 {{#tabs global="install"}}
@@ -41,7 +44,7 @@ Add `Invoke-Expression (& { (zoxide init powershell | Out-String) })` to your Po
 
 Detailed information can be found by clicking [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/sharkdp/fd), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep), [eza](https://github.com/eza-community/eza) and [less](https://www.greenwoodsoftware.com/less/faq.html).
 
-## PSFzf  
+### PSFzf  
 
 PSFzf installs from PSGallery. More details [here](https://github.com/kelleyma49/PSFzf).  
 
@@ -86,7 +89,7 @@ Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list.
 
 Tab completion works out of the box.  
 
-## Disks  
+### Disks  
 
 ![Disks](./pics/Disks.jpg)
 
@@ -107,7 +110,7 @@ function disks {
 
 </details>  
 
-## Find files and folders  
+### Find files and folders  
 
 A script with options to view, delete or edit files with external tools.  
 
@@ -258,7 +261,7 @@ Open files or folders with bat, cat, cd, echo or VS Code. Delete with 'remove'.
 > [!NOTE]
 > The script sets two keybindings via PSReadLineKeyHandler.  
 
-## Find fz
+### Find fz
 
 File search script utilizing fzf, ripgrep and bat.
 
@@ -301,7 +304,7 @@ Press <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the list. Press <kbd>Enter</k
 
 Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the preview.  
 
-## Find fza  
+### Find fza  
 
 File searcher script utilizing fzf, fd and bat.  
 
@@ -334,7 +337,7 @@ Press <kbd>Shift</kbd> + <kbd>↑</kbd> or <kbd>↓</kbd> to navigate the previe
 
 </details>  
 
-## Google search
+### Google search
 
 Search Google from the command line. Type `gog` and a search term and hit <kbd>Enter</kbd>.
 Opens in your default browser.
@@ -358,9 +361,9 @@ Set-Alias gog search-google
 
 </details>
 
-## eza
+### eza
 
-List files with details using the `e` alias. Image and more information in the [eza folder](./eza.md).
+List files with details using the `e` alias. More information in the [eza document](./eza.md).
 
 <details>
 
@@ -390,7 +393,7 @@ function e {
 
 </details>
 
-## yt-dlp
+### yt-dlp
 
 Requires `yt-dlp`. More information [here](https://github.com/yt-dlp/yt-dlp). A short user guide is available [here](./yt-dlp.md).
 
@@ -450,3 +453,50 @@ Function ytm {
 ```
 
 </details>
+
+### Get-MyIP
+
+Fetch WAN ip.
+
+```powershell
+
+function Get-MyIP {
+    (Invoke-RestMethod -Uri "https://api.ipify.org")
+}
+```
+
+Paste into your $Profile
+
+### Open path in Directory Opus
+
+```powershell
+
+function Open {
+    $opusPath = "C:\Program Files\GPSoftware\Directory Opus\dopus.exe"
+    $folderPath = Get-Location
+
+    $folderPath = $folderPath -replace '\{', '' -replace '\}', ''
+
+    Start-Process $opusPath -ArgumentList "/path `"$folderPath`""
+}
+```
+
+### List items
+
+```powershell
+
+function ll { Get-ChildItem -Force | Format-Table -AutoSize }
+function la { Get-ChildItem -Force -Attributes Hidden, ReadOnly, System | Format-Table -AutoSize }
+function l { Get-ChildItem -Name }
+
+```
+
+## Alias
+
+### Open path in Explorer
+
+```powershell
+
+Set-Alias -Name open -Value explorer.exe
+
+```
