@@ -103,8 +103,14 @@ Type `disks` and hit <kbd>Enter</kbd> to display disk information in human reada
 
 function disks {
 
-    Get-WmiObject -Class Win32_LogicalDisk | Select-Object -Property DeviceID, VolumeName, @{Label = 'FreeGb'; expression = { ($_.FreeSpace / 1GB).ToString('F2') } }, @{Label = 'TotalGb'; expression = { ($_.Size / 1GB).ToString('F2') } }, @{label = 'Free %'; expression = { [Math]::Round(($_.freespace / $_.size) * 100, 2)}}|Format-Table
-    }
+    Get-WmiObject -Class Win32_LogicalDisk |
+    Select-Object -Property DeviceID, VolumeName,
+    @{Label = 'FreeGb'; expression = { ($_.FreeSpace / 1GB).ToString('F2') } },
+    @{Label = 'UsedGb'; expression = { (($_.Size - $_.FreeSpace) / 1GB).ToString('F2') } }, # Calculated Used Space
+    @{Label = 'TotalGb'; expression = { ($_.Size / 1GB).ToString('F2') } },
+    @{label = 'Free %'; expression = { [Math]::Round(($_.freespace / $_.size) * 100, 2) } } |
+    Format-Table
+}
 
 ```  
 
