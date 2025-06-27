@@ -487,6 +487,17 @@ function Open {
 }
 ```
 
+### Open path in Explorer
+
+```powershell
+
+function Open {
+    $folderPath = Get-Location
+    Invoke-Item $folderPath
+}
+
+```
+
 ### List items
 
 ```powershell
@@ -494,15 +505,5 @@ function Open {
 function ll { Get-ChildItem -Force | Format-Table -AutoSize }
 function la { Get-ChildItem -Force -Attributes Hidden, ReadOnly, System | Format-Table -AutoSize }
 function l { Get-ChildItem -Name }
-
-```
-
-## Alias
-
-### Open path in Explorer
-
-```powershell
-
-Set-Alias -Name open -Value explorer.exe
 
 ```
