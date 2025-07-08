@@ -36,14 +36,6 @@ What are IaaS, PaaS, and SaaS: [https://www.ibm.com/topics/iaas-paas-saas](https
 
 ## **Shared Responsibility Model**
 
-After completing this episode, you should be able to:
-
-Discuss the shared responsibility model as it exists in modern cloud architectures
-
-**Description:** In this episode, you will learn about the shared responsibility model. This model describes the shared responsibilities that cloud providers and users of the cloud must bear in their solutions.
-
-### **Shared Responsibility Model**
-
 Shared responsibility model - the shared responsibility model in cloud computing delineates the responsibilities between the cloud service provider (CSP) and the customer in terms of security and management of resources. In this model, the CSP is responsible for securing the underlying infrastructure, including physical data centers, networking, and hypervisors, as well as ensuring the availability and reliability of the cloud services. On the other hand, the customer is responsible for securing their data, applications, identities, and configurations within the cloud environment. This entails tasks such as configuring access controls, implementing encryption, managing user permissions, and securing application code. Essentially, while the CSP manages the security of the cloud infrastructure, the customer is accountable for securing their data and applications within that infrastructure, forming a collaborative approach to ensuring overall security and compliance in the cloud.
 
 ### **Additional resources**
@@ -51,14 +43,6 @@ Shared responsibility model - the shared responsibility model in cloud computing
 Shared Responsibility Model: [https://www.crowdstrike.com/cybersecurity-101/cloud-security/shared-responsibility-model/](https://www.crowdstrike.com/cybersecurity-101/cloud-security/shared-responsibility-model/)
 
 ## **Resource Availability**
-
-After completing this episode, you should be able to:
-
-Discuss the topic of resource availability as it relates to modern day cloud technologies
-
-**Description:** In this episode, you will learn about the topic of resource availability when it comes to cloud architectures. This discussion includes such topics as regions, availability zones, cloud bursting, edge computing, and availability monitoring.
-
-### **Resource Availability**
 
 Regions - the major public cloud providers (Amazon, Google, Microsoft) offer global infrastructures that span the entire globe. They divide these resources into regions. Customers can place resources in specific regions in order to reduce latency on access.
 
@@ -76,14 +60,6 @@ Cloud Bursting: [https://www.vmware.com/topics/glossary/content/cloud-bursting.h
 
 ## **Disaster Recovery**
 
-After completing this episode, you should be able to:
-
-Discuss the topic of disaster recovery (DR) as it applies to cloud technology
-
-**Description:** In this episode, you will learn about the topic of disaster recovery (DR) as it applies to cloud technology. This includes topics such as recovery time objective (RTO), recovery point objective (RPO), host site, warm site, and cold site.
-
-### **Disaster Recovery**
-
 Recovery Time Objective (RTO) - A Recovery Time Objective (RTO) is the targeted duration within which a business process or service must be restored after a disruption or outage. It represents the maximum acceptable downtime tolerated by an organization and is typically defined in terms of hours, minutes, or seconds.
 
 Recovery Point Objective (RPO) - Recovery Point Objective (RPO) is the maximum tolerable amount of data loss measured in time before a disruption or outage. It represents the point in time to which data must be recovered after an incident, and is typically expressed in terms of minutes, hours, or days.
@@ -99,14 +75,6 @@ Cold site - A cold site is a backup facility that provides only basic infrastruc
 Cloud DR: [https://www.techtarget.com/searchdisasterrecovery/definition/cloud-disaster-recovery-cloud-DR](https://www.techtarget.com/searchdisasterrecovery/definition/cloud-disaster-recovery-cloud-DR)
 
 ## **Multicloud Tenancy**
-
-After completing this episode, you should be able to:
-
-Discuss the topic of multicloud tenancy and describe its major aspects
-
-**Description:** In this episode, you will learn about the topic of multicloud tenancy. This includes a discussion of its many potential benefits.
-
-### **Multicloud Tenancy**
 
 Multicloud tenancy is when you use the services of multiple public or private cloud providers. This provides you with many potential advantages, including:
 
@@ -130,14 +98,6 @@ What is Multicloud: [https://cloud.google.com/learn/what-is-multicloud](https://
 
 ## **Connections to the Cloud**
 
-After completing this episode, you should be able to:
-
-Discuss the various options for connecting your local network to the cloud
-
-**Description:** In this episode, you will learn about the many options that exist for connecting to your cloud resources. These many options vary from a simple public Internet connection to a completely private, direct connection to the cloud.
-
-### **Connections to the Cloud**
-
 There are many options when needing connectivity to your cloud resources - these include:
 
 - Public Internet connection A public Internet connection to the public cloud utilizes the existing infrastructure of the internet to establish connectivity between the user's local network and the cloud provider's data centers, offering accessibility and convenience for accessing cloud resources from virtually any location. While cost-effective and widely available, public Internet connections may present security and performance challenges compared to dedicated or private connectivity options.
@@ -150,14 +110,6 @@ There are many options when needing connectivity to your cloud resources - these
 Amazon Virtual Private Cloud Connectivity Options: [https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/introduction.html](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/introduction.html)
 
 ## **Network Components**
-
-After completing this episode, you should be able to:
-
-Discuss the various network components that are made available in the cloud
-
-**Description:** In this episode, you will learn about just some of the network components that are made available virtually in the cloud. These components include application load balancers, network load balancers, application gateways, content delivery networks (CDNs), and firewalls.
-
-### **Network Components**
 
 Application load balancer - A cloud-based application load balancer is a scalable, resilient service deployed in the cloud environment that distributes incoming traffic across multiple backend servers or instances to optimize performance and ensure high availability. By intelligently routing requests based on factors such as server health, proximity, and application-specific rules, it enhances the overall reliability and responsiveness of cloud-based applications.
 
@@ -174,14 +126,6 @@ Firewalls - A cloud-based firewall is a security service deployed in the cloud e
 Azure Front Door: [https://azure.microsoft.com/en-us/products/frontdoor](https://azure.microsoft.com/en-us/products/frontdoor)
 
 ## **Network Services**
-
-After completing this episode, you should be able to:
-
-Discuss the various network services that are typically made available in cloud
-
-**Description:** In this episode, you will learn about just some of the network services that are made available virtually in the cloud. These components include virtual private clouds, subnets, VLANs, and more.
-
-### **Network Services**
 
 Virtual Private Cloud - A Virtual Private Cloud (VPC) is a logically isolated section of a public cloud provider's infrastructure where users can deploy their virtual networks, subnets, and resources with customizable network configurations. By offering dedicated resources and network segmentation, VPCs enable organizations to create secure and scalable environments within the public cloud, ensuring data privacy, network isolation, and controlled access to cloud resources.
 
@@ -207,14 +151,6 @@ Amazon Virtual Private Cloud: [https://aws.amazon.com/vpc/](https://aws.amazon.c
 
 ## **Disk and Storage Types**
 
-After completing this episode, you should be able to:
-
-Discuss some of the various disk and storage types that are available in the cloud
-
-**Description:** In this episode, you will learn about just some of the disk and storage types available in the cloud today. This episode includes a discussion of object storage, block storage, and file storage as well as solid-state drives and hard disk drives.
-
-### **Disk and Storage Types**
-
 Storage types:
 
 - Object storage Object-based storage is a data storage architecture that organizes and manages data as objects, each with a unique identifier, metadata, and data, providing scalability, flexibility, and simplified management for handling vast amounts of unstructured data.
@@ -236,14 +172,6 @@ What is Cloud Storage: [https://aws.amazon.com/what-is/cloud-storage/](https://a
 
 ## **Tiered Storage**
 
-After completing this episode, you should be able to:
-
-Discuss storage tiering in cloud environments
-
-**Description:** In this episode, you will learn about the ability to tier storage using cloud-based technologies. This includes a discussion of various tiers including hot, warm, cold, and archive storage.
-
-### **Tiered Storage**
-
 Storage tiering in cloud environments involves categorizing data based on its access frequency and performance requirements, with different tiers offering varying levels of performance and cost. By dynamically moving data between tiers based on usage patterns, organizations can optimize storage costs while ensuring that data remains accessible and responsive to application needs.
 
 Typical storage tiers include:
@@ -258,14 +186,6 @@ Typical storage tiers include:
 Storage Classes: [https://cloud.google.com/storage/docs/storage-classes](https://cloud.google.com/storage/docs/storage-classes)
 
 ## **Managed Services**
-
-After completing this episode, you should be able to:
-
-Discuss the use of managed services in modern cloud architectures
-
-**Description:** In this episode, you will learn about the use of managed services in modern cloud architectures. This episode covers the concepts and advantages presented by this approach.
-
-### **Managed Services**
 
 Managed services in cloud environments refer to outsourced cloud computing solutions where cloud providers assume responsibility for the operation, maintenance, and management of specific IT functions or applications. This allows organizations to offload tasks such as database management, security monitoring, and infrastructure provisioning to cloud providers, reducing operational overhead, improving scalability, and enabling focus on core business activities.
 
@@ -286,14 +206,6 @@ Managed Cloud Services - Pros and Cons: [https://cloudian.com/guides/hybrid-clou
 
 ## **Microservices**
 
-After completing this episode, you should be able to:
-
-Discuss the use of microservices in modern cloud environments
-
-**Description:** In this episode, you will learn about the use of microservices in a cloud environment. This includes the concepts of loosely coupled architectures, fan-out, and service discovery services.
-
-### **Microservices**
-
 Microservices architecture is a software development approach where applications are composed of small, independent services that communicate with each other through well-defined APIs. Each service is focused on a specific business function and can be developed, deployed, and scaled independently. This modular approach allows for greater flexibility, resilience, and scalability compared to monolithic architectures. Microservices promote agility by enabling teams to work on different services simultaneously, using diverse technologies and programming languages best suited to each task. Additionally, they facilitate continuous integration and delivery practices, allowing for faster and more frequent updates with minimal disruption. However, managing a distributed system of microservices requires robust orchestration, monitoring, and governance to ensure seamless operation and maintainability.
 
 Loosely coupled architecture in microservices allows each service to operate independently, minimizing dependencies between components. This enhances flexibility and scalability, enabling rapid development and deployment of new features without impacting other parts of the system.
@@ -308,14 +220,6 @@ Microservices: [https://aws.amazon.com/microservices/](https://aws.amazon.com/mi
 
 ## **Stand-alone vs Orchestrated**
 
-After completing this episode, you should be able to:
-
-Discuss stand-alone vs orchestrated container implementations
-
-**Description:** In this episode, you will learn about the different methods of implementing containers in your cloud environment. This discussion includes a comparison of stand-alone versus orchestrated cloud container infrastructures.
-
-### **Stand-alone vs Orchestrated**
-
 In a standalone container infrastructure, each application or service runs within its isolated container, managed and operated individually. This means that each container must be manually configured, deployed, and scaled, typically without coordination with other containers. While standalone containers offer simplicity and flexibility, they require more manual effort to manage and lack advanced features like automated scaling and load balancing.
 
 On the other hand, an orchestrated container infrastructure utilizes a container orchestration platform such as Kubernetes to automate the management, deployment, scaling, and networking of containers across a cluster of machines. With container orchestration, administrators can define desired states for the application, such as the number of instances, resource requirements, and networking rules. The orchestration platform then handles the deployment and scaling of containers to meet these requirements automatically. This approach simplifies operations, improves resource utilization, and enhances fault tolerance by automatically redistributing workloads and restarting containers in case of failures.
@@ -327,14 +231,6 @@ While standalone containers offer simplicity and are suitable for smaller deploy
 What is a Container: [https://www.docker.com/resources/what-container/](https://www.docker.com/resources/what-container/)
 
 ## **Supporting Containers**
-
-After completing this episode, you should be able to:
-
-Discuss networking, storage, and registries typically found in container environments
-
-**Description:** In this episode, you will learn about some of the different options when it comes to supporting container environments. This video includes information on port mapping, persistent volumes, ephemeral storage, and image registries.
-
-### **Supporting Containers**
 
 Container networking involves establishing communication between containers running on the same host or across multiple hosts. One essential aspect of container networking is port mapping, which allows containers to expose and access services running inside them or in other containers.
 
@@ -372,27 +268,11 @@ Container Networking: [https://www.vmware.com/topics/glossary/content/container-
 
 ## **Key Concepts**
 
-After completing this episode, you should be able to:
-
-Discuss key concepts in the area of virtualization
-
-**Description:** In this episode, you will learn about some of the key concepts involved in virtualization, especially the virtualization techniques found in modern cloud environments. Topics include stand alone versus clustered virtualization, cloning, host affinity, and hardware pass-through.
-
-### **Key Concepts**
-
 ### **Additional resources**
 
 Emulation, Paravirtualization, and Pass-Through: [https://www.techtarget.com/searchvirtualdesktop/opinion/Emulation-paravirtualization-and-pass-through-what-you-need-to-know](https://www.techtarget.com/searchvirtualdesktop/opinion/Emulation-paravirtualization-and-pass-through-what-you-need-to-know-for-client-hypervisors)
 
 ## **Network Types**
-
-After completing this episode, you should be able to:
-
-Discuss network types seen today in virtualization environments
-
-**Description:** In this episode, you will learn about network types often seen in virtualized environments. This includes a discussion of overlay networks and virtual machine (VM) networks.
-
-### **Network Types**
 
 Overlay network - a virtual network that is built on top of an existing physical network infrastructure, enabling the creation of logical connections and the implementation of network services without altering the underlying hardware. This is achieved by encapsulating the overlay network's data packets inside the standard packets of the underlying network, allowing for features such as enhanced security, improved scalability, and efficient resource management. Overlay networks are commonly used in applications such as virtual private networks (VPNs), content delivery networks (CDNs), and peer-to-peer (P2P) networks, providing a flexible and adaptable way to optimize network performance and functionality beyond the capabilities of the base infrastructure.
 
@@ -403,14 +283,6 @@ Virtual machine (VM) networks - specialized network configurations that enable c
 Overlay Networks: [https://www.techtarget.com/searchnetworking/definition/overlay-network](https://www.techtarget.com/searchnetworking/definition/overlay-network)
 
 ## **Storage Types**
-
-After completing this episode, you should be able to:
-
-Discuss various storage types used in virtualization environments
-
-**Description:** In this episode, you will learn about some of the various storage types that are found in virtualized environments today. These include local storage, network attached storage (NAS), and storage area network (SAN) type technologies.
-
-### **Storage Types**
 
 Local storage - in a virtualized server environment, local storage refers to the use of physical storage devices, such as hard drives or SSDs, that are directly attached to the physical servers hosting the virtual machines (VMs). This type of storage is leveraged to store VM images, data, and applications, offering high performance and low latency due to its proximity to the compute resources. Local storage is particularly beneficial for workloads that require fast data access and minimal latency, such as databases and high-performance applications. However, it lacks the flexibility and redundancy provided by network-attached storage (NAS) or storage area networks (SANs). To mitigate this, virtualization platforms often incorporate features like storage virtualization and replication to enhance reliability and availability, ensuring that VMs can maintain continuity and performance even if a single physical storage device fails.
 
@@ -423,14 +295,6 @@ Storage area network (SAN) - in a virtualized server environment, a Storage Area
 What is a SAN: [https://www.snia.org/education/storage_networking_primer/san/what_san](https://www.snia.org/education/storage_networking_primer/san/what_san)
 
 ## **Billing Models**
-
-After completing this episode, you should be able to:
-
-Discuss some of the various billing models commonly found with cloud computing
-
-**Description:** In this episode, you will learn about some of the common billing models found in use in cloud computing today. These models include the pay-as-you-go model, as well as the dedicated host, reserved resources, and spot instance billing models.
-
-### **Billing Models**
 
 Pay As You Go: The pay-as-you-go (PAYG) cloud cost model is a flexible and scalable pricing strategy where users are billed based on their actual consumption of cloud resources, such as computing power, storage, and data transfer. This model eliminates the need for upfront investments and allows for dynamic scaling, making it cost-efficient and adaptable to fluctuating workloads. Users benefit from granular billing, detailed usage monitoring, and the ability to manage costs precisely, encouraging efficient resource utilization. This approach supports business agility, enabling quick deployment and experimentation with minimal financial risk, as seen in services like AWS EC2, Google Compute Engine, and Azure Virtual Machines.
 
@@ -446,14 +310,6 @@ Cloud Cost: [https://spot.io/resources/cloud-cost/cloud-cost-models-management-s
 
 ## **Other Cost Topics**
 
-After completing this episode, you should be able to:
-
-Discuss other cost-related topics
-
-**Description:** In this episode, you will learn about some of the other various cost topics that are typically associated with cloud environments. These topics include resource metering, tagging, and rightsizing.
-
-### **Other Cost Topics**
-
 Resource metering - Resource metering in cloud environments is the process of tracking and measuring the usage of various cloud resources such as computing power, storage, bandwidth, and application services. This data collection is essential for billing, performance monitoring, and capacity planning, providing detailed insights into how resources are being utilized over time. Metering enables cloud providers to implement pay-as-you-go pricing models by accurately charging users based on their actual consumption. It also helps users optimize their resource usage, identify inefficiencies, and manage costs effectively. Comprehensive metering tools and dashboards are typically offered by cloud providers like AWS, Azure, and Google Cloud, allowing users to monitor their usage patterns, set usage alerts, and make informed decisions about scaling and resource allocation.
 
 Tagging - Resource tagging in cloud environments is a powerful management feature that involves assigning metadata, in the form of key-value pairs, to cloud resources like instances, storage buckets, and databases. These tags facilitate better organization, tracking, and automation by enabling users to categorize and filter resources based on attributes such as purpose, owner, environment (e.g., development, testing, production), and cost center. Effective tagging helps in optimizing resource utilization, enhancing security, and simplifying the implementation of policies and permissions. Additionally, it aids in detailed cost management and reporting, as tags can be used to allocate costs accurately across different projects or departments. Major cloud providers, including AWS, Azure, and Google Cloud, support resource tagging, making it an essential practice for efficient cloud infrastructure management.
@@ -465,14 +321,6 @@ Rightsizing - Rightsizing in cloud environments refers to the process of optimiz
 Tagging: [https://www.economize.cloud/glossary/tagging](https://www.economize.cloud/glossary/tagging)
 
 ## **Types of Databases**
-
-After completing this episode, you should be able to:
-
-Discuss the different types of databases that are found in cloud environments today
-
-**Description:** In this episode, you will learn about the variety of databases in use in cloud technologies today. This includes a discussion of relational and non-relational databases.
-
-### **Types of Databases**
 
 Relational databases - relational databases are a type of database management system (DBMS) that store data in structured formats using tables, which are composed of rows and columns. Each table, representing a specific entity type, can be linked to others through foreign keys, establishing relationships between different data entities. This model supports SQL (Structured Query Language) for defining, manipulating, and querying data, enabling efficient organization, retrieval, and integrity of data. Relational databases ensure data accuracy and consistency through constraints, such as primary keys, and support transactions to maintain data integrity in multi-user environments. Examples include MySQL, PostgreSQL, and Oracle Database.
 
@@ -490,14 +338,6 @@ Types of Databases: [https://www.geeksforgeeks.org/types-of-databases/](https://
 
 ## **Database Deployment Options**
 
-After completing this episode, you should be able to:
-
-Discuss the two major options when it comes to database deployments and the cloud
-
-**Description:** In this episode, you will learn about the two major options when it comes to database deployments in the cloud. These options are to self-manage a database deployment or to use a provider-managed (managed service) approach.
-
-### **Database Deployment Options**
-
 Self-managed - Using a self-managed database in the cloud involves deploying, configuring, and maintaining a database instance on cloud infrastructure, giving organizations full control over the database environment, including performance tuning, security configurations, and backup strategies. This approach allows for customization to meet specific application requirements and can leverage cloud benefits such as scalability, geographic distribution, and high availability. However, it also demands significant administrative effort, including regular updates, patching, monitoring, and ensuring compliance with data governance policies. While it provides flexibility and control, it can be resource-intensive compared to managed database services where the cloud provider handles much of the operational overhead. Examples include setting up MySQL, PostgreSQL, or MongoDB on cloud platforms like AWS, Azure, or Google Cloud.
 
 Provider-managed - Using a provider-managed database in the cloud involves leveraging a cloud provider's fully managed database services, which handle the deployment, configuration, maintenance, and scaling of the database infrastructure. This option simplifies database management by offloading routine tasks such as backups, patching, monitoring, and high availability configurations to the cloud provider, allowing development teams to focus on application development and business logic. Managed databases offer automated scaling to handle varying workloads, built-in security features, and integrated support for disaster recovery, ensuring robust performance and reliability. Examples include Amazon RDS, Google Cloud SQL, Azure SQL Database, and MongoDB Atlas, which support a wide range of database engines and provide seamless integration with other cloud services.
@@ -507,14 +347,6 @@ Provider-managed - Using a provider-managed database in the cloud involves lever
 What are Database Deployment Options: [https://www.oracle.com/database/what-is-database/deployment-options/](https://www.oracle.com/database/what-is-database/deployment-options/)
 
 ## **Compute Resources**
-
-After completing this episode, you should be able to:
-
-Discuss the various compute resource options available in the cloud today
-
-**Description:** In this episode, you will learn about the various compute options that are available in the cloud today. This episode includes a discussion of VMs, containers, and serverless compute options.
-
-### **Compute Resources**
 
 Virtual machines (VMs) - cloud-based virtual machines (VMs) are virtualized computing resources provided by cloud service providers that mimic the functionality of physical servers, allowing users to run operating systems and applications as if they were on dedicated hardware. These VMs offer flexibility in terms of configuration, scalability, and resource allocation, enabling users to easily scale up or down based on demand. They are typically billed on a pay-as-you-go basis, providing cost-efficiency by charging only for the resources consumed. Cloud-based VMs can be quickly deployed, managed, and integrated with other cloud services, supporting a wide range of use cases such as application hosting, development and testing environments, and disaster recovery solutions. Examples of cloud-based VM services include Amazon EC2, Google Compute Engine, and Microsoft Azure Virtual Machines.
 
@@ -528,14 +360,6 @@ Choosing the Right Compute Option in GCP:  [https://cloud.google.com/blog/produc
 
 ## **Orchestration and Workflows**
 
-After completing this episode, you should be able to:
-
-Discuss orchestration and workflows as they exist in cloud environments today
-
-**Description:** In this episode, you will learn about orchestration and workflows as they exist in modern cloud environments. This episode provides a demonstration of one of the built-in orchestration tools of AWS - the CloudFormation tool.
-
-### **Orchestration and Workflows**
-
 Orchestration - Orchestration in the cloud refers to the automated management and coordination of various cloud resources and services to deploy, configure, scale, and manage complex applications and infrastructure. This involves defining the desired state of the system through code or configuration files and using orchestration tools like Kubernetes, Docker Swarm, or AWS ECS to ensure that the actual state matches the desired state. Orchestration abstracts away the underlying complexities of cloud infrastructure, enabling efficient resource utilization, high availability, fault tolerance, and scalability while promoting consistency, repeatability, and automation in application deployment and management processes across distributed environments.
 
 Workflow - In cloud orchestration, a workflow represents a sequence of interconnected tasks or steps that automate and streamline the execution of complex processes or operations within a cloud environment. These workflows define the flow of data, actions, and dependencies between different components or services, orchestrating the deployment, configuration, monitoring, and scaling of cloud resources and applications. Workflow automation tools such as Apache Airflow, AWS Step Functions, or Azure Logic Apps enable developers and operations teams to design, schedule, and manage workflows visually or through code, allowing for the creation of sophisticated automation pipelines. Workflows in cloud orchestration facilitate collaboration, improve efficiency, and ensure consistency in executing tasks across diverse cloud environments, enhancing agility and accelerating time-to-market for cloud-based solutions.
@@ -546,13 +370,7 @@ What is Cloud Orchestration: [https://www.vmware.com/topics/glossary/content/clo
 
 ## **Networking and Storage**
 
-After completing this episode, you should be able to:
-
-Discuss optimizing workloads through the use of networking and storage innovations in the cloud
-
-**Description:** In this episode, you will learn about the ability to optimize workloads in the cloud through innovations in networking and storage technologies.
-
-### **Networking and Storage**
+## **Networking and Storage**
 
 Network latency - network latency is the time delay experienced in the transmission of data over a network, encompassing the time it takes for a data packet to travel from its source to its destination and back again. This delay can be influenced by various factors including the physical distance between the source and destination, the speed and quality of the transmission medium, the number of intermediary devices like routers and switches, and the overall network congestion. High latency can result in slower data transfer rates and noticeable lag in real-time applications like video conferencing and online gaming, impacting the user experience significantly. Reducing latency involves optimizing the network infrastructure, minimizing the number of hops, and enhancing data routing efficiency.
 
@@ -564,15 +382,7 @@ IOPS - IOPS (Input/Output Operations Per Second) is a performance measurement us
 
 What is Network Latency: [https://aws.amazon.com/what-is/latency/](https://aws.amazon.com/what-is/latency/)
 
-## **AI**
-
-After completing this episode, you should be able to:
-
-Discuss AI and the cloud
-
-**Description:** In this episode, you will learn about the exciting area of Artificial Intelligence (AI) and how the cloud has impacted these developments.
-
-### **Artificial Intelligence**
+## **Artificial Intelligence**
 
 Text recognition - text recognition in AI, also known as Optical Character Recognition (OCR), involves using machine learning models to convert different types of documents, such as scanned paper documents, PDFs, or images, into editable and searchable data. Advanced OCR systems today utilize deep learning techniques to achieve high accuracy in recognizing diverse fonts, languages, and complex layouts, significantly enhancing automation in data entry and document management processes.
 
@@ -592,15 +402,7 @@ Generative AI - generative AI employs models like Generative Adversarial Network
 
 The Role of AI in Cloud Computing: [https://www.nutanix.com/theforecastbynutanix/technology/ai-in-the-cloud](https://www.nutanix.com/theforecastbynutanix/technology/ai-in-the-cloud)
 
-## **IoT**
-
-After completing this episode, you should be able to:
-
-Discuss the evolving technology of Internet of Things
-
-**Description:** In this episode, you will learn about the evolving technology of the Internet of Things (IoT) and the impact the cloud has had on this exciting new segment of technology.
-
-### **Internet of Things (IoT)**
+## **Internet of Things (IoT)**
 
 Sensors - sensors in IoT collect and transmit data on various physical parameters such as temperature, humidity, motion, and light, enabling real-time monitoring and automation. These sensors form the backbone of smart systems in homes, cities, and industries, enhancing efficiency, safety, and decision-making through continuous data streams and connectivity.
 
