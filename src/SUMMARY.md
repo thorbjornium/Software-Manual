@@ -28,7 +28,7 @@
 - [Firewall](./linux_firewall.md)
 - [Keyboard Shortcuts](./linux_keyboard_shortcuts.md)
 - [Terminal Applications](./ubuntu_terminal_applications.md)
-- [User management](./linux_user_management.md)
+- [User Management](./linux_user_management.md)
 
 # Markdown
 
