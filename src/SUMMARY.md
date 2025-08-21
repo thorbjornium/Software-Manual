@@ -24,6 +24,8 @@
 
 # Linux/Ubuntu
 
+- [Bash Scripting Example](./linux_bash_scripting_example.md)
+- [Bash Test Operator](./linux_bash_test_operator.md)
 - [Common Commands](./ubuntu_common_commands.md)
 - [Firewall](./linux_firewall.md)
 - [Keyboard Shortcuts](./linux_keyboard_shortcuts.md)
