@@ -1,7 +1,7 @@
 [book]
 authors = ["Thorbjornium"]
 language = "en"
-multilingual = false
+# multilingual = false
 src = "src"
 
 
@@ -24,7 +24,7 @@ scroll-to-top.enable = true
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "3.1.0"    # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
 
 [output.html.playground]
 editable = true      # allows editing the source code

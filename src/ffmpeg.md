@@ -595,3 +595,7 @@ ffmpeg -framerate 24 -i "image%03d.png" -c:v libx264 "output.mp4"
 ```
 
 Create a video from a sequence of images (image001.png, image002.png, etc.) at 24 fps.
+
+## Other resources
+
+[ffmprvisr](https://amiaopensource.github.io/ffmprovisr/#rewrap)
