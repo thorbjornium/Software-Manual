@@ -115,38 +115,9 @@ Get [mdBook-embedify](https://github.com/MR-Addict/mdbook-embedify). Embed video
 
 {% embed codepen user="TDJ" slug="wBwZaQG" height="600" theme="dark" loading="lazy" %}  
 
-## Alerts
-
-Modified and translated version of mdBook-alerts. English and Swedish. See options: [https://github.com/thorbjornium/rs-mdbook-alerts](https://github.com/thorbjornium/rs-mdbook-alerts)
-
-> [!NOTERA]  
-> Detta är den svenska versionen.  
-
-> [!TIPS]
-> Använd den engelska versionen ovan som har en aktiv utvecklare..
-
-> [!VIKTIGT]  
-> ..då denna forken är ett test..
-
-> [!VARNING]  
-> ..bara som en varning..
-
-> [!FARA]
-> ..då denna forken kan raderas.  
-
-> [!FUNDERING]
-> Är det rätt ord?
-
-Example:
-
-````plaintext
- > [!NOTERA]  
- > Random text
-````
-
 <br>
 
-mdBook's builtin version in html:  
+mdBook's Warning tag:  
 
 ```html
 <div class="warning">
